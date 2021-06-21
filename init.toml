@@ -52,6 +52,8 @@ show_cursor_error = true
 name = 'lsp'
 spacevim_autocomplete_method = 'coc'
 filetypes = [
-    'python'
+#    'python',
+  'rust',
+  'cpp'
 ]
 

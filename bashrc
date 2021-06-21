@@ -103,6 +103,9 @@ source $OSH/oh-my-bash.sh
 
 export EDITOR=nvim
 export PATH=$HOME/.local/opt/miniconda/bin:$PATH
+export PATH=$HOME/.local/opt/clang/bin:$PATH
+export PATH=$HOME/.local/opt/gcc/bin:$PATH
+export PATH=$HOME/.local/opt/qemu/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 
 alias pc4="proxychains"
@@ -114,13 +117,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export DENO_INSTALL="$HOME/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+# export PATH="$PATH:$HOME/.rvm/bin"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 
 ### Set proxychains
@@ -133,5 +133,5 @@ tcp_read_time_out 15000
 tcp_connect_time_out 8000
 
 [ProxyList]
-socks5 $nameserver 1080
+socks5 $nameserver 10800
 " >| $HOME/.proxychains/proxychains.conf
