@@ -112,6 +112,7 @@ alias pc4="proxychains"
 alias rm="rm -i"
 alias pacman=yay
 alias vim=nvim
+alias grep=rg
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -135,3 +136,5 @@ tcp_connect_time_out 8000
 [ProxyList]
 socks5 $nameserver 10800
 " >| $HOME/.proxychains/proxychains.conf
+
+[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile

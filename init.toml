@@ -54,6 +54,6 @@ spacevim_autocomplete_method = 'coc'
 filetypes = [
 #    'python',
   'rust',
-  'cpp'
+#  'cpp'
 ]
 
