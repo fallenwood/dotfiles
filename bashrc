@@ -107,21 +107,29 @@ export PATH=$HOME/.local/opt/clang/bin:$PATH
 export PATH=$HOME/.local/opt/gcc/bin:$PATH
 export PATH=$HOME/.local/opt/qemu/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.local/opt/bazel:$PATH
+export PATH=$HOME/.local/opt/gcc_musl/bin:$PATH
+export PATH=$HOME/.local/opt/go/bin:$PATH
 
 alias pc4="proxychains"
+alias pc="proxychains"
 alias rm="rm -i"
 alias pacman=yay
 alias vim=nvim
 alias grep=rg
+alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-# export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$PATH:$HOME/.rvm/bin"
 
-# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# ADD JDK 17
+export PATH=$HOME/.local/opt/jdk-17.0.2+8/bin:$PATH
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 
 ### Set proxychains
@@ -138,3 +146,5 @@ socks5 $nameserver 10800
 " >| $HOME/.proxychains/proxychains.conf
 
 [[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
+
+source activate user
