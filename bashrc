@@ -111,6 +111,7 @@ export PATH=$HOME/.local/opt/bazel:$PATH
 export PATH=$HOME/.local/opt/gcc_musl/bin:$PATH
 # export PATH=$HOME/.local/opt/go/bin:$PATH
 
+alias proxychains="proxychains4"
 alias pc4="proxychains"
 alias pc="proxychains"
 alias rm="rm -i"

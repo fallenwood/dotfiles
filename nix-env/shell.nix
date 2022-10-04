@@ -5,14 +5,23 @@ pkgs.mkShell {
   # nativeBuildInputs = [ pkgs.buildPackages.ruby_2_3 ];
 
   buildInputs = [
-    pkgs.neovim
-    pkgs.ripgrep
-    pkgs.go_1_18
+    pkgs.aria
+    pkgs.clang_14
+    pkgs.cmake
     pkgs.dotnet-sdk
     pkgs.jdk17_headless
-    pkgs.clang_14
+    pkgs.kubectl
+    pkgs.gdb
+    pkgs.git
+    pkgs.go_1_18
+    pkgs.lldb_14
+    pkgs.neovim
+    pkgs.proxychains-ng
+    pkgs.ripgrep
+    pkgs.tig
   ];
 
   shellHook = ''
+    echo "Starting default nix environment..."
   '';
 }
