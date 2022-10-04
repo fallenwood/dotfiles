@@ -1,16 +1,15 @@
 { pkgs ? import <nixpkgs> {} }:
 
 pkgs.mkShell {
-  # nativeBuildInputs is usually what you want -- tools you need to run
-  # nativeBuildInputs = [ pkgs.buildPackages.ruby_2_3 ];
-
-  buildInputs = [
+  nativeBuildInputs = [
     pkgs.aria
     pkgs.clang_14
     pkgs.cmake
     pkgs.dotnet-sdk
     pkgs.jdk17_headless
     pkgs.kubectl
+    pkgs.gcc12
+    # pkgs.graphviz
     pkgs.gdb
     pkgs.git
     pkgs.go_1_18
@@ -18,7 +17,9 @@ pkgs.mkShell {
     pkgs.neovim
     pkgs.proxychains-ng
     pkgs.ripgrep
+    pkgs.tmux
     pkgs.tig
+    # pkgs.valgrind
   ];
 
   shellHook = ''
