@@ -109,7 +109,7 @@ export PATH=$HOME/.local/opt/qemu/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.local/opt/bazel:$PATH
 export PATH=$HOME/.local/opt/gcc_musl/bin:$PATH
-export PATH=$HOME/.local/opt/go/bin:$PATH
+# export PATH=$HOME/.local/opt/go/bin:$PATH
 
 alias pc4="proxychains"
 alias pc="proxychains"
@@ -122,9 +122,6 @@ alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y &&
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
 
 # ADD JDK 17
 export PATH=$HOME/.local/opt/jdk-17.0.2+8/bin:$PATH
@@ -148,3 +145,5 @@ socks5 $nameserver 10800
 [[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
 
 source activate user
+
+export PATH="$HOME/.local/opt/ldc2/bin:$PATH"

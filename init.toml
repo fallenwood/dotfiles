@@ -47,6 +47,12 @@ default_height = 30
 name = 'checkers'
 show_cursor_error = true
 
+[[layers]]
+  name = "colorscheme"
+
+[[options]]
+colorscheme = "NeoSolarized"
+colorscheme_bg = "light"
 
 [[layers]]
 name = 'lsp'
