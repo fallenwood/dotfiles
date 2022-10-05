@@ -31,4 +31,5 @@ export PATH="$HOME/.cargo/bin:$PATH"
 if [ -e /home/vbox/.nix-profile/etc/profile.d/nix.sh ]; then . /home/vbox/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
 
-[ -z "$IN_NIX_SHELL" ] && $HOME/.nix-profile/bin/nix-shell $HOME/.nix-env/shell.nix
+# [ -z "$IN_NIX_SHELL" ] && $HOME/.nix-profile/bin/nix-shell $HOME/.nix-env/shell.nix
+# if [ -e /home/vbox/.nix-env/env.nix ]; then nix-env -if /home/vbox/.nix-env/env.nix; fi

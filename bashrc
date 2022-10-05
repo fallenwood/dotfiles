@@ -148,3 +148,6 @@ socks5 $nameserver 10800
 source activate user
 
 export PATH="$HOME/.local/opt/ldc2/bin:$PATH"
+
+alias nix-update="nix-env -irf $HOME/.nix-env/env.nix"
+alias nix-gc="nix-collect-garbage -d"
