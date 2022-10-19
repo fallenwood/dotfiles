@@ -13,7 +13,7 @@ if [ $distro = "Ubuntu" ]; then
     isUbuntu=true
 elif [ $distro = "Debian" ]; then
     isDebian=true
-elif [ $distro = "Darwin"]; then
+elif [ $distro = "Darwin" ]; then
     isMac=true
 fi
 
@@ -39,6 +39,8 @@ alias grep=rg
 if $isUbuntu || $isDebian; then
     alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
 fi
+
+echo "isWSL $isWsl"
 
 if $isWsl; then
   ### Set proxychains to use Windows Shadowsocks
