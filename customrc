@@ -2,13 +2,19 @@ export LANG=en_US.UTF-8
 export EDITOR=vim
 
 # Custom
-distro="$(lsb_release -i | cut -d: -f2 | sed s/'^\t'//)"
-isWsl=$(grep -qi wsl /proc/version)
+if command -v lsb_release &> /dev/null; then
+  distro="$(lsb_release -i | cut -d: -f2 | sed s/'^\t'//)"
+  isWsl=$(grep -qi wsl /proc/version)
+else
+  distro=$(uname)
+fi
 
 if [ $distro = "Ubuntu" ]; then
     isUbuntu=true
 elif [ $distro = "Debian" ]; then
     isDebian=true
+elif [ $distro = "Darwin"]; then
+    isMac=true
 fi
 
 export PATH=$HOME/.local/opt/miniconda/bin:$PATH
@@ -61,7 +67,9 @@ export NVM_DIR="$HOME/.nvm"
 [[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
 
 # Python
-source activate user
+if command -v conda &> /dev/null; then
+    source activate user
+fi
 
 # Nix
 alias nix-update="nix-channel --update && nix-env -irf $HOME/.env.nix"
