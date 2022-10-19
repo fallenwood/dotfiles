@@ -2,10 +2,6 @@ export LANG=en_US.UTF-8
 export EDITOR=vim
 
 # Custom
-isUbuntu=
-isMac=
-isDebian=
-isWsl=
 
 if command -v lsb_release &> /dev/null; then
   distro="$(lsb_release -i | cut -d: -f2 | sed s/'^\t'//)"
@@ -41,13 +37,11 @@ alias pacman=yay
 alias vim=nvim
 alias grep=rg
 
-if $isUbuntu || $isDebian; then
+if [ "$isUbuntu" = true ] || [ "$isDebian" =  true ]; then
     alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
 fi
 
-echo "isWSL $isWsl"
-
-if $isWsl; then
+if [ "$isWsl" = true ]; then
   ### Set proxychains to use Windows Shadowsocks
   nameserver=$(tail -1 /etc/resolv.conf | cut -d ' ' -f2)
   echo "strict_chain
