@@ -1,5 +1,5 @@
 # Path to your oh-my-bash installation.
-export OSH=/home/vbox/.oh-my-bash
+export OSH=$HOME/.oh-my-bash
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
@@ -149,5 +149,7 @@ source activate user
 
 export PATH="$HOME/.local/opt/ldc2/bin:$PATH"
 
-alias nix-update="nix-env -irf $HOME/.nix-env/env.nix"
+alias nix-update="nix-channel --update && nix-env -irf $HOME/.env.nix"
+alias nix-upgrade="nix-channel --update && nix-env -uf $HOME/.env.nix"
 alias nix-gc="nix-collect-garbage -d"
+

@@ -2,7 +2,7 @@
 	name = Fallenwood
 	email = yuy0216@mail.ustc.edu.cn
 [core]
-	excludesfile = /home/vbox/.gitignore_global
+	excludesfile = $HOME/.gitignore_global
 # [credential]
 # 	helper = 
 # 	helper = /usr/bin/git-credential-manager-core
