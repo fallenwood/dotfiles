@@ -1,5 +1,7 @@
 # { pkgs ? import <nixpkgs> {} }:
-with import <nixpkgs> {};
+with import <nixpkgs> {
+    allowUnsupportedSystem = true;
+};
 let
 
 commonpkgs = [
@@ -33,7 +35,7 @@ linuxpkgs = [
 
 macpkgs = [
     vscode
-]
+];
 
 mylibs = [
     liburing
