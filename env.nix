@@ -35,12 +35,12 @@ macpkgs = [
     vscode
 ];
 
-mylibs = [
+mylinuxlibs = [
     liburing
 ];
 
 in 
 if stdenv.isLinux then
-    [ nix ] ++ commonpkgs ++ linuxpkgs ++ mylibs
+    [ nix ] ++ commonpkgs ++ linuxpkgs ++ mylinuxlibs
 else
-    [ nix ] ++ commonpkgs ++ macpkgs ++ mylibs
+    [ nix ] ++ commonpkgs ++ macpkgs
