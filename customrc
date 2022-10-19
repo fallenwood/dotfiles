@@ -73,6 +73,7 @@ if command -v conda &> /dev/null; then
 fi
 
 # Nix
+export NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1
 alias nix-update="nix-channel --update && nix-env -irf $HOME/.env.nix"
 alias nix-upgrade="nix-channel --update && nix-env -uf $HOME/.env.nix"
 alias nix-gc="nix-collect-garbage -d"

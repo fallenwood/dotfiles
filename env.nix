@@ -1,7 +1,5 @@
 # { pkgs ? import <nixpkgs> {} }:
-with import <nixpkgs> {
-    allowUnsupportedSystem = true;
-};
+with import <nixpkgs> {};
 let
 
 commonpkgs = [
