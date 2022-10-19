@@ -1,0 +1,70 @@
+export LANG=en_US.UTF-8
+export EDITOR=vim
+
+# Custom
+distro="$(lsb_release -i | cut -d: -f2 | sed s/'^\t'//)"
+isWsl=$(grep -qi wsl /proc/version)
+
+if [ $distro = "Ubuntu" ]; then
+    isUbuntu=true
+elif [ $distro = "Debian" ]; then
+    isDebian=true
+fi
+
+export PATH=$HOME/.local/opt/miniconda/bin:$PATH
+export PATH=$HOME/.local/opt/clang/bin:$PATH
+export PATH=$HOME/.local/opt/gcc/bin:$PATH
+export PATH=$HOME/.local/opt/qemu/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.local/opt/bazel:$PATH
+export PATH=$HOME/.local/opt/gcc_musl/bin:$PATH
+export PATH=$HOME/.local/opt/go/bin:$PATH
+export PATH=$HOME/.local/opt/ldc2/bin:$PATH
+export PATH=$HOME/.local/opt/jdk-17.0.2+8/bin:$PATH
+
+alias proxychains="proxychains4"
+alias pc4="proxychains"
+alias pc="proxychains"
+alias rm="rm -i"
+alias pacman=yay
+alias vim=nvim
+alias grep=rg
+
+if $isUbuntu || $isDebian; then
+    alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
+fi
+
+if $isWsl; then
+  ### Set proxychains to use Windows Shadowsocks
+  nameserver=$(tail -1 /etc/resolv.conf | cut -d ' ' -f2)
+  echo "strict_chain
+  proxy_dns
+  remote_dns_subnet 224
+
+  tcp_read_time_out 15000
+  tcp_connect_time_out 8000
+
+  [ProxyList]
+  socks5 $nameserver 10800
+  " >| $HOME/.proxychains/proxychains.conf
+fi
+
+# Nodejs
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Ruby
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# Xmake
+[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
+
+# Python
+source activate user
+
+# Nix
+alias nix-update="nix-channel --update && nix-env -irf $HOME/.env.nix"
+alias nix-upgrade="nix-channel --update && nix-env -uf $HOME/.env.nix"
+alias nix-gc="nix-collect-garbage -d"
+

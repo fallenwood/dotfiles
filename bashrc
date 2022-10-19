@@ -1,155 +1,46 @@
-# Path to your oh-my-bash installation.
+# OSH
 export OSH=$HOME/.oh-my-bash
 
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-bash is loaded.
+function custom_prompt_command() {
+    THEME_CLOCK_FORMAT=${THEME_CLOCK_FORMAT:-"%H:%M:%S"}
+    # This needs to be first to save last command return code
+    local RC="$?"
+
+    local hostname="${_omb_prompt_bold_gray}\u@\h"
+    local python_venv; _omb_prompt_get_python_venv
+    python_venv=$_omb_prompt_white$python_venv
+
+    # Set return status color
+    if [[ ${RC} == 0 ]]; then
+        ret_status="${_omb_prompt_bold_green}"
+    else
+        ret_status="${_omb_prompt_bold_brown}"
+    fi
+
+    # Append new history lines to history file
+    history -a    
+    PS1="$(clock_prompt)$python_venv ${hostname} ${_omb_prompt_bold_teal}\W $(scm_prompt_char_info)${ret_status}
+→ ${_omb_prompt_normal}"
+}
+
 OSH_THEME="font"
 
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_OSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $OSH/custom?
-# OSH_CUSTOM=/path/to/new-custom-folder
-
-# Which completions would you like to load? (completions can be found in ~/.oh-my-bash/completions/*)
-# Custom completions may be added to ~/.oh-my-bash/custom/completions/
-# Example format: completions=(ssh git bundler gem pip pip3)
-# Add wisely, as too many completions slow down shell startup.
 completions=(
   git
   ssh
 )
 
-# Which aliases would you like to load? (aliases can be found in ~/.oh-my-bash/aliases/*)
-# Custom aliases may be added to ~/.oh-my-bash/custom/aliases/
-# Example format: aliases=(vagrant composer git-avh)
-# Add wisely, as too many aliases slow down shell startup.
 aliases=(
   general
 )
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-bash/plugins/*)
-# Custom plugins may be added to ~/.oh-my-bash/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
   bashmarks
 )
 
-export WSL_HOST=$(tail -1 /etc/resolv.conf | cut -d' ' -f2)
 
 source $OSH/oh-my-bash.sh
+_omb_util_add_prompt_command custom_prompt_command
 
-# User configuration
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-bash libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-bash
-# users are encouraged to define aliases within the OSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias bashconfig="mate ~/.bashrc"
-# alias ohmybash="mate ~/.oh-my-bash"
-
-export EDITOR=nvim
-export PATH=$HOME/.local/opt/miniconda/bin:$PATH
-export PATH=$HOME/.local/opt/clang/bin:$PATH
-export PATH=$HOME/.local/opt/gcc/bin:$PATH
-export PATH=$HOME/.local/opt/qemu/bin:$PATH
-export PATH=$HOME/.local/bin:$PATH
-export PATH=$HOME/.local/opt/bazel:$PATH
-export PATH=$HOME/.local/opt/gcc_musl/bin:$PATH
-# export PATH=$HOME/.local/opt/go/bin:$PATH
-
-alias proxychains="proxychains4"
-alias pc4="proxychains"
-alias pc="proxychains"
-alias rm="rm -i"
-alias pacman=yay
-alias vim=nvim
-alias grep=rg
-alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# ADD JDK 17
-export PATH=$HOME/.local/opt/jdk-17.0.2+8/bin:$PATH
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-
-### Set proxychains
-nameserver=$(tail -1 /etc/resolv.conf | cut -d ' ' -f2)
-echo "strict_chain
-proxy_dns
-remote_dns_subnet 224
-
-tcp_read_time_out 15000
-tcp_connect_time_out 8000
-
-[ProxyList]
-socks5 $nameserver 10800
-" >| $HOME/.proxychains/proxychains.conf
-
-[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
-
-source activate user
-
-export PATH="$HOME/.local/opt/ldc2/bin:$PATH"
-
-alias nix-update="nix-channel --update && nix-env -irf $HOME/.env.nix"
-alias nix-upgrade="nix-channel --update && nix-env -uf $HOME/.env.nix"
-alias nix-gc="nix-collect-garbage -d"
-
+source $HOME/.customrc

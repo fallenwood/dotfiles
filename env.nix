@@ -2,7 +2,7 @@
 with import <nixpkgs> {};
 let
 
-mypkgs = [
+commonpkgs = [
     aria
     (hiPrio clang_14)
     clang-tools_14
@@ -20,7 +20,6 @@ mypkgs = [
     luajit
     neovim
     rakudo
-    proxychains-ng
     ripgrep
     tmux
     tig
@@ -28,8 +27,20 @@ mypkgs = [
     zsh
 ];
 
+linuxpkgs = [
+    proxychains-ng
+];
+
+macpkgs = [
+    vscode
+]
+
 mylibs = [
     liburing
 ];
 
-in [ nix ] ++ mypkgs ++ mylibs
+in 
+if stdenv.isLinux then
+    [ nix ] ++ commonpkgs ++ linuxpkgs ++ mylibs
+else
+    [ nix ] ++ commonpkgs ++ macpkgs ++ mylibs
