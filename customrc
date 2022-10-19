@@ -2,6 +2,11 @@ export LANG=en_US.UTF-8
 export EDITOR=vim
 
 # Custom
+isUbuntu=
+isMac=
+isDebian=
+isWsl=
+
 if command -v lsb_release &> /dev/null; then
   distro="$(lsb_release -i | cut -d: -f2 | sed s/'^\t'//)"
   isWsl=$(grep -qi wsl /proc/version)
