@@ -11,10 +11,12 @@ commonpkgs = [
     # emacs-nox
     jdk17_headless
     kubectl
+    gcc
     # gcc12
     # graphviz
     gdb
     git
+    gnumake
     go_1_18
     lldb_14
     luajit
