@@ -1,7 +1,7 @@
 set -e
 
 dotfiles=$HOME/.dotfiles
-gitrepo=git@github.com:fallenwood/dotfiles.git
+gitrepo=https://github.com/fallenwood/dotfiles.git
 
 if [[ ! -d "$HOME/.dotfiles" ]]; then
     echo "cloning $gitrepo to $dotfiles"
