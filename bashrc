@@ -43,4 +43,4 @@ plugins=(
 source $OSH/oh-my-bash.sh
 _omb_util_add_prompt_command custom_prompt_command
 
-source $HOME/.customrc
+source $HOME/.dotfiles/customrc

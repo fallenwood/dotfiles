@@ -3,6 +3,8 @@ export EDITOR=vim
 
 # Custom
 
+export isWsl="false"
+
 if command -v lsb_release &> /dev/null; then
   distro="$(lsb_release -i | cut -d: -f2 | sed s/'^\t'//)"
   isWsl=$(grep -qi wsl /proc/version)

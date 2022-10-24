@@ -8,7 +8,6 @@ commonpkgs = [
     clang-tools_14
     cmake
     dotnet-sdk
-    # emacs-nox
     jdk17_headless
     kubectl
     gcc
@@ -21,6 +20,7 @@ commonpkgs = [
     lldb_14
     luajit
     neovim
+    perl
     rakudo
     ripgrep
     tmux
@@ -33,16 +33,37 @@ linuxpkgs = [
     proxychains-ng
 ];
 
+
+linuxphypkgs = [
+    bpftrace
+    bpftools
+    cargo
+    emacs-nox
+    frp
+    htop
+    lm_sensors
+    podman
+    rustc
+    shadowsocks-rust
+    qemu_full
+]; 
+
 macpkgs = [
     vscode
 ];
 
-mylinuxlibs = [
-    liburing
+linuxlibs = [
+    # liburing
 ];
+
+isWsl = builtins.getEnv "isWsl";
 
 in 
 if stdenv.isLinux then
-    [ nix ] ++ commonpkgs ++ linuxpkgs ++ mylinuxlibs
+    if isWsl=="" then
+      [ nix ] ++ commonpkgs ++ linuxpkgs ++ linuxlibs
+    else
+      [ nix ] ++ commonpkgs ++ linuxpkgs ++ linuxlibs ++ linuxphypkgs
 else
     [ nix ] ++ commonpkgs ++ macpkgs
+

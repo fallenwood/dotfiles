@@ -11,7 +11,7 @@ else
     # pushd && cd $HOME/.dotfiles && git pull && popd
 fi
 
-files=("profile" "bashrc" "zshrc" "env.nix" "gitconfig" "gitignore_global" "customrc")
+files=("profile" "bashrc" "zshrc" "env.nix" "gitconfig" "gitignore_global")
 dirs=("SpaceVim.d")
 
 for file in "${files[@]}"; do
