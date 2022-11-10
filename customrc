@@ -30,6 +30,7 @@ export PATH=$HOME/.local/opt/gcc_musl/bin:$PATH
 export PATH=$HOME/.local/opt/go/bin:$PATH
 export PATH=$HOME/.local/opt/ldc2/bin:$PATH
 export PATH=$HOME/.local/opt/jdk-17.0.2+8/bin:$PATH
+export PATH=$HOME/.cargo/bin:$PATH
 
 alias proxychains="proxychains4"
 alias pc4="proxychains"

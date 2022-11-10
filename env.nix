@@ -37,15 +37,13 @@ linuxpkgs = [
 linuxphypkgs = [
     bpftrace
     bpftools
-    cargo
     emacs-nox
     frp
     htop
     lm_sensors
-    podman
-    rustc
+    rustup
     shadowsocks-rust
-    qemu_full
+    ninja
 ]; 
 
 macpkgs = [
@@ -56,6 +54,10 @@ linuxlibs = [
     # liburing
 ];
 
+linuxphylibs = [
+    # zlib
+];
+
 isWsl = builtins.getEnv "isWsl";
 
 in 
@@ -63,7 +65,7 @@ if stdenv.isLinux then
     if isWsl=="" then
       [ nix ] ++ commonpkgs ++ linuxpkgs ++ linuxlibs
     else
-      [ nix ] ++ commonpkgs ++ linuxpkgs ++ linuxlibs ++ linuxphypkgs
+      [ nix ] ++ commonpkgs ++ linuxpkgs ++ linuxlibs ++ linuxphypkgs ++ linuxphylibs
 else
     [ nix ] ++ commonpkgs ++ macpkgs
 

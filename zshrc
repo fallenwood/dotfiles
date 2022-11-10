@@ -1,1 +1,1 @@
-source $HOME/.customrc
+source $HOME/.dotfiles/.customrc
