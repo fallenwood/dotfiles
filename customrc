@@ -55,7 +55,7 @@ if [ "$isWsl" = true ]; then
   tcp_connect_time_out 8000
 
   [ProxyList]
-  socks5 $nameserver 10800
+  socks5 $nameserver 10802
   " >| $HOME/.proxychains/proxychains.conf
 fi
 
