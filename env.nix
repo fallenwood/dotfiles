@@ -50,6 +50,7 @@ linuxphypkgs = [
 
 macpkgs = [
     vscode
+    alacritty
 ];
 
 linuxlibs = [
