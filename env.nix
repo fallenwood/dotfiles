@@ -44,6 +44,8 @@ linuxphypkgs = [
     rustup
     shadowsocks-rust
     ninja
+    powershell
+    quickjs
 ]; 
 
 macpkgs = [
