@@ -39,6 +39,7 @@ alias rm="rm -i"
 alias pacman=yay
 alias vim=nvim
 alias grep=rg
+alias k=kubectl
 
 if [ "$isUbuntu" = true ] || [ "$isDebian" =  true ]; then
     alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
@@ -84,3 +85,4 @@ alias nix-gc="nix-collect-garbage -d"
 # Instance configuration
 [[ -s "$HOME/.insrc" ]] && source "$HOME/.insrc"
 
+eval "$(thefuck --alias)"

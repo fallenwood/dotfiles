@@ -20,13 +20,13 @@ commonpkgs = [
     lldb_14
     luajit
     neovim
-    perl
-    rakudo
+    # perl
+    # rakudo
     ripgrep
     tmux
     tig
     # valgrind
-    zsh
+    # zsh
 ];
 
 linuxpkgs = [
@@ -35,17 +35,17 @@ linuxpkgs = [
 
 
 linuxphypkgs = [
-    bpftrace
-    bpftools
-    emacs-nox
-    frp
+    # bpftrace
+    # bpftools
+    # emacs-nox
+    # frp
     htop
-    lm_sensors
+    # lm_sensors
     rustup
-    shadowsocks-rust
-    ninja
+    # shadowsocks-rust
+    # ninja
     powershell
-    quickjs
+    # quickjs
 ]; 
 
 macpkgs = [
