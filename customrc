@@ -3,14 +3,21 @@ export EDITOR=vim
 
 # Custom
 
-export isWsl="false"
+export isWsl=1
 
 if command -v lsb_release &> /dev/null; then
   distro="$(lsb_release -i | cut -d: -f2 | sed s/'^\t'//)"
-  isWsl=$(grep -qi wsl /proc/version)
+  grep -qi wsl /proc/version
+  isWsl=$?
 else
   distro=$(uname)
 fi
+
+# if [ $isWsl = 0 ]; then
+#   echo "is wsl"
+# else
+#   echo "is not wsl"
+# fi
 
 if [ $distro = "Ubuntu" ]; then
     isUbuntu=true
@@ -45,7 +52,7 @@ if [ "$isUbuntu" = true ] || [ "$isDebian" =  true ]; then
     alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
 fi
 
-if [ "$isWsl" = true ]; then
+if [ $isWsl = 0 ]; then
   ### Set proxychains to use Windows Shadowsocks
   nameserver=$(tail -1 /etc/resolv.conf | cut -d ' ' -f2)
   echo "strict_chain
@@ -56,7 +63,7 @@ if [ "$isWsl" = true ]; then
   tcp_connect_time_out 8000
 
   [ProxyList]
-  socks5 $nameserver 10802
+  socks5 $nameserver 10800
   " >| $HOME/.proxychains/proxychains.conf
 fi
 
