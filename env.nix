@@ -8,6 +8,7 @@ commonpkgs = [
     clang-tools_14
     cmake
     dotnet-sdk
+    dotnet-sdk_7
     jdk17_headless
     kubectl
     gcc
@@ -30,19 +31,23 @@ linuxpkgs = [
 
 
 linuxphypkgs = [
-    bpftrace
-    bpftools
-    emacs-nox
-    frp
+    # bpftrace
+    # bpftools
+    # emacs-nox
+    # frp
     htop
-    lm_sensors
+    # lm_sensors
     rustup
-    shadowsocks-rust
-    ninja
+    # shadowsocks-rust
+    # ninja
+    powershell
+    # quickjs
+    elixir
+    neofetch
+    libvirt
     tig
     luajit
     rakudo
-    zsh
 ]; 
 
 macpkgs = [
