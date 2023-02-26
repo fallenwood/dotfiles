@@ -89,6 +89,9 @@ alias nix-update="nix-channel --update && nix-env -irf $HOME/.env.nix"
 alias nix-upgrade="nix-channel --update && nix-env -uf $HOME/.env.nix"
 alias nix-gc="nix-collect-garbage -d"
 
+# Container
+alias podman="docker"
+
 # Instance configuration
 [[ -s "$HOME/.insrc" ]] && source "$HOME/.insrc"
 

@@ -8,6 +8,7 @@ commonpkgs = [
     clang-tools_14
     cmake
     dotnet-sdk
+    dotnet-sdk_7
     jdk17_headless
     kubectl
     gcc
@@ -46,6 +47,9 @@ linuxphypkgs = [
     # ninja
     powershell
     # quickjs
+    elixir
+    neofetch
+    libvirt
 ]; 
 
 macpkgs = [
