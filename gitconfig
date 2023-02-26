@@ -10,3 +10,5 @@
 # 	useHttpPath = true
 [color]
 	ui = auto
+[init]
+	defaultBranch = master

@@ -18,15 +18,10 @@ commonpkgs = [
     gnumake
     go_1_18
     lldb_14
-    luajit
     neovim
-    perl
-    rakudo
     ripgrep
     tmux
-    tig
     # valgrind
-    zsh
 ];
 
 linuxpkgs = [
@@ -44,6 +39,10 @@ linuxphypkgs = [
     rustup
     shadowsocks-rust
     ninja
+    tig
+    luajit
+    rakudo
+    zsh
 ]; 
 
 macpkgs = [
