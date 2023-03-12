@@ -38,6 +38,7 @@ export PATH=$HOME/.local/opt/go/bin:$PATH
 export PATH=$HOME/.local/opt/ldc2/bin:$PATH
 export PATH=$HOME/.local/opt/jdk-17.0.2+8/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
+export PATH=$HOME/.local/opt/xmake/bin:$PATH
 
 alias proxychains="proxychains4"
 alias pc4="proxychains"
@@ -85,6 +86,12 @@ fi
 
 # Nix
 export NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1
+export NIXPKGS_ALLOW_UNFREE=1
+
+if [ "$isMac" = true ]; then
+    export PATH=$HOME/.nix-profile/bin:$PATH
+fi
+
 alias nix-update="nix-channel --update && nix-env -irf $HOME/.env.nix"
 alias nix-upgrade="nix-channel --update && nix-env -uf $HOME/.env.nix"
 alias nix-gc="nix-collect-garbage -d"
@@ -96,3 +103,6 @@ alias podman="docker"
 [[ -s "$HOME/.insrc" ]] && source "$HOME/.insrc"
 
 eval "$(thefuck --alias)"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

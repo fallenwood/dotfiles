@@ -33,7 +33,7 @@ linuxpkgs = [
 linuxphypkgs = [
     # bpftrace
     # bpftools
-    # emacs-nox
+    emacs-nox
     # frp
     htop
     # lm_sensors
@@ -47,7 +47,8 @@ linuxphypkgs = [
     libvirt
     tig
     luajit
-    rakudo
+    # rakudo
+    zsh
 ]; 
 
 macpkgs = [

@@ -1,6 +1,9 @@
-export NIXPKGS_ALLOW_UNFREE=1
-export PATH=$HOME/.nix-profile/bin:$PATH
-source $HOME/.dotfiles/customrc
+export ZSH="$HOME/.oh-my-zsh"
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+ZSH_THEME="robbyrussell"
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+source $HOME/.dotfiles/customrc

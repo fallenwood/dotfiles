@@ -44,6 +44,3 @@ source $OSH/oh-my-bash.sh
 _omb_util_add_prompt_command custom_prompt_command
 
 source $HOME/.dotfiles/customrc
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
