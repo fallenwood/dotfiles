@@ -7,8 +7,8 @@ commonpkgs = [
     (hiPrio clang_14)
     clang-tools_14
     cmake
-    dotnet-sdk
-    dotnet-sdk_7
+    # dotnet-sdk
+    # dotnet-sdk_7
     jdk17_headless
     kubectl
     gcc
@@ -17,7 +17,7 @@ commonpkgs = [
     gdb
     git
     gnumake
-    go_1_18
+    go
     lldb_14
     neovim
     ripgrep
@@ -33,6 +33,7 @@ linuxpkgs = [
 linuxphypkgs = [
     # bpftrace
     # bpftools
+    dotnet-sdk_7
     emacs-nox
     # frp
     htop
