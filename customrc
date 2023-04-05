@@ -28,17 +28,21 @@ elif [ $distro = "Darwin" ]; then
 fi
 
 export PATH=$HOME/.local/opt/miniconda/bin:$PATH
-export PATH=$HOME/.local/opt/clang/bin:$PATH
-export PATH=$HOME/.local/opt/gcc/bin:$PATH
+# export PATH=$HOME/.local/opt/clang/bin:$PATH
+# export PATH=$HOME/.local/opt/gcc/bin:$PATH
 export PATH=$HOME/.local/opt/qemu/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.local/opt/bazel:$PATH
 export PATH=$HOME/.local/opt/gcc_musl/bin:$PATH
-export PATH=$HOME/.local/opt/go/bin:$PATH
-export PATH=$HOME/.local/opt/ldc2/bin:$PATH
+# export PATH=$HOME/.local/opt/go/bin:$PATH
+# export PATH=$HOME/.local/opt/ldc2/bin:$PATH
 export PATH=$HOME/.local/opt/jdk-17.0.2+8/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.local/opt/xmake/bin:$PATH
+
+export PYTHONPATH=$HOME/.nix-profile/lib/python3.10/site-packages:$PYTHONPATH
+
+alias sudo='sudo env PATH=$PATH'
 
 alias proxychains="proxychains4"
 alias pc4="proxychains"
@@ -48,6 +52,12 @@ alias pacman=yay
 alias vim=nvim
 alias grep=rg
 alias k=kubectl
+alias e=$EDITOR
+
+export QEMU_BASE="$HOME/.local/opt/qemu"
+
+alias qemu-system-x86_64="$QEMU_BASE/build/qemu-system-x86_64 -L $QEMU_BASE/pc-bios -nographic -enable-kvm"
+alias qemu-system-aarch64="$QEMU_BASE/build/qemu-system-aarch64 -cpu cortex-a57 -M virt -nographic"
 
 if [ "$isUbuntu" = true ] || [ "$isDebian" =  true ]; then
     alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
@@ -97,7 +107,7 @@ alias nix-upgrade="nix-channel --update && nix-env -uf $HOME/.env.nix"
 alias nix-gc="nix-collect-garbage -d"
 
 # Container
-alias podman="docker"
+# alias podman="docker"
 
 # Instance configuration
 [[ -s "$HOME/.insrc" ]] && source "$HOME/.insrc"

@@ -1,6 +1,6 @@
 function load(module)
   package.loaded[module] = nil
-  require(module)
+  return require(module)
 end
 
 function setVimOption(o)
@@ -29,6 +29,10 @@ end
 function setVimGlobal(g)
   -- g.mapleader = "<space>"
   g.mapleader = " "
+
+  g.lspFts = {
+    "csharp"
+  }
 end
 
 function setMapKeys(map)
@@ -43,13 +47,22 @@ function runCmd(cmd)
 end
 
 function loadPlugins()
-  load("plugins")
+  return load("plugins")
 end
 
 function setCoq(g)
   g.coq_settings = {
     auto_start = "shut-up"
   }
+end
+
+function setupLsp()
+  vim.schedule(function ()
+    -- load("packer").loader("lspconfig coq_nvim")
+
+    -- local lsp = load("lspconfig")
+    -- lsp.csharp_ls.setup(load("coq")().lsp_ensure_capabilities())
+  end)
 end
 
 setVimOption(vim.opt)
@@ -59,7 +72,9 @@ setMapKeys(vim.api.nvim_set_keymap)
 
 setCoq(vim.g)
 
-loadPlugins()
+load("plugins").startup(function()
+  setupLsp()
+  runCmd()
+end)
 
-runCmd()
 

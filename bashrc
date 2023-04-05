@@ -18,7 +18,7 @@ function custom_prompt_command() {
     fi
 
     # Append new history lines to history file
-    history -a    
+    history -a
     PS1="$(clock_prompt)$python_venv ${hostname} ${_omb_prompt_bold_teal}\W $(scm_prompt_char_info)${ret_status}
 → ${_omb_prompt_normal}"
 }
@@ -41,6 +41,12 @@ plugins=(
 
 
 source $OSH/oh-my-bash.sh
+if command -v _omb_util_add_prompt_command &> /dev/null; then
 _omb_util_add_prompt_command custom_prompt_command
+fi
 
 source $HOME/.dotfiles/customrc
+
+# >>> xmake >>>
+[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
+# <<< xmake <<<

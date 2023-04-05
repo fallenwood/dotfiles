@@ -7,6 +7,7 @@ commonpkgs = [
     (hiPrio clang_14)
     clang-tools_14
     cmake
+    # conda
     # dotnet-sdk
     # dotnet-sdk_7
     jdk17_headless
@@ -22,6 +23,7 @@ commonpkgs = [
     neovim
     ripgrep
     tmux
+    telnet
     # valgrind
 ];
 
@@ -31,26 +33,33 @@ linuxpkgs = [
 
 
 linuxphypkgs = [
-    # bpftrace
-    # bpftools
+    bcc
+    bpftrace
+    bpftools
+    # buildah
+    # cloud-init
+    cloud-utils
     dotnet-sdk_7
+    #dotnet-sdk
     emacs-nox
     # frp
     htop
     # lm_sensors
     rustup
     # shadowsocks-rust
-    # ninja
+    ninja
     powershell
     # quickjs
-    elixir
+    # elixir
     neofetch
     libvirt
     tig
     luajit
+    # nushell
+    # vagrant
     # rakudo
     zsh
-]; 
+];
 
 macpkgs = [
     vscode
@@ -61,7 +70,7 @@ macpkgs = [
 ];
 
 linuxlibs = [
-    # liburing
+    liburing
 ];
 
 linuxphylibs = [
@@ -69,6 +78,9 @@ linuxphylibs = [
 ];
 
 isWsl = builtins.getEnv "isWsl";
+
+services.libvirtd.enable = true;
+virtualisation.libvirtd.enable = true;
 
 in 
 if stdenv.isLinux then
