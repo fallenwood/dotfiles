@@ -42,7 +42,7 @@ export PATH=$HOME/.local/opt/xmake/bin:$PATH
 
 export PYTHONPATH=$HOME/.nix-profile/lib/python3.10/site-packages:$PYTHONPATH
 
-alias sudo='sudo env PATH=$PATH'
+alias sudo='sudo env PATH=$PATH PYTHONPATH=$PYTHONPATH'
 
 alias proxychains="proxychains4"
 alias pc4="proxychains"
