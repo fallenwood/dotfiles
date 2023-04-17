@@ -3,78 +3,79 @@ with import <nixpkgs> {};
 let
 
 commonpkgs = [
-    aria
-    (hiPrio clang_14)
-    clang-tools_14
-    cmake
-    # conda
-    # dotnet-sdk
-    # dotnet-sdk_7
-    jdk17_headless
-    kubectl
-    gcc
-    # gcc12
-    # graphviz
-    gdb
-    git
-    gnumake
-    go
-    lldb_14
-    neovim
-    ripgrep
-    tmux
-    telnet
-    # valgrind
+  aria
+  (hiPrio clang_14)
+  clang-tools_14
+  cmake
+  # conda
+  jdk17_headless
+  kubectl
+  gawk
+  gcc
+  # gcc12
+  # graphviz
+  gdb
+  git
+  gnumake
+  go
+  lldb_14
+  neovim
+  ripgrep
+  tmux
+  telnet
 ];
 
 linuxpkgs = [
-    proxychains-ng
+  proxychains-ng
 ];
 
-
 linuxphypkgs = [
-    bcc
-    bpftrace
-    bpftools
-    # buildah
-    # cloud-init
-    cloud-utils
-    dotnet-sdk_7
-    #dotnet-sdk
-    emacs-nox
-    # frp
-    htop
-    # lm_sensors
-    rustup
-    # shadowsocks-rust
-    ninja
-    powershell
-    # quickjs
-    # elixir
-    neofetch
-    libvirt
-    tig
-    luajit
-    # nushell
-    # vagrant
-    # rakudo
-    zsh
+  bcc
+  bpftrace
+  bpftools
+  # buildah
+  # cloud-init
+  cloud-utils
+  dotnet-sdk_7
+  #dotnet-sdk
+  emacs-nox
+  # flamegraph
+  # frp
+  htop
+  # lm_sensors
+  rustup
+  # shadowsocks-rust
+  ninja
+  podman
+  powershell
+  # quickjs
+  # elixir
+  neofetch
+  libvirt
+  tig
+  luajit
+  llvm
+  wrk
+  # nushell
+  # vagrant
+  # rakudo
+  zsh
 ];
 
 macpkgs = [
-    vscode
-    alacritty
-    rustup
-    ocaml
-    opam
+  vscode
+  alacritty
+  rustup
+  ocaml
+  opam
 ];
 
 linuxlibs = [
-    liburing
+  # liburing
 ];
 
 linuxphylibs = [
-    # zlib
+  # zlib
 ];
 
 isWsl = builtins.getEnv "isWsl";
@@ -82,12 +83,12 @@ isWsl = builtins.getEnv "isWsl";
 services.libvirtd.enable = true;
 virtualisation.libvirtd.enable = true;
 
-in 
+in
 if stdenv.isLinux then
-    if isWsl=="" then
-      [ nix ] ++ commonpkgs ++ linuxpkgs ++ linuxlibs
-    else
-      [ nix ] ++ commonpkgs ++ linuxpkgs ++ linuxlibs ++ linuxphypkgs ++ linuxphylibs
+  if isWsl=="" then
+    [ nix ] ++ commonpkgs ++ linuxpkgs ++ linuxlibs
+  else
+    [ nix ] ++ commonpkgs ++ linuxpkgs ++ linuxlibs ++ linuxphypkgs ++ linuxphylibs
 else
-    [ nix ] ++ commonpkgs ++ macpkgs
+  [ nix ] ++ commonpkgs ++ macpkgs
 
