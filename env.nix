@@ -21,6 +21,7 @@ commonpkgs = [
   lldb_14
   neovim
   ripgrep
+  skim
   tmux
   telnet
 ];
@@ -42,15 +43,18 @@ linuxphypkgs = [
   # flamegraph
   # frp
   htop
+  kind
   # lm_sensors
   rustup
   # shadowsocks-rust
+  # nerdctl
+  neofetch
   ninja
   podman
   powershell
   # quickjs
+  strace
   # elixir
-  neofetch
   libvirt
   tig
   luajit

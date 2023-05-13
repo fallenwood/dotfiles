@@ -46,3 +46,7 @@ _omb_util_add_prompt_command custom_prompt_command
 fi
 
 source $HOME/.dotfiles/customrc
+
+# >>> xmake >>>
+[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
+# <<< xmake <<<
