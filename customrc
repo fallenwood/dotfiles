@@ -52,8 +52,8 @@ alias pc4="proxychains"
 alias pc="proxychains"
 alias rm="rm -i"
 alias pacman=yay
-alias vim=nvim
-alias grep=rg
+[[ -s "nvim" ]] && alias vim=nvim
+[[ -s "rg" ]] && alias grep=rg
 alias k=kubectl
 alias e=$EDITOR
 
@@ -115,4 +115,4 @@ alias nix-gc="nix-collect-garbage -d"
 # Instance configuration
 [[ -s "$HOME/.insrc" ]] && source "$HOME/.insrc"
 
-eval "$(thefuck --alias)"
+[[ -s "thefuck" ]] && eval "$(thefuck --alias)"
