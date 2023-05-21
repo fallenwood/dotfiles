@@ -39,7 +39,7 @@ linuxphypkgs = [
   cloud-utils
   dotnet-sdk_7
   #dotnet-sdk
-  emacs-nox
+  #emacs-nox
   # flamegraph
   # frp
   htop
