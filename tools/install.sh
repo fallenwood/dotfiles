@@ -13,7 +13,7 @@ fi
 
 files=("profile" "bashrc" "zshrc" "env.nix" "gitconfig" "gitignore_global")
 # dirs=("SpaceVim.d")
-dirs=("config/nvim", "config/i3")
+dirs=("config/nvim", "config/i3", "config/i3status)
 
 for file in "${files[@]}"; do
     echo "backing up .$file"
