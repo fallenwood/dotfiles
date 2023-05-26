@@ -194,5 +194,5 @@ bar {
 exec --no-startup-id fcitx5
 
 # dhclient
-exec --no-startup-id dhclient
+exec --no-startup-id sudo dhclient
 

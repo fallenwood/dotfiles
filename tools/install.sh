@@ -11,9 +11,9 @@ else
     # pushd && cd $HOME/.dotfiles && git pull && popd
 fi
 
-files=("profile" "bashrc" "zshrc" "env.nix" "gitconfig" "gitignore_global")
+files=("profile" "bashrc" "zshrc" "env.nix" "gitconfig" "gitignore_global" "xinitrc" "Xmodmap")
 # dirs=("SpaceVim.d")
-dirs=("config/nvim", "config/i3", "config/i3status", "local/share/fcitx5/rime")
+dirs=("config/nvim" "config/i3" "config/i3status" "local/share/fcitx5/rime")
 
 for file in "${files[@]}"; do
     echo "backing up .$file"
