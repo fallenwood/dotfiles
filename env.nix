@@ -37,6 +37,7 @@ linuxphypkgs = [
   # buildah
   # cloud-init
   cloud-utils
+  dub
   dotnet-sdk_7
   #dotnet-sdk
   #emacs-nox
@@ -44,7 +45,7 @@ linuxphypkgs = [
   # frp
   htop
   kind
-  # lm_sensors
+  lm_sensors
   rustup
   # shadowsocks-rust
   # nerdctl
@@ -57,6 +58,7 @@ linuxphypkgs = [
   # elixir
   libvirt
   tig
+  ldc
   luajit
   llvm
   wrk
