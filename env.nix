@@ -15,13 +15,14 @@ commonpkgs = [
     # graphviz
     gdb
     git
+    git-lfs
     gnumake
     go_1_18
     lldb_14
     luajit
     neovim
-    perl
-    rakudo
+    # perl
+    # rakudo
     ripgrep
     tmux
     tig
@@ -50,8 +51,8 @@ macpkgs = [
     vscode
     alacritty
     rustup
-    ocaml
-    opam
+    # ocaml
+    # opam
 ];
 
 linuxlibs = [
