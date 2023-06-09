@@ -20,35 +20,54 @@ fi
 # fi
 
 if [ $distro = "Ubuntu" ]; then
-    isUbuntu=true
+  isUbuntu=true
 elif [ $distro = "Debian" ]; then
-    isDebian=true
+  isDebian=true
 elif [ $distro = "Darwin" ]; then
-    isMac=true
+  isMac=true
 fi
 
 export PATH=$HOME/.local/opt/miniconda/bin:$PATH
-export PATH=$HOME/.local/opt/clang/bin:$PATH
-export PATH=$HOME/.local/opt/gcc/bin:$PATH
-export PATH=$HOME/.local/opt/qemu/bin:$PATH
+# export PATH=$HOME/.local/opt/clang/bin:$PATH
+# export PATH=$HOME/.local/opt/gcc/bin:$PATH
+# export PATH=$HOME/.local/opt/qemu/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.local/opt/bazel:$PATH
 export PATH=$HOME/.local/opt/gcc_musl/bin:$PATH
-export PATH=$HOME/.local/opt/go/bin:$PATH
-export PATH=$HOME/.local/opt/ldc2/bin:$PATH
+export PATH=$HOME/.local/opt/gcc_riscv_musl/bin:$PATH
+export PATH=$HOME/.local/opt/gcc_riscv_glibc/bin:$PATH
+# export PATH=$HOME/.local/opt/go/bin:$PATH
+# export PATH=$HOME/.local/opt/ldc2/bin:$PATH
 export PATH=$HOME/.local/opt/jdk-17.0.2+8/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
+export PATH=$HOME/.local/opt/xmake/bin:$PATH
+export PATH=$HOME/.local/opt/luvit:$PATH
+
+export PYTHONPATH=$HOME/.nix-profile/lib/python3.10/site-packages:$PYTHONPATH
+
+alias sudo='sudo env PATH=$PATH PYTHONPATH=$PYTHONPATH'
 
 alias proxychains="proxychains4"
 alias pc4="proxychains"
 alias pc="proxychains"
 alias rm="rm -i"
 alias pacman=yay
-alias vim=nvim
-alias grep=rg
+if command -v nvim > /dev/null; then
+  alias vim=nvim
+fi
+if command -v rg > /dev/null; then
+  alias grep=rg
+fi
+alias k=kubectl
+alias e=$EDITOR
+
+export QEMU_BASE="$HOME/.local/opt/qemu"
+
+alias qemu-system-x86_64="$QEMU_BASE/build/qemu-system-x86_64 -L $QEMU_BASE/pc-bios -nographic -enable-kvm"
+alias qemu-system-aarch64="$QEMU_BASE/build/qemu-system-aarch64 -cpu cortex-a57 -M virt -nographic"
 
 if [ "$isUbuntu" = true ] || [ "$isDebian" =  true ]; then
-    alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
+  alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
 fi
 
 if [ $isWsl = 0 ]; then
@@ -79,15 +98,25 @@ export NVM_DIR="$HOME/.nvm"
 
 # Python
 if command -v conda &> /dev/null; then
-    source activate user
+  source activate user
 fi
 
 # Nix
 export NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1
+export NIXPKGS_ALLOW_UNFREE=1
+
+if [ "$isMac" = true ]; then
+  export PATH=$HOME/.nix-profile/bin:$PATH
+fi
+
 alias nix-update="nix-channel --update && nix-env -irf $HOME/.env.nix"
 alias nix-upgrade="nix-channel --update && nix-env -uf $HOME/.env.nix"
 alias nix-gc="nix-collect-garbage -d"
 
+# Container
+# alias podman="docker"
+
 # Instance configuration
 [[ -s "$HOME/.insrc" ]] && source "$HOME/.insrc"
 
+[[ -s "thefuck" ]] && eval "$(thefuck --alias)"

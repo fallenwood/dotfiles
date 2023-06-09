@@ -11,8 +11,9 @@ else
     # pushd && cd $HOME/.dotfiles && git pull && popd
 fi
 
-files=("profile" "bashrc" "zshrc" "env.nix" "gitconfig" "gitignore_global")
-dirs=("SpaceVim.d")
+files=("profile" "bashrc" "zshrc" "env.nix" "gitconfig" "gitignore_global" "xinitrc" "Xmodmap")
+# dirs=("SpaceVim.d")
+dirs=("config/nvim" "config/i3" "config/i3status" "local/share/fcitx5/rime")
 
 for file in "${files[@]}"; do
     echo "backing up .$file"
@@ -20,6 +21,16 @@ for file in "${files[@]}"; do
     echo "linking .$file"
     ln -s $dotfiles/$file $HOME/.$file
 done
+
+for file in "${dirs[@]}"; do
+    echo "backing up .$file"
+    [[ -d "$HOME/.$file" ]] && mv $HOME/.$file $HOME/.$file.bak
+    [[ -s "$HOME/.$file" ]] && mv $HOME/.$file $HOME/.$file.bak
+    echo "linking .$file"
+    ln -s $dotfiles/$file $HOME/.$file
+done
+
+configs=("powershell/Microsoft.PowerShell_profile.ps1")
 
 for file in "${dirs[@]}"; do
     echo "backing up .$file"
