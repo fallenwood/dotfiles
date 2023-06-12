@@ -45,6 +45,8 @@ export PATH=$HOME/.local/opt/luvit:$PATH
 
 export PYTHONPATH=$HOME/.nix-profile/lib/python3.10/site-packages:$PYTHONPATH
 
+alias s="sudo"
+
 alias sudo='sudo env PATH=$PATH PYTHONPATH=$PYTHONPATH'
 
 alias proxychains="proxychains4"
