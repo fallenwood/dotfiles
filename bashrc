@@ -47,6 +47,7 @@ fi
 
 source $HOME/.dotfiles/customrc
 
+
 # >>> xmake >>>
-[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
+test -f "/home/vbox/.xmake/profile" && source "/home/vbox/.xmake/profile"
 # <<< xmake <<<

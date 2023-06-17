@@ -38,8 +38,9 @@ linuxphypkgs = [
   # cloud-init
   cloud-utils
   dub
+  # dotnet-sdk_8
   dotnet-sdk_7
-  #dotnet-sdk
+  dotnet-sdk
   #emacs-nox
   # flamegraph
   # frp
@@ -51,6 +52,7 @@ linuxphypkgs = [
   # nerdctl
   neofetch
   ninja
+  mimalloc
   podman
   powershell
   # quickjs
@@ -62,7 +64,8 @@ linuxphypkgs = [
   luajit
   llvm
   wrk
-  # nushell
+  nushell
+  nmap
   # vagrant
   # rakudo
   zsh

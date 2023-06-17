@@ -27,6 +27,9 @@ elif [ $distro = "Darwin" ]; then
   isMac=true
 fi
 
+
+# [[ -s "$HOME/.nix-profile/lib/libmimalloc.so" ]] && export LD_PRELOAD="$HOME/.nix-profile/lib/libmimalloc.so"
+
 export PATH=$HOME/.local/opt/miniconda/bin:$PATH
 # export PATH=$HOME/.local/opt/clang/bin:$PATH
 # export PATH=$HOME/.local/opt/gcc/bin:$PATH
@@ -56,6 +59,8 @@ alias rm="rm -i"
 alias pacman=yay
 if command -v nvim > /dev/null; then
   alias vim=nvim
+  alias nvimf="NVIM_APPNAME='nvim-full' nvim"
+  alias vimf=nvimf
 fi
 if command -v rg > /dev/null; then
   alias grep=rg
