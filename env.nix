@@ -73,8 +73,10 @@ linuxphypkgs = [
 
 macpkgs = [
   vscode
-  alacritty
+  # alacritty
   rustup
+  htop
+  nushell
   # ocaml
   # opam
 ];
