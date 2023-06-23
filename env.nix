@@ -37,6 +37,7 @@ linuxphypkgs = [
   # buildah
   # cloud-init
   cloud-utils
+  cloc
   dub
   # dotnet-sdk_8
   dotnet-sdk_7
