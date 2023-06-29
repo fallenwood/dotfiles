@@ -48,6 +48,7 @@ linuxphypkgs = [
   htop
   kind
   lm_sensors
+  libbpf
   rustup
   # shadowsocks-rust
   # nerdctl

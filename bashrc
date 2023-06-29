@@ -40,7 +40,7 @@ plugins=(
 )
 
 
-source $OSH/oh-my-bash.sh
+test -f "$OSH/oh-my-bash.sh" && source $OSH/oh-my-bash.sh
 if command -v _omb_util_add_prompt_command &> /dev/null; then
 _omb_util_add_prompt_command custom_prompt_command
 fi
