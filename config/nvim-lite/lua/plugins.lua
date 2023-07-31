@@ -32,21 +32,6 @@ function module.startup(callback)
     --   branch = "artifacts"
     -- }
 
-    local lspFts = vim.g.lspFts or {}
-
-    use {
-      "neovim/nvim-lspconfig",
-      opt = true,
-      ft = lspFts,
-      requires = {{
-        "ms-jpq/coq_nvim",
-      }},
-      config = function()
-        local lsp = require("lspconfig")
-        -- lsp.csharp_ls.setup(require("coq")().lsp_ensure_capabilities())
-      end
-    }
-
     use {
       "nvim-treesitter/nvim-treesitter",
       run = function ()
@@ -58,7 +43,7 @@ function module.startup(callback)
       end,
       config = function ()
         require("nvim-treesitter.configs").setup({
-          enture_installed = { "c", "cpp", "lua", "rust" },
+          ensure_installed = { "c", "cpp", "lua", "rust" },
           highlight = {
             enable = true,
             additional_vim_regex_highlighting = false,

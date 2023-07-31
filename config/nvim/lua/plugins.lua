@@ -22,8 +22,8 @@ function module.startup(callback)
     use {
       "ms-jpq/coq_nvim",
       branch = "coq",
-      event = "InsertEnter",
-      run = ":COQdeps",
+      -- event = "InsertEnter",
+      -- run = ":COQdeps",
       disable = false
     }
 
@@ -36,14 +36,12 @@ function module.startup(callback)
 
     use {
       "neovim/nvim-lspconfig",
-      opt = true,
-      ft = lspFts,
       requires = {{
         "ms-jpq/coq_nvim",
       }},
       config = function()
         local lsp = require("lspconfig")
-        -- lsp.csharp_ls.setup(require("coq")().lsp_ensure_capabilities())
+        lsp.csharp_ls.setup(require("coq")().lsp_ensure_capabilities())
       end
     }
 
@@ -58,7 +56,7 @@ function module.startup(callback)
       end,
       config = function ()
         require("nvim-treesitter.configs").setup({
-          enture_installed = { "c", "cpp", "lua", "rust", "c_sharp", },
+          ensure_installed = { "c", "cpp", "lua", "rust", "c_sharp", },
           highlight = {
             enable = true,
             additional_vim_regex_highlighting = false,

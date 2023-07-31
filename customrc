@@ -45,8 +45,11 @@ export PATH=$HOME/.local/opt/jdk-17.0.2+8/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.local/opt/xmake/bin:$PATH
 export PATH=$HOME/.local/opt/luvit:$PATH
+export PATH=$HOME/.dotnet/tools:$PATH
 
 export PYTHONPATH=$HOME/.nix-profile/lib/python3.10/site-packages:$PYTHONPATH
+
+export DOTNET_ROOT="$(dotnet --info | grep Base | cut -d ':' -f 2 | xargs dirname | xargs dirname)"
 
 alias s="sudo"
 

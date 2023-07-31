@@ -82,15 +82,13 @@ _G.packer_plugins = {
     url = "https://github.com/ms-jpq/coq_nvim"
   },
   ["nvim-lspconfig"] = {
-    config = { "\27LJ\2\n)\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\2K\0\1\0\14lspconfig\frequire\0" },
-    loaded = false,
-    needs_bufread = false,
-    only_cond = false,
-    path = "/home/vbox/.local/share/nvim/site/pack/packer/opt/nvim-lspconfig",
+    config = { "\27LJ\2\ny\0\0\6\0\6\0\r6\0\0\0'\2\1\0B\0\2\0029\1\2\0009\1\3\0016\3\0\0'\5\4\0B\3\2\2B\3\1\0029\3\5\3B\3\1\0A\1\0\1K\0\1\0\28lsp_ensure_capabilities\bcoq\nsetup\14csharp_ls\14lspconfig\frequire\0" },
+    loaded = true,
+    path = "/home/vbox/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
-    config = { "\27LJ\2\nÚ\1\0\0\5\0\n\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0005\4\a\0=\4\b\3=\3\t\2B\0\2\1K\0\1\0\14highlight\vindent\1\0\1\venable\2\1\0\2&additional_vim_regex_highlighting\1\venable\2\21enture_installed\1\0\0\1\6\0\0\6c\bcpp\blua\trust\fc_sharp\nsetup\28nvim-treesitter.configs\frequire\0" },
+    config = { "\27LJ\2\nÚ\1\0\0\5\0\n\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0005\4\a\0=\4\b\3=\3\t\2B\0\2\1K\0\1\0\14highlight\vindent\1\0\1\venable\2\1\0\2\venable\2&additional_vim_regex_highlighting\1\21ensure_installed\1\0\0\1\6\0\0\6c\bcpp\blua\trust\fc_sharp\nsetup\28nvim-treesitter.configs\frequire\0" },
     loaded = true,
     path = "/home/vbox/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
@@ -105,14 +103,14 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: nvim-treesitter
 time([[Config for nvim-treesitter]], true)
-try_loadstring("\27LJ\2\nÚ\1\0\0\5\0\n\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0005\4\a\0=\4\b\3=\3\t\2B\0\2\1K\0\1\0\14highlight\vindent\1\0\1\venable\2\1\0\2&additional_vim_regex_highlighting\1\venable\2\21enture_installed\1\0\0\1\6\0\0\6c\bcpp\blua\trust\fc_sharp\nsetup\28nvim-treesitter.configs\frequire\0", "config", "nvim-treesitter")
+try_loadstring("\27LJ\2\nÚ\1\0\0\5\0\n\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0005\4\a\0=\4\b\3=\3\t\2B\0\2\1K\0\1\0\14highlight\vindent\1\0\1\venable\2\1\0\2\venable\2&additional_vim_regex_highlighting\1\21ensure_installed\1\0\0\1\6\0\0\6c\bcpp\blua\trust\fc_sharp\nsetup\28nvim-treesitter.configs\frequire\0", "config", "nvim-treesitter")
 time([[Config for nvim-treesitter]], false)
+-- Config for: nvim-lspconfig
+time([[Config for nvim-lspconfig]], true)
+try_loadstring("\27LJ\2\ny\0\0\6\0\6\0\r6\0\0\0'\2\1\0B\0\2\0029\1\2\0009\1\3\0016\3\0\0'\5\4\0B\3\2\2B\3\1\0029\3\5\3B\3\1\0A\1\0\1K\0\1\0\28lsp_ensure_capabilities\bcoq\nsetup\14csharp_ls\14lspconfig\frequire\0", "config", "nvim-lspconfig")
+time([[Config for nvim-lspconfig]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
-  -- Filetype lazy-loads
-time([[Defining lazy-load filetype autocommands]], true)
-vim.cmd [[au FileType csharp ++once lua require("packer.load")({'nvim-lspconfig'}, { ft = "csharp" }, _G.packer_plugins)]]
-time([[Defining lazy-load filetype autocommands]], false)
   -- Event lazy-loads
 time([[Defining lazy-load event autocommands]], true)
 vim.cmd [[au InsertEnter * ++once lua require("packer.load")({'coq_nvim'}, { event = "InsertEnter *" }, _G.packer_plugins)]]
