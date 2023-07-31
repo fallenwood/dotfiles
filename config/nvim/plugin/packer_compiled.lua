@@ -89,6 +89,12 @@ _G.packer_plugins = {
     path = "/home/vbox/.local/share/nvim/site/pack/packer/opt/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-treesitter"] = {
+    config = { "\27LJ\2\n“\1\0\0\5\0\n\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0005\4\a\0=\4\b\3=\3\t\2B\0\2\1K\0\1\0\14highlight\vindent\1\0\1\venable\2\1\0\2\venable\2&additional_vim_regex_highlighting\1\21enture_installed\1\0\0\1\5\0\0\6c\bcpp\blua\trust\nsetup\28nvim-treesitter.configs\frequire\0" },
+    loaded = true,
+    path = "/home/vbox/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/vbox/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -97,6 +103,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: nvim-treesitter
+time([[Config for nvim-treesitter]], true)
+try_loadstring("\27LJ\2\n“\1\0\0\5\0\n\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0005\4\a\0=\4\b\3=\3\t\2B\0\2\1K\0\1\0\14highlight\vindent\1\0\1\venable\2\1\0\2\venable\2&additional_vim_regex_highlighting\1\21enture_installed\1\0\0\1\5\0\0\6c\bcpp\blua\trust\nsetup\28nvim-treesitter.configs\frequire\0", "config", "nvim-treesitter")
+time([[Config for nvim-treesitter]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Filetype lazy-loads

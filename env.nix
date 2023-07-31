@@ -4,6 +4,7 @@ let
 
 commonpkgs = [
   aria
+  bottom
   (hiPrio clang_14)
   clang-tools_14
   cmake
@@ -47,6 +48,7 @@ linuxphypkgs = [
   # frp
   htop
   kind
+  kubernetes-helm
   lm_sensors
   libbpf
   rustup
@@ -71,6 +73,7 @@ linuxphypkgs = [
   # vagrant
   # rakudo
   zsh
+  zig
 ];
 
 macpkgs = [
