@@ -32,8 +32,6 @@ function module.startup(callback)
     --   branch = "artifacts"
     -- }
 
-    local lspFts = vim.g.lspFts or {}
-
     use {
       "neovim/nvim-lspconfig",
       requires = {{
@@ -42,6 +40,7 @@ function module.startup(callback)
       config = function()
         local lsp = require("lspconfig")
         lsp.csharp_ls.setup(require("coq")().lsp_ensure_capabilities())
+        lsp.rust_analyzer.setup(require("coq")().lsp_ensure_capabilities())
       end
     }
 

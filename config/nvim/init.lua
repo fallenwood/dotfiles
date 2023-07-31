@@ -29,10 +29,6 @@ end
 function setVimGlobal(g)
   -- g.mapleader = "<space>"
   g.mapleader = " "
-
-  g.lspFts = {
-    "csharp"
-  }
 end
 
 function setMapKeys(map)
@@ -67,12 +63,6 @@ function setCoq(g)
 end
 
 function setupLsp()
-  vim.schedule(function ()
-    -- load("packer").loader("lspconfig coq_nvim")
-
-    -- local lsp = load("lspconfig")
-    -- lsp.csharp_ls.setup(load("coq")().lsp_ensure_capabilities())
-  end)
 end
 
 setVimOption(vim.opt)
