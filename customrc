@@ -59,8 +59,10 @@ alias rm="rm -i"
 alias pacman=yay
 if command -v nvim > /dev/null; then
   alias vim=nvim
-  alias nvimf="NVIM_APPNAME='nvim-full' nvim"
+  alias nvimf="NVIM_APPNAME='nvim-lite' nvim"
   alias vimf=nvimf
+  alias viml=vimf
+  alias nviml=nvimf
 fi
 if command -v rg > /dev/null; then
   alias grep=rg

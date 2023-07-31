@@ -58,7 +58,7 @@ function module.startup(callback)
       end,
       config = function ()
         require("nvim-treesitter.configs").setup({
-          enture_installed = { "c", "cpp", "lua", "rust" },
+          enture_installed = { "c", "cpp", "lua", "rust", "c_sharp", },
           highlight = {
             enable = true,
             additional_vim_regex_highlighting = false,
