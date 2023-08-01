@@ -1,3 +1,8 @@
+function load(module)
+  package.loaded[module] = nil
+  return require(module)
+end
+
 local module = {}
 
 local ensurePacker = function()
@@ -36,24 +41,24 @@ function module.startup(callback)
         "ms-jpq/coq_nvim",
       }},
       config = function()
-        local lsp = require("lspconfig")
-        lsp.csharp_ls.setup(require("coq")().lsp_ensure_capabilities())
-        lsp.rust_analyzer.setup(require("coq")().lsp_ensure_capabilities())
-        lsp.lua_ls.setup(require("coq")().lsp_ensure_capabilities())
+        local lsp = load("lspconfig")
+        lsp.csharp_ls.setup(load("coq")().lsp_ensure_capabilities())
+        lsp.rust_analyzer.setup(load("coq")().lsp_ensure_capabilities())
+        lsp.lua_ls.setup(load("coq")().lsp_ensure_capabilities())
       end
     }
 
     use {
       "nvim-treesitter/nvim-treesitter",
       run = function ()
-        local ts_update = require("nvim-treesitter.install")
+        local ts_update = load("nvim-treesitter.install")
           .update({
             with_sync = true
           })
         ts_update()
       end,
       config = function ()
-        require("nvim-treesitter.configs").setup({
+        load("nvim-treesitter.configs").setup({
           ensure_installed = { "c", "cpp", "lua", "rust", "c_sharp", },
           highlight = {
             enable = true,
@@ -75,12 +80,26 @@ function module.startup(callback)
         vim.g.solarized_borders = false
         vim.g.solarized_disable_background = false
 
-        -- require("solarized").set()
+        -- load("solarized").set()
       end,
     }
 
+    use {
+      "nvim-telescope/telescope.nvim",
+      requires = {{
+        "nvim-lua/plenary.nvim",
+      }},
+      config = function ()
+        local builtin = load('telescope.builtin')
+        vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+        vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
+        vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
+        vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
+      end
+    }
+
     if packerBootstrap then
-      require("packer").sync()
+      load("packer").sync()
     end
 
     (callback or {})()
