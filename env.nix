@@ -39,7 +39,7 @@ linuxphypkgs = [
   # cloud-init
   cloud-utils
   cloc
-  dub
+  # dub
   # dotnet-sdk_8
   dotnet-sdk_7
   dotnet-sdk
@@ -49,6 +49,7 @@ linuxphypkgs = [
   htop
   kind
   kubernetes-helm
+  koka
   lm_sensors
   libbpf
   rustup
@@ -64,7 +65,7 @@ linuxphypkgs = [
   # elixir
   libvirt
   tig
-  ldc
+  # ldc
   luajit
   llvm
   wrk

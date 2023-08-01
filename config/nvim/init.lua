@@ -1,7 +1,4 @@
-function load(module)
-  package.loaded[module] = nil
-  return require(module)
-end
+local load = require
 
 function setVimOption(o)
   o.autoread = true
