@@ -22,15 +22,13 @@ function module.startup(callback)
     use {
       "ms-jpq/coq_nvim",
       branch = "coq",
-      -- event = "InsertEnter",
-      -- run = ":COQdeps",
       disable = false
     }
 
-    -- use {
-    --   "ms-jpq/coq.artifacts",
-    --   branch = "artifacts"
-    -- }
+    use {
+     "ms-jpq/coq.artifacts",
+     branch = "artifacts"
+    }
 
     use {
       "neovim/nvim-lspconfig",
@@ -41,6 +39,7 @@ function module.startup(callback)
         local lsp = require("lspconfig")
         lsp.csharp_ls.setup(require("coq")().lsp_ensure_capabilities())
         lsp.rust_analyzer.setup(require("coq")().lsp_ensure_capabilities())
+        lsp.lua_ls.setup(require("coq")().lsp_ensure_capabilities())
       end
     }
 
@@ -63,7 +62,6 @@ function module.startup(callback)
           },
         })
       end
-      -- event = "BufWinEnter"
     }
 
     if packerBootstrap then

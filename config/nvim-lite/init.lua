@@ -27,12 +27,7 @@ function setVimOption(o)
 end
 
 function setVimGlobal(g)
-  -- g.mapleader = "<space>"
   g.mapleader = " "
-
-  g.lspFts = {
-    "csharp"
-  }
 end
 
 function setMapKeys(map)
@@ -41,16 +36,6 @@ function setMapKeys(map)
   }
 
   map("n", "<leader>c", ":COQnow<cr>", options)
-end
-
-function runTreeSitterFold()
-  vim.api.nvim_create_autocmd({'BufEnter','BufAdd','BufNew','BufNewFile','BufWinEnter'}, {
-  group = vim.api.nvim_create_augroup('TS_FOLD_WORKAROUND', {}),
-  callback = function()
-    vim.opt.foldmethod     = 'expr'
-    vim.opt.foldexpr       = 'nvim_treesitter#foldexpr()'
-  end
-  })
 end
 
 function runCmd(cmd)
@@ -66,15 +51,6 @@ function setCoq(g)
   }
 end
 
-function setupLsp()
-  vim.schedule(function ()
-    -- load("packer").loader("lspconfig coq_nvim")
-
-    -- local lsp = load("lspconfig")
-    -- lsp.csharp_ls.setup(load("coq")().lsp_ensure_capabilities())
-  end)
-end
-
 setVimOption(vim.opt)
 setVimGlobal(vim.g)
 
@@ -83,7 +59,6 @@ setMapKeys(vim.api.nvim_set_keymap)
 setCoq(vim.g)
 
 load("plugins").startup(function()
-  setupLsp()
   runCmd()
 end)
 
