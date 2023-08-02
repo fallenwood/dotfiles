@@ -26,25 +26,29 @@ function module.startup(callback)
   load("lazy").setup({
     spec = {
       {
-        "ms-jpq/coq_nvim",
-        branch = "coq",
-      },
-
-      {
-        "ms-jpq/coq.artifacts",
-        branch = "artifacts"
-      },
-
-      {
-        "neovim/nvim-lspconfig",
-        dependencies = { {
-          "ms-jpq/coq_nvim",
-        } },
+        "hrsh7th/nvim-cmp",
+        dependencies = {{
+          "hrsh7th/cmp-buffer",
+          "FelipeLema/cmp-async-path",
+          "hrsh7th/cmp-nvim-lsp",
+          "neovim/nvim-lspconfig",
+        }},
         config = function()
+          local cmp = require("cmp")
+          vim.opt.completeopt = { "menu", "menuone", "noselect", }
+          cmp.setup({
+            sources = cmp.config.sources({
+              { name = "buffer", },
+              { name = "async_path", },
+              { name = "nvim_lsp", }
+            })
+          })
+
           local lsp = load("lspconfig")
-          lsp.csharp_ls.setup(load("coq")().lsp_ensure_capabilities())
-          lsp.rust_analyzer.setup(load("coq")().lsp_ensure_capabilities())
-          lsp.lua_ls.setup(load("coq")().lsp_ensure_capabilities())
+          lsp.csharp_ls.setup(require('cmp_nvim_lsp').default_capabilities())
+          lsp.rust_analyzer.setup(require('cmp_nvim_lsp').default_capabilities())
+          lsp.lua_ls.setup(require('cmp_nvim_lsp').default_capabilities())
+          lsp.pyright.setup(require('cmp_nvim_lsp').default_capabilities())
         end
       },
 
@@ -59,7 +63,7 @@ function module.startup(callback)
         end,
         config = function()
           load("nvim-treesitter.configs").setup({
-            ensure_installed = { "c", "cpp", "lua", "rust", "c_sharp", },
+            ensure_installed = { "c", "cpp", "lua", "rust", "c_sharp", "python" },
             highlight = {
               enable = true,
               additional_vim_regex_highlighting = false,
