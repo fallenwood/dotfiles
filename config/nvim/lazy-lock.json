@@ -1,7 +1,9 @@
 {
-  "coq.artifacts": { "branch": "artifacts", "commit": "417dd82718025fdcd0136c5d08129c150d743387" },
-  "coq_nvim": { "branch": "coq", "commit": "793374e613fdebd2a2d518dc479aef35abe1920e" },
+  "cmp-async-path": { "branch": "main", "commit": "d8229a93d7b71f22c66ca35ac9e6c6cd850ec61d" },
+  "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
+  "cmp-nvim-lsp": { "branch": "main", "commit": "44b16d11215dce86f253ce0c30949813c0a90765" },
   "lazy.nvim": { "branch": "main", "commit": "dac844ed617dda4f9ec85eb88e9629ad2add5e05" },
+  "nvim-cmp": { "branch": "main", "commit": "c4e491a87eeacf0408902c32f031d802c7eafce8" },
   "nvim-lspconfig": { "branch": "master", "commit": "a59d74e12340242c0735666fb2e91afdbe6f2496" },
   "nvim-treesitter": { "branch": "master", "commit": "4c4d586a05e236d8199ab6faab8cb733a9b5bd24" },
   "plenary.nvim": { "branch": "master", "commit": "267282a9ce242bbb0c5dc31445b6d353bed978bb" },
