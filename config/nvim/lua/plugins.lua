@@ -41,7 +41,11 @@ function module.startup(callback)
               { name = "buffer", },
               { name = "async_path", },
               { name = "nvim_lsp", }
-            })
+            }),
+            mapping = cmp.mapping.preset.insert({
+              ['<C-e>'] = cmp.mapping.abort(),
+              ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+            }),
           })
 
           local lsp = load("lspconfig")
