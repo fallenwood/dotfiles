@@ -49,7 +49,9 @@ export PATH=$HOME/.dotnet/tools:$PATH
 
 export PYTHONPATH=$HOME/.nix-profile/lib/python3.10/site-packages:$PYTHONPATH
 
-export DOTNET_ROOT="$(dotnet --info | grep Base | cut -d ':' -f 2 | xargs dirname | xargs dirname)"
+if command -v dotnet > /dev/null; then
+  export DOTNET_ROOT="$(dotnet --info | grep Base | cut -d ':' -f 2 | xargs dirname | xargs dirname)"
+fi
 
 alias s="sudo"
 
@@ -63,6 +65,7 @@ alias pacman=yay
 if command -v nvim > /dev/null; then
   alias vim=nvim
   alias nvimf="NVIM_APPNAME='nvim-lite' nvim"
+  alias pnvimf="NVIM_APPNAME='nvim-lite' pc4 nvim"
   alias vimf=nvimf
   alias viml=vimf
   alias nviml=nvimf

@@ -4,7 +4,7 @@ local module = {}
 
 local ensureLazy = function()
   local fn = vim.fn
-  local lazypath = fn.stdpath("data").."/lazy/lazy.nvim"
+  local lazypath = fn.stdpath("data") .. "/lazy/lazy.nvim"
   if fn.empty(fn.glob(lazypath)) > 0 then
     fn.system({
       "git",
@@ -23,7 +23,7 @@ end
 function module.startup(callback)
   local lazyBootstrap = ensureLazy()
 
-  return load("lazy").setup({
+  load("lazy").setup({
     spec = {
       {
         "ms-jpq/coq_nvim",
@@ -37,9 +37,9 @@ function module.startup(callback)
 
       {
         "neovim/nvim-lspconfig",
-        dependencies = {{
+        dependencies = { {
           "ms-jpq/coq_nvim",
-        }},
+        } },
         config = function()
           local lsp = load("lspconfig")
           lsp.csharp_ls.setup(load("coq")().lsp_ensure_capabilities())
@@ -50,14 +50,14 @@ function module.startup(callback)
 
       {
         "nvim-treesitter/nvim-treesitter",
-        build = function ()
+        build = function()
           local ts_update = load("nvim-treesitter.install")
-          .update({
-            with_sync = true
-          })
+              .update({
+                with_sync = true
+              })
           ts_update()
         end,
-        config = function ()
+        config = function()
           load("nvim-treesitter.configs").setup({
             ensure_installed = { "c", "cpp", "lua", "rust", "c_sharp", },
             highlight = {
@@ -71,7 +71,7 @@ function module.startup(callback)
 
       {
         'shaunsingh/solarized.nvim',
-        config = function ()
+        config = function()
           vim.g.solarized_italic_comments = false
           vim.g.solarized_italic_keywords = false
           vim.g.solarized_italic_functions = false
@@ -86,10 +86,10 @@ function module.startup(callback)
 
       {
         "nvim-telescope/telescope.nvim",
-        dependencies = {{
+        dependencies = { {
           "nvim-lua/plenary.nvim",
-        }},
-        config = function ()
+        } },
+        config = function()
           local builtin = load('telescope.builtin')
           vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
           vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
@@ -97,9 +97,10 @@ function module.startup(callback)
           vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
         end
       },
-    }})
+    }
+  })
 
-  end
+  callback()
+end
 
-
-  return module
+return module
