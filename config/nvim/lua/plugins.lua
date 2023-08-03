@@ -53,13 +53,13 @@ function module.startup(callback)
               documentation = cmp.config.window.bordered(),
             },
             event = "InsertEnter",
+            snippet = {
+              expand = function(args)
+                load("luasnip").lsp_expand(args.body)
+              end,
+            },
           })
         end,
-        snippet = {
-          expand = function(args)
-            load("luasnip").lsp_expand(args.body)
-          end,
-        },
       },
 
       {
