@@ -27,14 +27,6 @@ function setVimGlobal(g)
   g.mapleader = " "
 end
 
-function setMapKeys(map)
-  local options = {
-    noremap = true
-  }
-
-  map("n", "<leader>c", ":COQnow<cr>", options)
-end
-
 function runCmd(cmd)
 end
 
@@ -42,18 +34,8 @@ function loadPlugins()
   return load("plugins")
 end
 
-function setCoq(g)
-  g.coq_settings = {
-    auto_start = "shut-up"
-  }
-end
-
 setVimOption(vim.opt)
 setVimGlobal(vim.g)
-
-setMapKeys(vim.api.nvim_set_keymap)
-
-setCoq(vim.g)
 
 load("plugins").startup(function()
   runCmd()

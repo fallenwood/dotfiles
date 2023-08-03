@@ -28,14 +28,6 @@ function setVimGlobal(g)
   g.mapleader = " "
 end
 
-function setMapKeys(map)
-  local options = {
-    noremap = true
-  }
-
-  map("n", "<leader>c", ":COQnow<cr>", options)
-end
-
 function runTreeSitterFold()
   vim.api.nvim_create_autocmd({'BufEnter','BufAdd','BufNew','BufNewFile','BufWinEnter'}, {
   group = vim.api.nvim_create_augroup('TS_FOLD_WORKAROUND', {}),
@@ -53,21 +45,11 @@ function loadPlugins()
   return load("plugins")
 end
 
-function setCoq(g)
-  g.coq_settings = {
-    auto_start = "shut-up"
-  }
-end
-
 function setupLsp()
 end
 
 setVimOption(vim.opt)
 setVimGlobal(vim.g)
-
-setMapKeys(vim.api.nvim_set_keymap)
-
-setCoq(vim.g)
 
 load("plugins").startup(function()
   setupLsp()
