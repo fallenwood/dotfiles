@@ -52,7 +52,7 @@ function module.startup(callback)
               completion = cmp.config.window.bordered(),
               documentation = cmp.config.window.bordered(),
             },
-            event = "InsertEnter",
+            -- event = "InsertEnter",
             snippet = {
               expand = function(args)
                 load("luasnip").lsp_expand(args.body)
