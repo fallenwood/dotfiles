@@ -21,8 +21,6 @@ function setVimOption(o)
   o.smartindent = true
   o.splitbelow = true
   o.splitright = true
-
-  -- o.background = "light"
 end
 
 function setVimGlobal(g)

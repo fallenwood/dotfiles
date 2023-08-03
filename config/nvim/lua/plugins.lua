@@ -32,28 +32,48 @@ function module.startup(callback)
           "FelipeLema/cmp-async-path",
           "hrsh7th/cmp-nvim-lsp",
           "neovim/nvim-lspconfig",
+          "L3MON4D3/LuaSnip",
+          "saadparwaiz1/cmp_luasnip",
         }},
         config = function()
-          local cmp = require("cmp")
+          local cmp = load("cmp")
           vim.opt.completeopt = { "menu", "menuone", "noselect", }
           cmp.setup({
             sources = cmp.config.sources({
+              { name = "nvim_lsp", },
               { name = "buffer", },
               { name = "async_path", },
-              { name = "nvim_lsp", }
             }),
             mapping = cmp.mapping.preset.insert({
               ['<C-e>'] = cmp.mapping.abort(),
-              ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+              ['<CR>'] = cmp.mapping.confirm({ select = true }),
             }),
+            window = {
+              completion = cmp.config.window.bordered(),
+              documentation = cmp.config.window.bordered(),
+            },
+            event = "InsertEnter",
           })
+        end,
+        snippet = {
+          expand = function(args)
+            load("luasnip").lsp_expand(args.body)
+          end,
+        },
+      },
 
+      {
+        "neovim/nvim-lspconfig",
+         config = function()
           local lsp = load("lspconfig")
-          lsp.csharp_ls.setup(require('cmp_nvim_lsp').default_capabilities())
-          lsp.rust_analyzer.setup(require('cmp_nvim_lsp').default_capabilities())
-          lsp.lua_ls.setup(require('cmp_nvim_lsp').default_capabilities())
-          lsp.pyright.setup(require('cmp_nvim_lsp').default_capabilities())
-        end
+          local cmp_nvim_lsp = load("cmp_nvim_lsp")
+          local capabilities = cmp_nvim_lsp.default_capabilities()
+          lsp.csharp_ls.setup(capabilities)
+          lsp.rust_analyzer.setup(capabilities)
+          lsp.lua_ls.setup(capabilities)
+          lsp.pyright.setup(capabilities)
+        end,
+        event = { "BufNewFile", "BufReadPre" },
       },
 
       {
@@ -88,15 +108,18 @@ function module.startup(callback)
           vim.g.solarized_borders = false
           vim.g.solarized_disable_background = false
 
+
+          -- o.background = "light"
           -- load("solarized").set()
         end,
+        lazy = true,
       },
 
       {
         "nvim-telescope/telescope.nvim",
-        dependencies = { {
+        dependencies = {{
           "nvim-lua/plenary.nvim",
-        } },
+        }},
         config = function()
           local builtin = load('telescope.builtin')
           vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
@@ -106,6 +129,14 @@ function module.startup(callback)
         end
       },
     }
+  },
+  {
+    performance = {
+      reset_packpath = false,
+      rtp = {
+        reset = false,
+      },
+    },
   })
 
   callback()
