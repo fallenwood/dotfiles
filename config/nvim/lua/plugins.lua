@@ -34,6 +34,7 @@ function module.startup(callback)
           "neovim/nvim-lspconfig",
           "L3MON4D3/LuaSnip",
           "saadparwaiz1/cmp_luasnip",
+          "hrsh7th/cmp-nvim-lsp-signature-help",
         }},
         config = function()
           local cmp = load("cmp")
@@ -41,6 +42,7 @@ function module.startup(callback)
           cmp.setup({
             sources = cmp.config.sources({
               { name = "nvim_lsp", },
+              { name = "cmp-nvim-lsp-signature-help" },
               { name = "buffer", },
               { name = "async_path", },
             }),
@@ -64,7 +66,7 @@ function module.startup(callback)
 
       {
         "neovim/nvim-lspconfig",
-         config = function()
+        config = function()
           local lsp = load("lspconfig")
           local cmp_nvim_lsp = load("cmp_nvim_lsp")
           local capabilities = cmp_nvim_lsp.default_capabilities()
@@ -95,6 +97,38 @@ function module.startup(callback)
             indent = { enable = true },
           })
         end
+      },
+
+      {
+        "Nsidorenco/tree-sitter-fsharp",
+        branch = "develop",
+        dependencies={{
+          "nvim-treesitter/nvim-treesitter",
+        }},
+        build = function ()
+          vim.fn.system({
+            "npm",
+            "install",
+            "&&",
+            "npm",
+            "run",
+            "build",
+          })
+        end,
+        config = function ()
+          local parser_config = load("nvim-treesitter.parsers").get_parser_configs()
+          parser_config.fsharp = {
+            install_info = {
+              url = vim.fn.stdpath("data") .. "/lazy/tree-sitter-fsharp",
+              files = { "src/scanner.cc", "src/parser.c", },
+            },
+            filetype = "fsharp",
+          }
+          -- Needs to install tree-sitter binary
+          -- Run `CC=clang++ nvim` and `:TSInstallForGrammar fsharp` to install
+          -- No fsharp syntax bundled with neovim, no coloring at all
+        end,
+        lazy = true,
       },
 
       {

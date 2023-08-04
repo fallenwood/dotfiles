@@ -9,6 +9,7 @@ commonpkgs = [
   clang-tools_14
   cmake
   # conda
+  fzf
   jdk17_headless
   kubectl
   gawk
@@ -55,6 +56,7 @@ linuxphypkgs = [
   rustup
   # shadowsocks-rust
   # nerdctl
+  # tree-sitter
   neofetch
   ninja
   mimalloc
