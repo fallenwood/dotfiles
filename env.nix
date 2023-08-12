@@ -10,7 +10,7 @@ commonpkgs = [
   cmake
   # conda
   fzf
-  jdk17_headless
+  jdk19_headless
   kubectl
   gawk
   gcc
@@ -44,7 +44,8 @@ linuxphypkgs = [
   # dotnet-sdk_8
   dotnet-sdk_7
   dotnet-sdk
-  #emacs-nox
+  emacs-nox
+  elixir
   # flamegraph
   # frp
   htop
@@ -52,6 +53,7 @@ linuxphypkgs = [
   kubernetes-helm
   koka
   lm_sensors
+  leiningen
   libbpf
   rustup
   # shadowsocks-rust
@@ -68,6 +70,7 @@ linuxphypkgs = [
   libvirt
   tig
   # ldc
+  # lua
   luajit
   llvm
   wrk

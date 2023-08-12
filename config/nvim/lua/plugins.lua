@@ -96,7 +96,8 @@ function module.startup(callback)
             },
             indent = { enable = true },
           })
-        end
+        end,
+        lazy = true,
       },
 
       {
