@@ -45,13 +45,13 @@ linuxphypkgs = [
   dotnet-sdk_7
   dotnet-sdk
   emacs-nox
-  elixir
+  # elixir
   # flamegraph
   # frp
   htop
   kind
   kubernetes-helm
-  koka
+  # koka
   lm_sensors
   leiningen
   libbpf
@@ -79,7 +79,7 @@ linuxphypkgs = [
   # vagrant
   # rakudo
   zsh
-  zig
+  # zig
 ];
 
 macpkgs = [
