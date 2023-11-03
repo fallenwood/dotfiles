@@ -10,7 +10,6 @@ commonpkgs = [
   cmake
   # conda
   fzf
-  jdk19_headless
   kubectl
   gawk
   gcc
@@ -48,6 +47,7 @@ linuxphypkgs = [
   # flamegraph
   # frp
   htop
+  jdk19_headless
   kind
   kubernetes-helm
   # koka
