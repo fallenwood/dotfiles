@@ -47,7 +47,7 @@ linuxphypkgs = [
   # flamegraph
   # frp
   htop
-  jdk19_headless
+  jdk21_headless
   kind
   kubernetes-helm
   # koka
