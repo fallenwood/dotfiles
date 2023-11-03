@@ -17,3 +17,8 @@
 	required = true
 [init]
 	defaultBranch = master
+[credential]
+	helper = 
+	helper = /home/vbox/.dotnet/tools/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true

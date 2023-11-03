@@ -25,7 +25,6 @@ commonpkgs = [
   ripgrep
   skim
   tmux
-  telnet
 ];
 
 linuxpkgs = [
@@ -40,7 +39,7 @@ linuxphypkgs = [
   # cloud-init
   cloud-utils
   cloc
-  # dub
+  dub
   # dotnet-sdk_8
   dotnet-sdk_7
   dotnet-sdk
@@ -56,6 +55,8 @@ linuxphypkgs = [
   leiningen
   libbpf
   rustup
+  ruby
+  gem
   # shadowsocks-rust
   # nerdctl
   # tree-sitter
@@ -69,7 +70,7 @@ linuxphypkgs = [
   # elixir
   libvirt
   tig
-  # ldc
+  ldc
   # lua
   luajit
   llvm
@@ -78,6 +79,7 @@ linuxphypkgs = [
   nmap
   # vagrant
   # rakudo
+  upx
   zsh
   # zig
 ];
@@ -97,7 +99,8 @@ linuxlibs = [
 ];
 
 linuxphylibs = [
-  # zlib
+  zlib
+  openssl
 ];
 
 isWsl = builtins.getEnv "isWsl";

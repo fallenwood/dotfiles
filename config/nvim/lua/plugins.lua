@@ -74,6 +74,7 @@ function module.startup(callback)
           lsp.rust_analyzer.setup(capabilities)
           lsp.lua_ls.setup(capabilities)
           lsp.pyright.setup(capabilities)
+          lsp.gopls.setup(capabilities)
         end,
         event = { "BufNewFile", "BufReadPre" },
       },
