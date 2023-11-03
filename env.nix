@@ -43,7 +43,7 @@ linuxphypkgs = [
   dotnet-sdk_7
   dotnet-sdk
   emacs-nox
-  # elixir
+  elixir
   # flamegraph
   # frp
   htop
