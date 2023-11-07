@@ -42,6 +42,30 @@ function module.startup(callback)
             mapping = cmp.mapping.preset.insert({
               ['<C-e>'] = cmp.mapping.abort(),
               ['<CR>'] = cmp.mapping.confirm({ select = true }),
+              ['<C-Space>'] = cmp.mapping.confirm {
+                behavior = cmp.ConfirmBehavior.Insert,
+                select = true,
+              },
+
+              ['<Tab>'] = function(fallback)
+                if not cmp.select_next_item() then
+                  if vim.bo.buftype ~= 'prompt' and has_words_before() then
+                    cmp.complete()
+                  else
+                    fallback()
+                  end
+                end
+              end,
+
+              ['<S-Tab>'] = function(fallback)
+                if not cmp.select_prev_item() then
+                  if vim.bo.buftype ~= 'prompt' and has_words_before() then
+                    cmp.complete()
+                  else
+                    fallback()
+                  end
+                end
+              end,
             }),
             window = {
               completion = cmp.config.window.bordered(),
