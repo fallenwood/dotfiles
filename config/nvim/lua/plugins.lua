@@ -49,7 +49,7 @@ function module.startup(callback)
             mapping = cmp.mapping.preset.insert({
               ['<C-e>'] = cmp.mapping.abort(),
 
-              ['<CR>'] = cmp.mapping.confirm({ select = true }),
+              -- ['<CR>'] = cmp.mapping.confirm({ select = true }),
 
               ["<Tab>"] = cmp.mapping(function(fallback)
                 if cmp.visible() then
@@ -122,6 +122,7 @@ function module.startup(callback)
           })
         end,
         lazy = true,
+        enabled = false,
       },
 
       {

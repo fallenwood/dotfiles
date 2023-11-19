@@ -19,6 +19,7 @@ commonpkgs = [
   git
   gnumake
   go
+  jq
   lldb_14
   neovim
   ripgrep

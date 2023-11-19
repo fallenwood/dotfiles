@@ -52,6 +52,12 @@ export PATH=$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH
 
 export PYTHONPATH=$HOME/.nix-profile/lib/python3.10/site-packages:$PYTHONPATH
 
+# fedora
+
+if command -v dnf5 > /dev/null; then
+  alias dnf=dnf5
+fi
+
 if command -v dotnet > /dev/null; then
   export DOTNET_ROOT="$(dotnet --info | grep Base | cut -d ':' -f 2 | xargs dirname | xargs dirname)"
 fi
