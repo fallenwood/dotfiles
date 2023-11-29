@@ -48,30 +48,7 @@ function module.startup(callback)
             }),
             mapping = cmp.mapping.preset.insert({
               ['<C-e>'] = cmp.mapping.abort(),
-
-              -- ['<CR>'] = cmp.mapping.confirm({ select = true }),
-
-              ["<Tab>"] = cmp.mapping(function(fallback)
-                if cmp.visible() then
-                  cmp.select_next_item()
-                elseif luasnip.expand_or_jumpable() then
-                  luasnip.expand_or_jump()
-                elseif has_words_before() then
-                  cmp.complete()
-                else
-                  fallback()
-                end
-              end, { "i", "s" }),
-
-              ["<S-Tab>"] = cmp.mapping(function(fallback)
-                if cmp.visible() then
-                  cmp.select_prev_item()
-                elseif luasnip.jumpable(-1) then
-                  luasnip.jump(-1)
-                else
-                  fallback()
-                end
-              end, { "i", "s" }),
+              ['<CR>'] = cmp.mapping.confirm({ select = true }),
             }),
             window = {
               completion = cmp.config.window.bordered(),
@@ -106,9 +83,9 @@ function module.startup(callback)
         "nvim-treesitter/nvim-treesitter",
         build = function()
           local ts_update = load("nvim-treesitter.install")
-          .update({
-            with_sync = true
-          })
+              .update({
+                with_sync = true
+              })
           ts_update()
         end,
         config = function()
