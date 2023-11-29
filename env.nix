@@ -40,8 +40,7 @@ linuxphypkgs = [
   cloud-utils
   cloc
   dub
-  # dotnet-sdk_8
-  dotnet-sdk_7
+  dotnet-sdk_8
   dotnet-sdk
   emacs-nox
   elixir
