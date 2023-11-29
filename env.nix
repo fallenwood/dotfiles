@@ -55,8 +55,8 @@ linuxphypkgs = [
   leiningen
   libbpf
   rustup
-  ruby
-  gem
+  # ruby
+  # gem
   # shadowsocks-rust
   # nerdctl
   # tree-sitter
@@ -75,7 +75,7 @@ linuxphypkgs = [
   luajit
   llvm
   wrk
-  nushell
+  # nushell
   nmap
   # vagrant
   # rakudo
