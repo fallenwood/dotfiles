@@ -49,6 +49,7 @@ function module.startup(callback)
             mapping = cmp.mapping.preset.insert({
               ['<C-e>'] = cmp.mapping.abort(),
               ['<CR>'] = cmp.mapping.confirm({ select = true }),
+              ['<Tab>'] = cmp.mapping.confirm({ select = true }),
             }),
             window = {
               completion = cmp.config.window.bordered(),
