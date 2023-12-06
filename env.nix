@@ -24,6 +24,7 @@ commonpkgs = [
   neovim
   ripgrep
   skim
+  tailspin
   tmux
 ];
 
