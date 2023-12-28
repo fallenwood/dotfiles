@@ -1,14 +1,14 @@
 #region conda initialize
 # !! Contents within this block are managed by 'conda init' !!
-If (Test-Path "C:\Programs\Python\Scripts\conda.exe") {
-    (& "C:\Programs\Python\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
+If (Test-Path "conda") {
+    (& "conda" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
     &"conda" "activate" "user"
 }
 #endregion
 
 function Set-Proxy {
     param (
-        [string]$Proxy="http://192.168.1.102:10801"
+        [string]$Proxy="http://127.0.0.1:10801"
     )
     $env:HTTPS_PROXY=$Proxy
     $env:HTTP_PROXY=$proxy

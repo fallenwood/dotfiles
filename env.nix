@@ -5,8 +5,8 @@ let
 commonpkgs = [
   aria
   bottom
-  (hiPrio clang_14)
-  clang-tools_14
+  (hiPrio clang_17)
+  clang-tools_17
   cmake
   # conda
   fzf
@@ -44,7 +44,8 @@ linuxphypkgs = [
   dotnet-sdk_8
   dotnet-sdk
   emacs-nox
-  elixir
+  emscripten
+  # elixir
   # flamegraph
   # frp
   htop
@@ -68,7 +69,6 @@ linuxphypkgs = [
   powershell
   # quickjs
   strace
-  # elixir
   libvirt
   tig
   ldc
@@ -81,6 +81,8 @@ linuxphypkgs = [
   # vagrant
   # rakudo
   upx
+  wasmtime
+  wabt
   zsh
   # zig
 ];
