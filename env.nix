@@ -81,10 +81,11 @@ linuxphypkgs = [
   # vagrant
   # rakudo
   upx
-  wasmtime
+  # wasmtime
   wabt
   zsh
   # zig
+  # zstd
 ];
 
 macpkgs = [
