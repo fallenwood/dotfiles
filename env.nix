@@ -5,8 +5,6 @@ let
 commonpkgs = [
   aria
   bottom
-  (hiPrio clang_17)
-  clang-tools_17
   cmake
   # conda
   fzf
@@ -24,7 +22,6 @@ commonpkgs = [
   neovim
   ripgrep
   skim
-  tailspin
   tmux
 ];
 
@@ -38,6 +35,8 @@ linuxphypkgs = [
   bpftools
   # buildah
   # cloud-init
+  (hiPrio clang_17)
+  clang-tools_17
   cloud-utils
   cloc
   dub
@@ -69,6 +68,7 @@ linuxphypkgs = [
   powershell
   # quickjs
   strace
+  tailspin
   libvirt
   tig
   ldc
@@ -91,6 +91,7 @@ linuxphypkgs = [
 macpkgs = [
   vscode
   # alacritty
+  (hiPrio clang)
   rustup
   htop
   nushell
