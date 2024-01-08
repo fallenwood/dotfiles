@@ -6,6 +6,6 @@ ZSH_THEME="robbyrussell"
 
 plugins=(git)
 
-test -f "$ZSH/oh-my-bash.sh" && source $ZSH/oh-my-bash.sh
+test -f "$ZSH/oh-my-zsh.sh" && source $ZSH/oh-my-zsh.sh
 
 source $HOME/.dotfiles/customrc

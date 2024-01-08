@@ -42,6 +42,7 @@ export PATH=$HOME/.local/opt/bazel:$PATH
 export PATH=$HOME/.local/opt/gcc_musl/bin:$PATH
 export PATH=$HOME/.local/opt/gcc_riscv_musl/bin:$PATH
 export PATH=$HOME/.local/opt/gcc_riscv_glibc/bin:$PATH
+export PATH=$HOME/.local/opt/gcc_aarch64/bin:$PATH
 # export PATH=$HOME/.local/opt/go/bin:$PATH
 # export PATH=$HOME/.local/opt/ldc2/bin:$PATH
 export PATH=$HOME/.local/opt/jdk-17.0.2+8/bin:$PATH

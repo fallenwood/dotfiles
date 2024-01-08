@@ -55,6 +55,7 @@ linuxphypkgs = [
   lm_sensors
   leiningen
   libbpf
+  mold
   rustup
   # ruby
   # gem
