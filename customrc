@@ -1,5 +1,3 @@
-export LANG=C.UTF-8
-export LC_ALL=C.UTF-8
 export EDITOR=vim
 
 # Custom
@@ -28,6 +26,10 @@ elif [ $distro = "Darwin" ]; then
   isMac=true
 fi
 
+if [ "$isMac" = false ]; then
+  export LANG=C.UTF-8
+  export LC_ALL=C.UTF-8
+fi
 
 # [[ -s "$HOME/.nix-profile/lib/libmimalloc.so" ]] && export LD_PRELOAD="$HOME/.nix-profile/lib/libmimalloc.so"
 
