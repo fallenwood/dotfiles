@@ -1,4 +1,3 @@
-# { pkgs ? import <nixpkgs> {} }:
 with import <nixpkgs> {};
 let
 
@@ -18,7 +17,6 @@ commonpkgs = [
   gnumake
   go
   jq
-  lldb_14
   neovim
   ripgrep
   skim
@@ -39,21 +37,23 @@ linuxphypkgs = [
   clang-tools_17
   cloud-utils
   cloc
-  dub
+  # dub
   dotnet-sdk_8
-  dotnet-sdk
+  # dotnet-sdk
   emacs-nox
-  emscripten
+  # emscripten
   # elixir
   # flamegraph
   # frp
   htop
+  glibc.static
   jdk21_headless
   kind
   kubernetes-helm
   # koka
   lm_sensors
-  leiningen
+  lldb_17
+  # leiningen
   libbpf
   mold
   rustup
@@ -64,7 +64,7 @@ linuxphypkgs = [
   # tree-sitter
   neofetch
   ninja
-  mimalloc
+  # mimalloc
   podman
   powershell
   # quickjs
@@ -72,7 +72,8 @@ linuxphypkgs = [
   tailspin
   libvirt
   tig
-  ldc
+  # ldc
+  # musl
   # lua
   luajit
   llvm
@@ -83,7 +84,7 @@ linuxphypkgs = [
   # rakudo
   upx
   # wasmtime
-  wabt
+  # wabt
   zsh
   # zig
   # zstd
@@ -93,6 +94,7 @@ macpkgs = [
   vscode
   # alacritty
   (hiPrio clang)
+  lldb
   rustup
   htop
   nushell
