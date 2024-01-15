@@ -1,0 +1,7 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin
+#@/db_type	userdb
+#@/rime_version	1.8.5
+#@/tick	1
+#@/user_id	579a2238-8d25-4c25-b893-3be8d0bff1ed
+ai 	愛	c=1 d=1 t=1
