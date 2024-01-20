@@ -45,6 +45,7 @@ linuxphypkgs = [
   # elixir
   # flamegraph
   # frp
+  # fish
   htop
   glibc.static
   jdk21_headless
@@ -85,7 +86,7 @@ linuxphypkgs = [
   upx
   # wasmtime
   # wabt
-  zsh
+  # zsh
   # zig
   # zstd
 ];
