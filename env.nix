@@ -45,7 +45,7 @@ linuxphypkgs = [
   # elixir
   # flamegraph
   # frp
-  # fish
+  fish
   htop
   glibc.static
   jdk21_headless

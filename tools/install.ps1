@@ -15,7 +15,8 @@ $dirs=@(
   "config/i3status",
   # "local/share/fcitx5/rime",
   "config/nushell",
-  "config/powershell")
+  "config/powershell",
+  "config/fish")
 
 function Link-Folder {
   param(
