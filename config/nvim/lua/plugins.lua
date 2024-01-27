@@ -133,6 +133,7 @@ function module.startup(callback)
           -- No fsharp syntax bundled with neovim, no coloring at all
         end,
         lazy = true,
+        enabled = false,
       },
 
       {
