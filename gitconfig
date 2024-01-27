@@ -3,11 +3,6 @@
 	email = fallenwood.y@outlook.com
 [core]
 	excludesfile = $HOME/.gitignore_global
-# [credential]
-# 	helper = 
-# 	helper = /usr/bin/git-credential-manager-core
-# [credential "https://dev.azure.com"]
-# 	useHttpPath = true
 [color]
 	ui = auto
 [filter "lfs"]
@@ -22,3 +17,7 @@
 	helper = /home/vbox/.dotnet/tools/git-credential-manager
 [credential "https://dev.azure.com"]
 	useHttpPath = true
+
+[http]
+[http "https://github.com"]
+	proxy = http://127.0.0.1:10801
