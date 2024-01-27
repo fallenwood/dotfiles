@@ -145,6 +145,13 @@ if command -v conda &> /dev/null; then
   source activate user
 fi
 
+# Pwsh
+export POWERSHELL_TELEMETRY_OPTOUT=1
+export POWERSHELL_UPDATECHECK_OPTOUT=1
+export POWERSHELL_UPDATECHECK=off
+export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
+alias pwsh="pwsh -nologo"
+
 # Nix
 export NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1
 export NIXPKGS_ALLOW_UNFREE=1
