@@ -1,5 +1,7 @@
 local load = require
 
+local utils = load("utils")
+
 local module = {}
 
 local ensureLazy = function()
@@ -71,11 +73,19 @@ function module.startup(callback)
           local lsp = load("lspconfig")
           local cmp_nvim_lsp = load("cmp_nvim_lsp")
           local capabilities = cmp_nvim_lsp.default_capabilities()
-          lsp.csharp_ls.setup(capabilities)
+          -- lsp.csharp_ls.setup(capabilities)
+          lsp.omnisharp.setup(utils.merge(capabilities, {
+            cmd = {"OmniSharp"},
+          }))
           lsp.rust_analyzer.setup(capabilities)
           lsp.lua_ls.setup(capabilities)
           lsp.pyright.setup(capabilities)
           lsp.gopls.setup(capabilities)
+
+          vim.keymap.set('n', '<leader>ft', function()
+            vim.lsp.buf.format { async = true }
+          end, opts)
+
         end,
         event = { "BufNewFile", "BufReadPre" },
       },
