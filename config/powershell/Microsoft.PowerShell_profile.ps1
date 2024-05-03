@@ -40,9 +40,15 @@ function prompt {
     "PS $ESC[94m$now$ESC[0m $Env:CONDA_PROMPT_MODIFIER" + "$hostprompt$ESC[96m$(Get-Location)$ESC[0m`r`n$(" + "*(Get-Location -Stack).Count)$ESC[92m→$ESC[0m "
 }
 
+function Set-CustomAlias() {
+  Set-Alias -Name "vim" -Value "nvim" -Scope global
+}
+
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 # Set-PSReadlineKeyHandler -Chord Tab -Function PossibleCompletions
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 Set-PSReadLineOption -HistorySearchCursorMovesToEnd
+
+Set-CustomAlias

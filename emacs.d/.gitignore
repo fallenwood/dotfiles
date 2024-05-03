@@ -2,3 +2,5 @@ elpa
 eln-cache
 auto-save-list
 **/*.el~
+var
+.last-package-update-day

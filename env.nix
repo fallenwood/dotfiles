@@ -21,6 +21,7 @@ commonpkgs = [
   ripgrep
   skim
   tmux
+  perl
 ];
 
 linuxpkgs = [
@@ -37,8 +38,8 @@ linuxphypkgs = [
   clang-tools_17
   cloud-utils
   cloc
-  # dub
-  dotnet-sdk_8
+  dub
+  # dotnet-sdk_8
   omnisharp-roslyn
   # dotnet-sdk
   emacs-nox
@@ -62,9 +63,9 @@ linuxphypkgs = [
   # ruby
   # gem
   # shadowsocks-rust
-  # nerdctl
+  nerdctl
   # tree-sitter
-  neofetch
+  # neofetch
   ninja
   # mimalloc
   podman
@@ -74,8 +75,8 @@ linuxphypkgs = [
   tailspin
   libvirt
   tig
-  # ldc
-  # musl
+  ldc
+  # musl-gcc
   # lua
   luajit
   llvm
@@ -84,7 +85,7 @@ linuxphypkgs = [
   nmap
   # vagrant
   # rakudo
-  upx
+  # upx
   # wasmtime
   # wabt
   # zsh

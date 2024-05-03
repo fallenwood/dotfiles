@@ -17,7 +17,6 @@
 	helper = /home/vbox/.dotnet/tools/git-credential-manager
 [credential "https://dev.azure.com"]
 	useHttpPath = true
-
 [http]
 [http "https://github.com"]
 	proxy = http://127.0.0.1:10801

@@ -74,6 +74,7 @@ function module.startup(callback)
           local cmp_nvim_lsp = load("cmp_nvim_lsp")
           local capabilities = cmp_nvim_lsp.default_capabilities()
           -- lsp.csharp_ls.setup(capabilities)
+          lsp.clangd.setup(capabilities)
           lsp.omnisharp.setup(utils.merge(capabilities, {
             cmd = {"OmniSharp"},
           }))
@@ -81,13 +82,20 @@ function module.startup(callback)
           lsp.lua_ls.setup(capabilities)
           lsp.pyright.setup(capabilities)
           lsp.gopls.setup(capabilities)
+          lsp.serve_d.setup(capabilities)
 
           vim.keymap.set('n', '<leader>ft', function()
             vim.lsp.buf.format { async = true }
-          end, opts)
+          end, nil)
 
         end,
         event = { "BufNewFile", "BufReadPre" },
+      },
+
+      {
+        "mfussenegger/nvim-dap",
+        config = function()
+        end
       },
 
       {

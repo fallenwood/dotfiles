@@ -45,11 +45,24 @@ function loadPlugins()
   return load("plugins")
 end
 
+function setupTerminal()
+  vim.keymap.set('n', '<leader>wh', '<C-\\><C-n><C-w>h')
+  vim.keymap.set('n', '<leader>wl', '<C-\\><C-n><C-w>l')
+  vim.keymap.set('n', '<leader>to', function()
+    vim.cmd.vsplit()
+    vim.cmd.terminal()
+  end, nil)
+  vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
+end
+
+
 function setupLsp()
 end
 
 setVimOption(vim.opt)
 setVimGlobal(vim.g)
+
+setupTerminal()
 
 load("plugins").startup(function()
   setupLsp()
