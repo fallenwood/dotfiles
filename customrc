@@ -58,12 +58,10 @@ export PATH=$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH
 export PYTHONPATH=$HOME/.nix-profile/lib/python3.11/site-packages:$PYTHONPATH
 
 function setproxy() {
-  export HTTP_PROXY=http://127.0.0.1:10801
-  export HTTPS_PROXY=http://127.0.0.1:10801
-  export ALL_PROXY=http://127.0.0.1:10801
-  export HTTP_PROXY=http://192.168.1.102:10801
-  export HTTPS_PROXY=http://192.168.1.102:10801
-  export ALL_PROXY=http://192.168.1.102:10801
+  PROXY=http://192.168.1.128:10801
+  export HTTP_PROXY=$PROXY
+  export HTTPS_PROXY=$PROXY
+  export ALL_PROXY=$PROXY
 }
 
 function unsetproxy() {
@@ -78,9 +76,9 @@ if command -v dnf5 > /dev/null; then
   alias dnf="sudo dnf5"
 fi
 
-# if command -v dotnet > /dev/null; then
-#   export DOTNET_ROOT="$(dotnet --info | grep Base | cut -d ':' -f 2 | xargs dirname | xargs dirname)"
-# fi
+if command -v dotnet > /dev/null; then
+  export DOTNET_ROOT="$(dotnet --info | grep Base | cut -d ':' -f 2 | xargs dirname | xargs dirname)"
+fi
 
 export GCM_CREDENTIAL_STORE=cache
 

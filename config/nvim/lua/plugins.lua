@@ -166,10 +166,32 @@ function module.startup(callback)
           vim.g.solarized_disable_background = false
 
 
-          -- o.background = "light"
-          -- load("solarized").set()
+          vim.o.background = "dark"
+          load("solarized").set()
         end,
         lazy = true,
+      },
+
+      {
+        "loctvl842/monokai-pro.nvim",
+        config = function()
+          local monokai = load("monokai-pro")
+          monokai.setup()
+
+          vim.cmd([[colorscheme monokai-pro]])
+        end,
+        lazy = true,
+      },
+
+      {
+        "ellisonleao/gruvbox.nvim",
+        config = function()
+          local gruvbox = load("gruvbox")
+          gruvbox.setup({})
+          vim.o.background = "dark"
+          vim.cmd([[colorscheme gruvbox]])
+        end,
+        lazy = false,
       },
 
       {
