@@ -57,6 +57,18 @@ end
 
 
 function setupLsp()
+  local function quickfix()
+    vim.lsp.buf.code_action({
+      filter = function(a) return a.isPreferred end,
+      apply = true,
+    })
+  end
+  local opts = {
+    noremap = true,
+    slient = true,
+  }
+
+  vim.keymap.set('n', '<leader>qf', quickfix, {})
 end
 
 setVimOption(vim.opt)

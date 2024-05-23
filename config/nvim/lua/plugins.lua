@@ -165,7 +165,6 @@ function module.startup(callback)
           vim.g.solarized_borders = false
           vim.g.solarized_disable_background = false
 
-
           vim.o.background = "dark"
           load("solarized").set()
         end,
