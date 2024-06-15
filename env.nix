@@ -5,6 +5,7 @@ commonpkgs = [
   aria
   bottom
   cmake
+  sccache
   # conda
   fzf
   kubectl
@@ -66,6 +67,7 @@ linuxphypkgs = [
   nerdctl
   # tree-sitter
   # neofetch
+  fastfetch
   ninja
   # mimalloc
   podman
@@ -86,7 +88,7 @@ linuxphypkgs = [
   # vagrant
   # rakudo
   # upx
-  # wasmtime
+  wasmtime
   # wabt
   # zsh
   # zig
