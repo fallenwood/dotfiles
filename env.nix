@@ -98,13 +98,16 @@ linuxphypkgs = [
 macpkgs = [
   vscode
   # alacritty
-  (hiPrio clang)
+  # (hiPrio clang)
   lldb
   rustup
   htop
   nushell
   # ocaml
   # opam
+  powershell
+  dotnet-sdk_8
+  wrk
 ];
 
 linuxlibs = [
