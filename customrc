@@ -33,6 +33,8 @@ fi
 
 # [[ -s "$HOME/.nix-profile/lib/libmimalloc.so" ]] && export LD_PRELOAD="$HOME/.nix-profile/lib/libmimalloc.so"
 
+export JAVA_HOME=$HOME/.local/opt/jdk
+
 export PATH=$HOME/.local/opt/miniconda/bin:$PATH
 # export PATH=$HOME/.local/opt/clang/bin:$PATH
 # export PATH=$HOME/.local/opt/gcc/bin:$PATH
@@ -45,12 +47,13 @@ export PATH=$HOME/.local/opt/gcc_riscv_musl/bin:$PATH
 export PATH=$HOME/.local/opt/gcc_riscv_glibc/bin:$PATH
 export PATH=$HOME/.local/opt/gcc_aarch64/bin:$PATH
 # export PATH=$HOME/.local/opt/go/bin:$PATH
-# export PATH=$HOME/.local/opt/ldc2/bin:$PATH
-export PATH=$HOME/.local/opt/jdk-17.0.2+8/bin:$PATH
+export PATH=$HOME/.local/opt/ldc2/bin:$PATH
+export PATH=$JAVA_HOME/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.local/opt/xmake/bin:$PATH
 export PATH=$HOME/.local/opt/luvit:$PATH
 export PATH=$HOME/.dotnet/tools:$PATH
+export PATH=$HOME/.local/opt/go/bin:$PATH
 export PATH=$HOME/go/bin:$PATH
 export PATH=$HOME/.local/opt/zig:$PATH
 export PATH=$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH
