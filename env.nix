@@ -10,7 +10,7 @@ commonpkgs = [
   fzf
   kubectl
   gawk
-  gcc
+  # gcc
   # gcc12
   # graphviz
   gdb
@@ -35,22 +35,23 @@ linuxphypkgs = [
   bpftools
   # buildah
   # cloud-init
-  (hiPrio clang_17)
-  clang-tools_17
+  # (hiPrio clang_17)
+  # clang_18
+  # clang-tools_18
   cloud-utils
   cloc
-  dub
+  # dub
   # dotnet-sdk_8
   omnisharp-roslyn
   # dotnet-sdk
-  emacs-nox
+  # emacs-nox
   # emscripten
   # elixir
   # flamegraph
   # frp
   fish
   htop
-  glibc.static
+  # glibc.static
   jdk21_headless
   kind
   kubernetes-helm
@@ -77,7 +78,7 @@ linuxphypkgs = [
   tailspin
   libvirt
   tig
-  ldc
+  # ldc
   # musl-gcc
   # lua
   luajit
