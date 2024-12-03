@@ -21,6 +21,7 @@ commonpkgs = [
   neovim
   ripgrep
   skim
+  shellcheck
   tmux
   perl
 ];
@@ -30,6 +31,7 @@ linuxpkgs = [
 ];
 
 linuxphypkgs = [
+  android-tools
   bcc
   bpftrace
   bpftools
@@ -46,7 +48,7 @@ linuxphypkgs = [
   # dotnet-sdk
   # emacs-nox
   # emscripten
-  # elixir
+  elixir
   # flamegraph
   # frp
   fish
@@ -69,8 +71,10 @@ linuxphypkgs = [
   # tree-sitter
   # neofetch
   fastfetch
+  cpufetch
   ninja
   # mimalloc
+  # jemalloc
   podman
   powershell
   # quickjs

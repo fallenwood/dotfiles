@@ -22,3 +22,5 @@
 	proxy = http://127.0.0.1:10801
 [http "https://gitlab.com"]
 	proxy = http://127.0.0.1:10801
+[http "https://gitlab.postmarketos.org"]
+	proxy = http://127.0.0.1:10801

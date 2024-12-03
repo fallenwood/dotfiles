@@ -36,7 +36,7 @@ fi
 export JAVA_HOME=$HOME/.local/opt/jdk
 
 export PATH=$HOME/.local/opt/miniconda/bin:$PATH
-# export PATH=$HOME/.local/opt/clang/bin:$PATH
+export PATH=$PATH:$HOME/.local/opt/clang/bin
 # export PATH=$HOME/.local/opt/gcc/bin:$PATH
 # export PATH=$HOME/.local/opt/qemu/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
@@ -75,9 +75,9 @@ function unsetproxy() {
 
 # fedora
 
-if command -v dnf5 > /dev/null; then
-  alias dnf="sudo dnf5"
-fi
+#if command -v dnf5 > /dev/null; then
+#  alias dnf="sudo dnf5"
+#fi
 
 # if command -v dotnet > /dev/null; then
 #   export DOTNET_ROOT="$(dotnet --info | grep Base | cut -d ':' -f 2 | xargs dirname | xargs dirname)"

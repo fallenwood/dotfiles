@@ -102,23 +102,34 @@ function module.startup(callback)
         "nvim-treesitter/nvim-treesitter",
         build = function()
           local ts_update = load("nvim-treesitter.install")
-              .update({
-                with_sync = true
-              })
+          .update({
+            with_sync = true
+          })
           ts_update()
         end,
         config = function()
           load("nvim-treesitter.configs").setup({
-            ensure_installed = { "c", "cpp", "lua", "rust", "c_sharp", "python" },
+            -- ensure_installed = { "c", "cpp", "lua", "rust", "c_sharp", "python", "elixir" },
+            ensure_installed = { "lua", "rust", "python", "elixir" },
             highlight = {
               enable = true,
+              --[[
+              -- provided by google gemi, but does not work at all
+              -- it does not support function call instead of boolean, function is treated as true
+              enable = function (ft)
+                local lsp_client = vim.lsp.buf_get_clients(0) [1] -- Check if any LSP client is active on the current buffer
+                enabled = not lsp_client or not lsp_client.resolved_capabilities.document_highlight
+                vim.print("Enable TreeSiter?" .. tostring(enabled))
+                return false
+              end,
+              --]]
               additional_vim_regex_highlighting = false,
             },
             indent = { enable = true },
           })
         end,
-        lazy = true,
-        enabled = false,
+        lazy = false,
+        enabled = true,
       },
 
       {
@@ -208,14 +219,14 @@ function module.startup(callback)
       },
     }
   },
-  {
-    performance = {
-      reset_packpath = false,
-      rtp = {
-        reset = false,
+    {
+      performance = {
+        reset_packpath = false,
+        rtp = {
+          reset = false,
+        },
       },
-    },
-  })
+    })
 
   callback()
 end
