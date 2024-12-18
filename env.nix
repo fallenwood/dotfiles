@@ -77,6 +77,7 @@ linuxphypkgs = [
   # jemalloc
   podman
   powershell
+  postgresql
   # quickjs
   strace
   tailspin

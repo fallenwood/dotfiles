@@ -35,7 +35,7 @@ fi
 
 export JAVA_HOME=$HOME/.local/opt/jdk
 
-export PATH=$HOME/.local/opt/miniconda/bin:$PATH
+# export PATH=$HOME/.local/opt/miniconda/bin:$PATH
 export PATH=$PATH:$HOME/.local/opt/clang/bin
 # export PATH=$HOME/.local/opt/gcc/bin:$PATH
 # export PATH=$HOME/.local/opt/qemu/bin:$PATH
@@ -152,6 +152,8 @@ export NVM_DIR="$HOME/.nvm"
 if command -v conda &> /dev/null; then
   source activate user
 fi
+
+[ -s "$HOME/.local/opt/python" ] && \. "$HOME/.local/opt/python/bin/activate"
 
 # Pwsh
 export POWERSHELL_TELEMETRY_OPTOUT=1
