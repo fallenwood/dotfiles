@@ -92,7 +92,6 @@ function module.startup(callback)
             if ruff then
               lsp.pyright.setup({
                 capabilities = capabilities,
-                cmd = { "pyright-langserver", "--stdio" },
                 settings = {
                   pyright = {
                     disableOrganizeImports = true,
@@ -104,11 +103,12 @@ function module.startup(callback)
                   },
                 },
               })
-              lsp.ruff.setup(capabilities)
+              lsp.ruff.setup({
+                capabilities = capabilities,
+              })
             else
               lsp.pyright.setup({
                 capabilities = capabilities,
-                cmd = { "pyright-langserver", "--stdio" },
               })
             end
             -- lsp.gopls.setup(capabilities)
