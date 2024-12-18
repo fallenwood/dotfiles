@@ -180,3 +180,5 @@ alias nix-gc="nix-collect-garbage -d"
 [[ -s "$HOME/.insrc" ]] && source "$HOME/.insrc"
 
 [[ -s "thefuck" ]] && eval "$(thefuck --alias)"
+
+alias kind="KIND_EXPERIMENTAL_PROVIDER=podman systemd-run --scope --user -p 'Delegate=yes'"
