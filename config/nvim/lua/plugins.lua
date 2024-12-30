@@ -88,7 +88,7 @@ function module.startup(callback)
               capabilities = capabilities,
             })
 
-            local ruff = true
+            local ruff = false
             if ruff then
               lsp.pyright.setup({
                 capabilities = capabilities,
@@ -144,7 +144,8 @@ function module.startup(callback)
           config = function()
             load("nvim-treesitter.configs").setup({
               -- ensure_installed = { "c", "cpp", "lua", "rust", "c_sharp", "python", "elixir" },
-              ensure_installed = { "lua", "rust", "python", "elixir" },
+              -- ensure_installed = { "lua", "rust", "python", "elixir" },
+              ensure_installed = { "elixir" },
               highlight = {
                 enable = true,
                 --[[
@@ -199,6 +200,16 @@ function module.startup(callback)
           enabled = false,
         },
 
+        --[[
+        {
+          "notjedi/nvim-rooter.lua",
+          config = function()
+            local rooter = load("nvim-rooter")
+            rooter.setup({})
+          end,
+        },
+        --]]
+
         {
           'shaunsingh/solarized.nvim',
           config = function()
@@ -250,6 +261,15 @@ function module.startup(callback)
             vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
             vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
           end
+        },
+
+        {
+          "nvim-lualine/lualine.nvim",
+          config = function()
+            local lualine = load("lualine");
+            lualine.setup();
+          end,
+          enabled = true,
         },
       }
     },

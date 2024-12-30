@@ -103,6 +103,7 @@ if command -v nvim > /dev/null; then
   alias vimf=nvimf
   alias viml=vimf
   alias nviml=nvimf
+  alias nvimss="LUNA_HUBSITE=gh.llkk.cc/https://github.com NVIM_APPNAME='nvim-ss' nvim"
 fi
 if command -v rg > /dev/null; then
   alias grep=rg
@@ -153,7 +154,7 @@ if command -v conda &> /dev/null; then
   source activate user
 fi
 
-[ -s "$HOME/.local/opt/python" ] && \. "$HOME/.local/opt/python/bin/activate"
+[ -s "$HOME/.local/opt/python" ] && \. "$HOME/.local/opt/python/bin/activate" && alias pip="uv pip"
 
 # Pwsh
 export POWERSHELL_TELEMETRY_OPTOUT=1
@@ -181,6 +182,6 @@ alias nix-gc="nix-collect-garbage -d"
 # Instance configuration
 [[ -s "$HOME/.insrc" ]] && source "$HOME/.insrc"
 
-[[ -s "thefuck" ]] && eval "$(thefuck --alias)"
+# [[ -s "thefuck" ]] && eval "$(thefuck --alias)"
 
 alias kind="KIND_EXPERIMENTAL_PROVIDER=podman systemd-run --scope --user -p 'Delegate=yes'"

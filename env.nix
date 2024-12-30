@@ -44,7 +44,7 @@ linuxphypkgs = [
   cloc
   # dub
   # dotnet-sdk_8
-  omnisharp-roslyn
+  # omnisharp-roslyn
   # dotnet-sdk
   # emacs-nox
   # emscripten

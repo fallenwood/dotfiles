@@ -1,9 +1,9 @@
 #region conda initialize
 # !! Contents within this block are managed by 'conda init' !!
-If (Test-Path "conda") {
-    (& "conda" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
-    &"conda" "activate" "user"
-}
+# If (Test-Path "conda") {
+#     (& "conda" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
+#     &"conda" "activate" "user"
+# }
 #endregion
 
 function Set-Proxy {
@@ -42,6 +42,7 @@ function prompt {
 
 function Set-CustomAlias() {
   Set-Alias -Name "vim" -Value "nvim" -Scope global
+  # Set-Alias -Name "ls" -Value "ls --color=auto" -Scope global
 }
 
 Set-PSReadLineOption -PredictionSource History
