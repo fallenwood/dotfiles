@@ -14,7 +14,7 @@ $dirs=@(
   "config/i3",
   "config/i3status",
   # "local/share/fcitx5/rime",
-  "config/nushell",
+  # "config/nushell",
   "config/powershell",
   "config/fish",
   "config/containers")
@@ -37,7 +37,7 @@ function Link-Folder {
 }
 
 foreach ($file in $files) {
-  $source = Join-Path $PSScriptRoot "../$file"
+  $source = Join-Path $PSScriptRoot "../$file" | Resolve-Path
   $target = Join-Path $HOME ".$file"
   $backup = Join-Path $HOME ".$file.bak"
 
@@ -46,7 +46,7 @@ foreach ($file in $files) {
 
 
 foreach ($dir in $dirs) {
-  $source = Join-Path $PSScriptRoot "../$dir"
+  $source = Join-Path $PSScriptRoot "../$dir" | Resolve-Path
   $target = Join-Path $HOME ".$dir"
   $backup = Join-Path $HOME ".$dir.bak"
 

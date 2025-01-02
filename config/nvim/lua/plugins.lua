@@ -73,14 +73,21 @@ function module.startup(callback)
             local lsp = load("lspconfig")
             local cmp_nvim_lsp = load("cmp_nvim_lsp")
             local capabilities = cmp_nvim_lsp.default_capabilities()
-            -- lsp.csharp_ls.setup(capabilities)
+            local ruff = false
+            local omnisharp = false
             lsp.clangd.setup({
               capabilities = capabilities,
             })
-            lsp.omnisharp.setup({
-              capabilities = capabilities,
-              cmd = { "OmniSharp" },
-            })
+
+            if omnisharp then
+              lsp.omnisharp.setup({
+                capabilities = capabilities,
+                cmd = { "OmniSharp" },
+              })
+            else
+              lsp.csharp_ls.setup({ capabilities = capabilities })
+            end
+
             lsp.rust_analyzer.setup({
               capabilities = capabilities,
             })
@@ -88,7 +95,6 @@ function module.startup(callback)
               capabilities = capabilities,
             })
 
-            local ruff = false
             if ruff then
               lsp.pyright.setup({
                 capabilities = capabilities,
@@ -113,6 +119,7 @@ function module.startup(callback)
             end
             -- lsp.gopls.setup(capabilities)
             -- lsp.serve_d.setup(capabilities)
+            lsp.zls.setup({capabilities = capabilities})
 
             vim.keymap.set('n', '<leader>ft', function()
               vim.lsp.buf.format { async = true }
@@ -270,6 +277,22 @@ function module.startup(callback)
             lualine.setup();
           end,
           enabled = true,
+        },
+        {
+          "romgrk/barbar.nvim",
+          dependencies = {
+            -- "lewis6991/gitsigns.nvim", -- OPTIONAL: for git status
+            -- "nvim-tree/nvim-web-devicons", -- OPTIONAL: for file icons
+          },
+          init = function() vim.g.barbar_auto_setup = false end,
+          opts = {
+            animation = false,
+            icons = {
+              filetype = {
+                enabled = false,
+              },
+            },
+          },
         },
       }
     },
