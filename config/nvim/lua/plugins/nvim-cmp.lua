@@ -3,7 +3,7 @@ local load = require
 local module = {
   {
     "hrsh7th/nvim-cmp",
-    dependencies = { {
+    dependencies = {
       "hrsh7th/cmp-buffer",
       "FelipeLema/cmp-async-path",
       "hrsh7th/cmp-nvim-lsp",
@@ -11,7 +11,7 @@ local module = {
       "L3MON4D3/LuaSnip",
       "saadparwaiz1/cmp_luasnip",
       "hrsh7th/cmp-nvim-lsp-signature-help",
-    } },
+    },
     config = function()
       local cmp = load("cmp")
       vim.opt.completeopt = { "menu", "menuone", "noselect", }
@@ -23,9 +23,9 @@ local module = {
           { name = "async_path", },
         }),
         mapping = cmp.mapping.preset.insert({
-          ['<C-e>'] = cmp.mapping.abort(),
-          ['<CR>'] = cmp.mapping.confirm({ select = true }),
-          ['<Tab>'] = cmp.mapping.confirm({ select = true }),
+          ["<C-e>"] = cmp.mapping.abort(),
+          ["<CR>"] = cmp.mapping.confirm({ select = true }),
+          ["<Tab>"] = cmp.mapping.confirm({ select = true }),
         }),
         window = {
           completion = cmp.config.window.bordered(),
@@ -78,7 +78,7 @@ local module = {
             },
             python = {
               analysis = {
-                ignore = { '*' },
+                ignore = { "*" },
               },
             },
           },
@@ -95,14 +95,14 @@ local module = {
       -- lsp.serve_d.setup(capabilities)
       lsp.zls.setup({capabilities = capabilities})
 
-      vim.keymap.set('n', '<leader>ft', function()
+      vim.keymap.set("n", "<leader>ft", function()
         vim.lsp.buf.format { async = true }
       end, nil)
 
-      vim.keymap.set('n', '<leader>h', vim.lsp.buf.hover, {})
-      vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
-      vim.keymap.set('n', '<leader>gr', vim.lsp.buf.references, {})
-      vim.keymap.set('n', '<leader>gi', vim.lsp.buf.implementation, {})
+      vim.keymap.set("n", "<leader>h", vim.lsp.buf.hover, {})
+      vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
+      vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
+      vim.keymap.set("n", "<leader>gi", vim.lsp.buf.implementation, {})
     end,
     event = { "BufNewFile", "BufReadPre" },
   },

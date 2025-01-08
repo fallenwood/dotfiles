@@ -1,7 +1,6 @@
 local load = require
 
 local module = {
-
   {
     "nvim-treesitter/nvim-treesitter",
     build = function()
@@ -40,9 +39,9 @@ local module = {
   {
     "Nsidorenco/tree-sitter-fsharp",
     branch = "develop",
-    dependencies = { {
+    dependencies = {
       "nvim-treesitter/nvim-treesitter",
-    } },
+    },
     build = function()
       vim.fn.system({
         "npm",
