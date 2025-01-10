@@ -11,6 +11,7 @@ local module = {
       "L3MON4D3/LuaSnip",
       "saadparwaiz1/cmp_luasnip",
       "hrsh7th/cmp-nvim-lsp-signature-help",
+      "onsails/lspkind.nvim",
     },
     config = function()
       local cmp = load("cmp")
@@ -37,6 +38,22 @@ local module = {
             load("luasnip").lsp_expand(args.body)
           end,
         },
+        formatting = {
+          format = function(entry, vim_item)
+            local cmp_format = load("lspkind").cmp_format({
+              mode = "symbol",
+              maxwidth = {
+                menu = 50, -- leading text (labelDetails)
+                abbr = 50, -- actual suggestion item
+              },
+              ellipsis_char = "...",
+              show_labelDetails = false,
+            })
+            local kind = cmp_format(entry, vim_item)
+
+            return kind
+          end
+        }
       })
     end,
   },

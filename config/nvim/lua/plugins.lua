@@ -23,7 +23,7 @@ local ensureLazy = function()
 end
 
 function module.startup(callback)
-  local lazyBootstrap = ensureLazy()
+  local _ = ensureLazy()
 
   local plugins = utils.mergearrays({
     load("plugins.decorators"),
@@ -37,6 +37,7 @@ function module.startup(callback)
   load("lazy").setup({
     spec = plugins,
   },
+
   {
     performance = {
       reset_packpath = false,
