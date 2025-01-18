@@ -86,6 +86,9 @@ local module = {
       lsp.lua_ls.setup({
         capabilities = capabilities,
       })
+      lsp.biome.setup({
+        capabilities = capabilities,
+      })
 
       if ruff then
         lsp.pyright.setup({

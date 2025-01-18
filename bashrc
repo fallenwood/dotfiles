@@ -52,3 +52,14 @@ source $HOME/.dotfiles/customrc
 # >>> xmake >>>
 test -f "/home/vbox/.xmake/profile" && source "/home/vbox/.xmake/profile"
 # <<< xmake <<<
+
+
+if [[ -z "$BASH_INITIALIZED" ]]; then
+  export BASH_INITIALIZED=1
+  # exec fish
+fi
+
+        if [[ -n "${EXEC_FISH_ONCE}" ]]; then
+            unset EXEC_FISH_ONCE
+            exec fish
+        fi

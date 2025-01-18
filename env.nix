@@ -35,6 +35,7 @@ linuxphypkgs = [
   bcc
   bpftrace
   bpftools
+  clasp
   # buildah
   # cloud-init
   # (hiPrio clang_17)
@@ -64,8 +65,8 @@ linuxphypkgs = [
   libbpf
   mold
   rustup
-  # ruby
-  # gem
+  ruby
+  gem
   # shadowsocks-rust
   nerdctl
   # tree-sitter
@@ -91,6 +92,7 @@ linuxphypkgs = [
   wrk
   # nushell
   nmap
+  valgrind
   # vagrant
   # rakudo
   # upx

@@ -7,9 +7,10 @@ export isWsl=1
 if command -v lsb_release &> /dev/null; then
   distro="$(lsb_release -i | cut -d: -f2 | sed s/'^\t'//)"
   grep -qi wsl /proc/version
-  isWsl=$?
+  export isWsl=$?
 else
   distro=$(uname)
+  export isWsl=0
 fi
 
 # if [ $isWsl = 0 ]; then
@@ -122,7 +123,7 @@ if [ "$isUbuntu" = true ] || [ "$isDebian" =  true ]; then
   alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
 fi
 
-if [ $isWsl = 0 ]; then
+if [ $isWsl = 1 ]; then
   ### Set proxychains to use Windows Shadowsocks
   nameserver=$(tail -1 /etc/resolv.conf | cut -d ' ' -f2)
   echo "strict_chain
