@@ -110,11 +110,13 @@ macpkgs = [
   lldb
   rustup
   htop
-  nushell
+  fish
+  # nushell
   # ocaml
   # opam
   powershell
-  dotnet-sdk_8
+  dotnet-sdk_9
+  # dotnet-sdk
   wrk
 ];
 
