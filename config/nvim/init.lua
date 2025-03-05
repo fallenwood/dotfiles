@@ -21,6 +21,17 @@ function setVimOption(o)
   o.smartindent = true
   o.splitbelow = true
   o.splitright = true
+  o.clipboard = {
+      name = 'OSC 52',
+      copy = {
+        ['+'] = require('vim.ui.clipboard.osc52').copy('+'),
+        ['*'] = require('vim.ui.clipboard.osc52').copy('*'),
+      },
+      paste = {
+        ['+'] = require('vim.ui.clipboard.osc52').paste('+'),
+        ['*'] = require('vim.ui.clipboard.osc52').paste('*'),
+      },
+    }
 end
 
 function setVimGlobal(g)

@@ -13,7 +13,7 @@ commonpkgs = [
   # gcc
   # gcc12
   # graphviz
-  gdb
+  # gdb
   git
   gnumake
   go
@@ -60,7 +60,7 @@ linuxphypkgs = [
   kubernetes-helm
   # koka
   lm_sensors
-  lldb_17
+  # lldb_17
   # leiningen
   libbpf
   mold
@@ -68,27 +68,27 @@ linuxphypkgs = [
   ruby
   gem
   # shadowsocks-rust
-  nerdctl
+  # nerdctl
   # tree-sitter
   # neofetch
   fastfetch
-  cpufetch
+  # cpufetch
   ninja
   # mimalloc
   # jemalloc
   podman
   powershell
-  postgresql
+  # postgresql
   # quickjs
   strace
   tailspin
   libvirt
   tig
   # ldc
-  # musl-gcc
+  # musl
   # lua
   luajit
-  llvm
+  # llvm
   wrk
   # nushell
   nmap
@@ -96,7 +96,7 @@ linuxphypkgs = [
   # vagrant
   # rakudo
   # upx
-  wasmtime
+  # wasmtime
   # wabt
   # zsh
   # zig
