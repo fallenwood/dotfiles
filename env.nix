@@ -65,8 +65,8 @@ linuxphypkgs = [
   libbpf
   mold
   rustup
-  ruby
-  gem
+  # ruby
+  # gem
   # shadowsocks-rust
   # nerdctl
   # tree-sitter
