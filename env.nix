@@ -35,7 +35,7 @@ linuxphypkgs = [
   bcc
   bpftrace
   bpftools
-  clasp
+  # clasp
   # buildah
   # cloud-init
   # (hiPrio clang_17)
@@ -63,7 +63,7 @@ linuxphypkgs = [
   # lldb_17
   # leiningen
   libbpf
-  mold
+  # mold
   rustup
   # ruby
   # gem
