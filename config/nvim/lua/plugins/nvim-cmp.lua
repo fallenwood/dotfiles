@@ -66,7 +66,7 @@ local module = {
       local cmp_nvim_lsp = load("cmp_nvim_lsp")
       local capabilities = cmp_nvim_lsp.default_capabilities()
       local ruff = false
-      local omnisharp = false
+      local omnisharp = true
       lsp.clangd.setup({
         capabilities = capabilities,
       })
