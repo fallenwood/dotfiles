@@ -113,7 +113,7 @@ local module = {
         })
       end
       -- lsp.gopls.setup(capabilities)
-      -- lsp.serve_d.setup(capabilities)
+      lsp.serve_d.setup(capabilities)
       lsp.zls.setup({capabilities = capabilities})
 
       vim.keymap.set("n", "<leader>ft", function()

@@ -34,7 +34,7 @@ fi
 
 # [[ -s "$HOME/.nix-profile/lib/libmimalloc.so" ]] && export LD_PRELOAD="$HOME/.nix-profile/lib/libmimalloc.so"
 
-export JAVA_HOME=$HOME/.local/opt/jdk
+[[ -s $"HOME/.local/opt/jdk" ]] && export JAVA_HOME=$HOME/.local/opt/jdk
 
 # export PATH=$HOME/.local/opt/miniconda/bin:$PATH
 export PATH=$PATH:$HOME/.local/opt/clang/bin
@@ -59,6 +59,7 @@ export PATH=$HOME/go/bin:$PATH
 export PATH=$HOME/.local/opt/zig:$PATH
 export PATH=$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH
 export PATH=$HOME/.local/opt/bun:$PATH
+export PATH=$HOME/.local/opt/bflat:$PATH
 
 export PYTHONPATH=$HOME/.nix-profile/lib/python3.11/site-packages:$PYTHONPATH
 
@@ -187,3 +188,6 @@ alias nix-gc="nix-collect-garbage -d"
 # [[ -s "thefuck" ]] && eval "$(thefuck --alias)"
 
 alias kind="KIND_EXPERIMENTAL_PROVIDER=podman systemd-run --scope --user -p 'Delegate=yes'"
+
+# rust
+. "$HOME/.cargo/env"

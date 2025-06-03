@@ -64,7 +64,7 @@ linuxphypkgs = [
   # leiningen
   libbpf
   # mold
-  rustup
+  # rustup
   # ruby
   # gem
   # shadowsocks-rust
