@@ -67,9 +67,16 @@ local module = {
       local capabilities = cmp_nvim_lsp.default_capabilities()
       local ruff = false
       local omnisharp = true
-      lsp.clangd.setup({
-        capabilities = capabilities,
-      })
+
+      if vim.fn.executable("ccls") == 1 then
+        lsp.ccls.setup({
+          capabilities = capabilities,
+        })
+      else
+        lsp.clangd.setup({
+          capabilities = capabilities,
+        })
+      end
 
       if omnisharp then
         lsp.omnisharp.setup({
