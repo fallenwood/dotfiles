@@ -1,4 +1,4 @@
-local load = require
+local load = require("load")
 
 function setVimOption(o)
   o.autoread = true
@@ -21,6 +21,16 @@ function setVimOption(o)
   o.smartindent = true
   o.splitbelow = true
   o.splitright = true
+  o.laststatus = 3
+
+  o.foldmethod = 'manual'
+  o.colorcolumn = '120'
+
+  o.history = 100
+  o.lazyredraw = false
+  o.synmaxcol = 240
+  o.updatetime = 250
+
   o.clipboard = {
       name = 'OSC 52',
       copy = {

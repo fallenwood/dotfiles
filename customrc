@@ -193,3 +193,5 @@ alias kind="KIND_EXPERIMENTAL_PROVIDER=podman systemd-run --scope --user -p 'Del
 export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
 export RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup
 . "$HOME/.cargo/env"
+
+systemctl --user import-environment

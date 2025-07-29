@@ -1,4 +1,4 @@
-local load = require
+local load = require("load")
 
 local module ={
   {
@@ -36,6 +36,15 @@ local module ={
       gruvbox.setup({})
       vim.o.background = "dark"
       vim.cmd([[colorscheme gruvbox]])
+    end,
+    lazy = true,
+  },
+
+  {
+    "rebelot/kanagawa.nvim",
+    config = function()
+      local kanagawa = load("kanagawa")
+      kanagawa.load("wave")
     end,
     lazy = false,
   },

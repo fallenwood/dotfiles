@@ -1,4 +1,4 @@
-local load = require
+local load = require("load")
 
 local utils = load("utils")
 
