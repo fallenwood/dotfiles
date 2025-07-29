@@ -1,6 +1,6 @@
 local load = require("load")
 
-local module = load{
+local module = {
 
   {
     "nvim-telescope/telescope.nvim",
