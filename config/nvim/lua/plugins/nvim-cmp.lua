@@ -62,6 +62,16 @@ local module = {
   {
     "neovim/nvim-lspconfig",
     config = function()
+      local dsiable_treesitter = function()
+        if client.server_capabilities.semanticTokensProvider then
+          vim.treesitter.stop(bufnr)
+        end
+      end
+
+      local on_attach = function()
+        dsiable_treesitter()
+      end
+
       local lsp = load("lspconfig")
       local cmp_nvim_lsp = load("cmp_nvim_lsp")
       local capabilities = cmp_nvim_lsp.default_capabilities()
@@ -70,16 +80,19 @@ local module = {
 
       if vim.fn.executable("ccls") == 1 then
         lsp.ccls.setup({
+          on_attach = on_attach,
           capabilities = capabilities,
         })
       else
         lsp.clangd.setup({
+          on_attach = on_attach,
           capabilities = capabilities,
         })
       end
 
       if omnisharp then
         lsp.omnisharp.setup({
+          on_attach = on_attach,
           capabilities = capabilities,
           cmd = { "OmniSharp" },
         })
@@ -88,17 +101,21 @@ local module = {
       end
 
       lsp.rust_analyzer.setup({
+        on_attach = on_attach,
         capabilities = capabilities,
       })
       lsp.lua_ls.setup({
+        on_attach = on_attach,
         capabilities = capabilities,
       })
       lsp.biome.setup({
+        on_attach = on_attach,
         capabilities = capabilities,
       })
 
       if ruff then
         lsp.pyright.setup({
+          on_attach = on_attach,
           capabilities = capabilities,
           settings = {
             pyright = {

@@ -101,6 +101,8 @@ linuxphypkgs = [
   # zsh
   # zig
   # zstd
+  wireguard-ui
+  wireguard-tools
 ];
 
 macpkgs = [
