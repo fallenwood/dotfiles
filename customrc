@@ -149,6 +149,8 @@ fi
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rbenv/bin/rbenv" ]] && eval "$(~/.rbenv/bin/rbenv init - bash)"
 
+[[ -s "opam" ]] && eval $(opam env)
+
 # Xmake
 [[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
 

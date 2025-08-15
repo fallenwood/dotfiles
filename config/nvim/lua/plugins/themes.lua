@@ -45,6 +45,7 @@ local module ={
     config = function()
       local kanagawa = load("kanagawa")
       kanagawa.load("wave")
+      vim.o.background = "dark"
     end,
     lazy = false,
   },

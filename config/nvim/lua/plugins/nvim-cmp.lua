@@ -62,14 +62,14 @@ local module = {
   {
     "neovim/nvim-lspconfig",
     config = function()
-      local dsiable_treesitter = function()
+      local disable_treesitter = function(client)
         if client.server_capabilities.semanticTokensProvider then
           vim.treesitter.stop(bufnr)
         end
       end
 
-      local on_attach = function()
-        dsiable_treesitter()
+      local on_attach = function(client, bufnr)
+        disable_treesitter(client)
       end
 
       local lsp = load("lspconfig")
@@ -138,7 +138,27 @@ local module = {
       end
       -- lsp.gopls.setup(capabilities)
       lsp.serve_d.setup(capabilities)
-      lsp.zls.setup({capabilities = capabilities})
+      lsp.zls.setup({ capabilities = capabilities })
+
+      lsp.ocamllsp.setup({
+        -- cmd = {"/home/vbox/.opam/def/bin/ocamllsp"},
+        cmd = {"opam", "exec", "--", "ocamllsp"},
+        filetypes = { "ocaml", "ml", "mli" },
+        capabilities = capabilities,
+        on_attach = function(client, bufnr)
+          --[[
+          if client.supports_method("textDocument/formatting") then
+            vim.api.nvim_create_autocmd("BufWritePre", {
+              buffer = bufnr,
+              callback = function()
+                vim.lsp.buf.format({ bufnr = bufnr })
+              end,
+            })
+          end
+          --]]
+          on_attach(client, bufnr)
+        end,
+      })
 
       vim.keymap.set("n", "<leader>ft", function()
         vim.lsp.buf.format { async = true }

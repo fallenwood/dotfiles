@@ -73,6 +73,8 @@ linuxphypkgs = [
   # neofetch
   fastfetch
   # cpufetch
+  # ocaml
+  opam
   ninja
   # mimalloc
   # jemalloc
@@ -83,7 +85,7 @@ linuxphypkgs = [
   strace
   tailspin
   libvirt
-  tig
+  # tig
   # ldc
   # musl
   # lua
