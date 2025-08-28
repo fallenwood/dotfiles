@@ -15,11 +15,13 @@
     -gtk-icon-transform: scale(0.8);
 }
 
+/*
 .wf-panel .launcher:hover image,
 .wf-panel .tray-button:hover image {
     transition: 500ms linear;
     -gtk-icon-transform: scale(1.2);
 }
+*/
 
 .wf-panel .battery label,
 .wf-panel .battery:hover label,
