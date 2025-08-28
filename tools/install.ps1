@@ -6,7 +6,9 @@ $files=@(
   "gitconfig",
   "gitignore_global",
   "xinitrc",
-  "Xmodmap")
+  "Xmodmap",
+  "config/wayfire.ini",
+  "config/wf-shell.ini")
 
 $dirs=@(
   "config/nvim",
@@ -17,7 +19,8 @@ $dirs=@(
   # "config/nushell",
   "config/powershell",
   "config/fish",
-  "config/containers")
+  "config/containers",
+  "config/wf-shell")
 
 function Link-Folder {
   param(
