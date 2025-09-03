@@ -90,11 +90,25 @@ local module = {
         })
       end
 
+      lsp.lexical.setup({
+        cmd = { "/home/vbox/.local/bin/expert" },
+        root_dir = function(fname)
+          return lsp.util.root_pattern("mix.exs", ".git")(fname) or vim.loop.cwd()
+        end,
+        filetypes = { "elixir", "eelixir", "heex", "ex", "exs" },
+        settings = {},
+        capabilities = capabilities,
+      })
+
       if omnisharp then
         lsp.omnisharp.setup({
           on_attach = on_attach,
           capabilities = capabilities,
           cmd = { "OmniSharp" },
+          root_dir = function(fname)
+            return lsp.util.root_pattern("*.csproj", "*.sln", "*.slnx", ".git")(fname) or vim.loop.cwd()
+          end,
+          filetypes = { "cs", "csx" },
         })
       else
         lsp.csharp_ls.setup({ capabilities = capabilities })
@@ -142,7 +156,7 @@ local module = {
 
       lsp.ocamllsp.setup({
         -- cmd = {"/home/vbox/.opam/def/bin/ocamllsp"},
-        cmd = {"opam", "exec", "--", "ocamllsp"},
+        cmd = { "opam", "exec", "--", "ocamllsp" },
         filetypes = { "ocaml", "ml", "mli" },
         capabilities = capabilities,
         on_attach = function(client, bufnr)
