@@ -72,6 +72,13 @@ local module = {
         disable_treesitter(client)
       end
 
+      local setup= function (name, settings)
+        local lsp = vim.lsp
+
+        lsp.config(name, settings)
+        lsp.enable(name)
+      end
+
       local lsp = load("lspconfig")
       local cmp_nvim_lsp = load("cmp_nvim_lsp")
       local capabilities = cmp_nvim_lsp.default_capabilities()
@@ -79,18 +86,18 @@ local module = {
       local omnisharp = true
 
       if vim.fn.executable("ccls") == 1 then
-        lsp.ccls.setup({
+        setup("ccls", {
           on_attach = on_attach,
           capabilities = capabilities,
         })
       else
-        lsp.clangd.setup({
+        setup("clangd", {
           on_attach = on_attach,
           capabilities = capabilities,
         })
       end
 
-      lsp.lexical.setup({
+      setup("lexical", {
         cmd = { "/home/vbox/.local/bin/expert" },
         root_dir = function(fname)
           return lsp.util.root_pattern("mix.exs", ".git")(fname) or vim.loop.cwd()
@@ -101,7 +108,7 @@ local module = {
       })
 
       if omnisharp then
-        lsp.omnisharp.setup({
+        setup("omnisharp", {
           on_attach = on_attach,
           capabilities = capabilities,
           cmd = { "OmniSharp" },
@@ -111,24 +118,24 @@ local module = {
           filetypes = { "cs", "csx" },
         })
       else
-        lsp.csharp_ls.setup({ capabilities = capabilities })
+        setup("csharp_ls",{ capabilities = capabilities })
       end
 
-      lsp.rust_analyzer.setup({
+      setup("rust_analyzer", {
         on_attach = on_attach,
         capabilities = capabilities,
       })
-      lsp.lua_ls.setup({
+      setup("lua_ls", {
         on_attach = on_attach,
         capabilities = capabilities,
       })
-      lsp.biome.setup({
+      setup("biome", {
         on_attach = on_attach,
         capabilities = capabilities,
       })
 
       if ruff then
-        lsp.pyright.setup({
+        setup("pyright", {
           on_attach = on_attach,
           capabilities = capabilities,
           settings = {
@@ -142,19 +149,19 @@ local module = {
             },
           },
         })
-        lsp.ruff.setup({
+        setup("ruff", {
           capabilities = capabilities,
         })
       else
-        lsp.pyright.setup({
+        setup("pyright", {
           capabilities = capabilities,
         })
       end
-      -- lsp.gopls.setup(capabilities)
-      lsp.serve_d.setup(capabilities)
-      lsp.zls.setup({ capabilities = capabilities })
+      -- .setup("gopls", {capabilities = capabilities })
+      setup("serve_d", { capabilities = capabilities })
+      setup("zls", { capabilities = capabilities })
 
-      lsp.ocamllsp.setup({
+      setup("ocamllsp", {
         -- cmd = {"/home/vbox/.opam/def/bin/ocamllsp"},
         cmd = { "opam", "exec", "--", "ocamllsp" },
         filetypes = { "ocaml", "ml", "mli" },
