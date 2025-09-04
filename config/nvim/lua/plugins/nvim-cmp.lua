@@ -72,7 +72,7 @@ local module = {
         disable_treesitter(client)
       end
 
-      local setup= function (name, settings)
+      local setup = function(name, settings)
         local lsp = vim.lsp
 
         lsp.config(name, settings)
@@ -111,14 +111,25 @@ local module = {
         setup("omnisharp", {
           on_attach = on_attach,
           capabilities = capabilities,
-          cmd = { "OmniSharp" },
+          cmd = {
+            "OmniSharp",
+            "-z",
+            "--hostPID",
+            tostring(vim.fn.getpid()),
+            "DotNet:enablePackageRestore=false",
+            "FormattingOptions:EnableEditorConfigSupport=true",
+            "Sdk:IncludePrereleases=true",
+            "--encoding",
+            "utf-8",
+            "--languageserver",
+          },
           root_dir = function(fname)
             return lsp.util.root_pattern("*.csproj", "*.sln", "*.slnx", ".git")(fname) or vim.loop.cwd()
           end,
           filetypes = { "cs", "csx" },
         })
       else
-        setup("csharp_ls",{ capabilities = capabilities })
+        setup("csharp_ls", { capabilities = capabilities })
       end
 
       setup("rust_analyzer", {
