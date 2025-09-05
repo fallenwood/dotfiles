@@ -83,7 +83,7 @@ local module = {
       local cmp_nvim_lsp = load("cmp_nvim_lsp")
       local capabilities = cmp_nvim_lsp.default_capabilities()
       local ruff = false
-      local omnisharp = true
+      local csharp = "roslyn_ls"
 
       if vim.fn.executable("ccls") == 1 then
         setup("ccls", {
@@ -107,7 +107,7 @@ local module = {
         capabilities = capabilities,
       })
 
-      if omnisharp then
+      if csharp == "omnisharp" then
         setup("omnisharp", {
           on_attach = on_attach,
           capabilities = capabilities,
@@ -128,8 +128,25 @@ local module = {
           end,
           filetypes = { "cs", "csx" },
         })
-      else
+      elseif csharp == "csharp_ls" then
         setup("csharp_ls", { capabilities = capabilities })
+      elseif csharp == "csharp_language_server" then
+        setup("csharp_language_server", {
+          capabilities = capabilities,
+          cmd = { "/home/vbox/.local/opt/csharp-language-server/csharp-language-server" },
+        })
+      elseif csharp == "roslyn_ls" then
+        setup("roslyn_ls", {
+          cmd = {
+            "/home/vbox/.local/opt/Microsoft.CodeAnalysis.LanguageServer/Microsoft.CodeAnalysis.LanguageServer",
+            "--logLevel",
+            "Information",
+            "--extensionLogDirectory",
+            vim.fs.joinpath(vim.uv.os_tmpdir(), "roslyn_ls/logs"),
+            "--stdio",
+          },
+          capabilities = capabilities,
+        })
       end
 
       setup("rust_analyzer", {
