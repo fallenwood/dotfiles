@@ -1,6 +1,7 @@
 $files=@(
   "profile",
   "bashrc",
+  "bash_profile"
   "zshrc",
   "env.nix",
   "gitconfig",
@@ -12,7 +13,7 @@ $files=@(
 
 $dirs=@(
   "config/nvim",
-  "config/nvim-full",
+  # "config/nvim-full",
   "config/i3",
   "config/i3status",
   # "local/share/fcitx5/rime",

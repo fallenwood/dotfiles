@@ -55,7 +55,7 @@ linuxphypkgs = [
   fish
   htop
   # glibc.static
-  jdk21_headless
+  # jdk21_headless
   kind
   kubernetes-helm
   # koka
@@ -83,6 +83,7 @@ linuxphypkgs = [
   # postgresql
   # quickjs
   strace
+  stack
   tailspin
   libvirt
   # tig
