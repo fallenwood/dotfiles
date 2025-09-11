@@ -94,11 +94,11 @@ export DOTNET_ROOT=$HOME/.local/opt/dotnet
 export GCM_CREDENTIAL_STORE=cache
 
 if command -v "sudo-rs" &> /dev/null; then
-  alias s="sudo"
-  alias sudo='sudo env PATH=$PATH PYTHONPATH=$PYTHONPATH'
-else
   alias s="sudo-rs"
   alias sudo='sudo-rs env PATH=$PATH PYTHONPATH=$PYTHONPATH'
+else
+  alias s="sudo"
+  alias sudo='sudo env PATH=$PATH PYTHONPATH=$PYTHONPATH'
 fi
 
 alias proxychains="proxychains4"
