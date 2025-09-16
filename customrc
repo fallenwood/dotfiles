@@ -55,6 +55,7 @@ fi
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.local/opt/xmake/bin:$PATH
 export PATH=$HOME/.local/opt/luvit:$PATH
+export PATH=$HOME/.local/opt/nushell:$PATH
 export PATH=$HOME/.dotnet/tools:$PATH
 export PATH=$HOME/.local/opt/go/bin:$PATH
 export PATH=$HOME/go/bin:$PATH

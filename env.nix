@@ -24,6 +24,7 @@ commonpkgs = [
   shellcheck
   tmux
   perl
+  nushell
 ];
 
 linuxpkgs = [
@@ -31,7 +32,7 @@ linuxpkgs = [
 ];
 
 linuxphypkgs = [
-  android-tools
+  # android-tools
   bcc
   bpftrace
   bpftools
