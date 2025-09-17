@@ -17,7 +17,7 @@ $dirs=@(
   "config/i3",
   "config/i3status",
   # "local/share/fcitx5/rime",
-  # "config/nushell",
+  "config/nushell",
   "config/powershell",
   "config/fish",
   "config/containers",
