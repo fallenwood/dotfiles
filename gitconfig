@@ -1,3 +1,5 @@
+[include]
+  path = ~/.gitconfig.local
 [user]
 	name = Fallenwood
 	email = fallenwood.y@outlook.com
@@ -13,14 +15,7 @@
 [init]
 	defaultBranch = master
 [credential]
-	helper = 
+	helper =
 	helper = /home/vbox/.local/bin/git-credential-manager
 [credential "https://dev.azure.com"]
 	useHttpPath = true
-[http]
-[http "https://github.com"]
-	proxy = http://127.0.0.1:10801
-[http "https://gitlab.com"]
-	proxy = http://127.0.0.1:10801
-[http "https://gitlab.postmarketos.org"]
-	proxy = http://127.0.0.1:10801
