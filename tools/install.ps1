@@ -21,7 +21,8 @@ $dirs=@(
   "config/powershell",
   "config/fish",
   "config/containers",
-  "config/wf-shell")
+  "config/wf-shell",
+  "config/zed")
 
 function Link-Folder {
   param(
