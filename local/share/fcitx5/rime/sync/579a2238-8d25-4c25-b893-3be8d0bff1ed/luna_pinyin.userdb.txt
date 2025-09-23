@@ -2,1224 +2,1230 @@
 #@/db_name	luna_pinyin
 #@/db_type	userdb
 #@/rime_version	1.8.5
-#@/tick	1619
+#@/tick	1628
 #@/user_id	579a2238-8d25-4c25-b893-3be8d0bff1ed
-a 	啊	c=8 d=4.65234 t=1619
-a yi 	阿姨	c=1 d=0.878095 t=1619
-ai 	愛	c=3 d=1.78353 t=1619
-an 	按	c=2 d=1.95072 t=1619
-an 	暗	c=1 d=0.873716 t=1619
-an zhuang 	安裝	c=2 d=1.54521 t=1619
-ba 	吧	c=10 d=6.29834 t=1619
-ba 	把	c=2 d=1.7128 t=1619
-bai 	白	c=1 d=0.97531 t=1619
-ban 	半	c=2 d=1.93124 t=1619
-ban ben 	版本	c=0 d=0.0965605 t=1619
-ban le 	搬了	c=0 d=0.0904837 t=1619
-ban nian qian 	半年前	c=1 d=0.927743 t=1619
-bang 	棒	c=1 d=0.941765 t=1619
-bang ni 	幫你	c=0 d=0.0932394 t=1619
-bao 	包	c=1 d=0.970446 t=1619
-bao 	報	c=1 d=0.913931 t=1619
-bao pi qi 	暴脾氣	c=1 d=0.995012 t=1619
-bei 	唄	c=1 d=0.946485 t=1619
-bei 	被	c=2 d=1.69219 t=1619
-ben di 	本地	c=1 d=0.843665 t=1619
-ben lai 	本來	c=1 d=0.774916 t=1619
-ben shen 	本身	c=1 d=0.666977 t=1619
-ben shi 	本事	c=0 d=0.0843665 t=1619
-ben shu 	本書	c=0 d=0.0927743 t=1619
-bi 	彼	c=1 d=0.99005 t=1619
-bi 	比	c=3 d=1.96225 t=1619
-bi ji ben 	筆記本	c=1 d=0.860708 t=1619
-bi jiao shao 	比較少	c=0 d=0.0891366 t=1619
-bi qi 	比起	c=2 d=1.6996 t=1619
-bi ru 	比如	c=3 d=1.85179 t=1619
-bi shu 	避暑	c=1 d=0.941765 t=1619
-bi xu 	必須	c=1 d=0.965605 t=1619
-bi zhi 	壁紙	c=1 d=0.839329 t=1619
-bian 	邊	c=0 d=0.0960789 t=1619
-bian hua 	變化	c=1 d=1 t=1619
-bian jie 	便捷	c=0 d=0.0980199 t=1619
-bian jie xing 	便捷性	c=1 d=0.985112 t=1619
-bian liang 	變量	c=1 d=0.99005 t=1619
-bian yi 	編譯	c=2 d=1.6585 t=1619
-bian yi hui zha 	編譯會炸	c=1 d=0.955997 t=1619
-biao shi 	表示	c=1 d=0.955997 t=1619
-biao ti 	標題	c=2 d=1.95084 t=1619
-bing mei you 	並沒有	c=1 d=0.985112 t=1619
-bu 	不	c=3 d=2.47398 t=1619
-bu chong 	補充	c=1 d=0.959913 t=1619
-bu da 	不大	c=0 d=0.0895834 t=1619
-bu dong 	不懂	c=1 d=0.843665 t=1619
-bu dui 	不對	c=2 d=1.38258 t=1619
-bu dui 	部隊	c=1 d=0.918512 t=1619
-bu dui a 	不對啊	c=1 d=0.895834 t=1619
-bu gao 	不高	c=1 d=0.985112 t=1619
-bu gei 	補給	c=2 d=1.81058 t=1619
-bu guan 	不管	c=1 d=1.0472 t=1619
-bu guo 	不過	c=2 d=1.74134 t=1619
-bu hao yong 	不好用	c=1 d=0.970446 t=1619
-bu hui 	不會	c=2 d=1.85114 t=1619
-bu jie 	不接	c=1 d=0.843665 t=1619
-bu liao 	不了	c=1 d=1.05738 t=1619
-bu man 	不滿	c=0 d=0.097531 t=1619
-bu mang 	不忙	c=1 d=0.99005 t=1619
-bu neng 	不能	c=5 d=2.94444 t=1619
-bu neng yong 	不能用	c=1 d=0.941765 t=1619
-bu qi lai 	不起來	c=0 d=0.0951229 t=1619
-bu ru 	不如	c=1 d=1.08709 t=1619
-bu shang 	不上	c=0 d=0.071177 t=1619
-bu shao 	不少	c=0 d=0.0995012 t=1619
-bu shi 	不是	c=17 d=7.69571 t=1619
-bu shi ni shuo 	不是你說	c=1 d=0.970446 t=1619
-bu shu 	部署	c=1 d=0.865022 t=1619
-bu tai 	不太	c=0 d=0.0752014 t=1619
-bu tai yi yang 	不太一樣	c=1 d=0.755784 t=1619
-bu ti gong 	不提供	c=1 d=0.67032 t=1619
-bu tui jian 	不推薦	c=1 d=0.995012 t=1619
-bu xi guan 	不習慣	c=1 d=0.946485 t=1619
-bu xi huan 	不喜歡	c=1 d=0.913931 t=1619
-bu xiang 	不想	c=0 d=0.0932394 t=1619
-bu xiang kan 	不想看	c=1 d=0.932394 t=1619
-bu xiang zhuang 	不想裝	c=1 d=0.937067 t=1619
-bu xin 	不信	c=0 d=0.0927743 t=1619
-bu xing 	不行	c=0 d=0.0995012 t=1619
-bu yao 	不要	c=4 d=3.62445 t=1619
-bu yao qiu 	不要求	c=1 d=0.985112 t=1619
-bu ye 	不也	c=1 d=0.99005 t=1619
-bu yi yang 	不一樣	c=2 d=1.10863 t=1619
-bu yong 	不用	c=2 d=1.60524 t=1619
-bu zhi 	不止	c=1 d=1 t=1619
-bu zhi chi 	不支持	c=1 d=0.960789 t=1619
-bu zhi dao 	不知道	c=12 d=7.29342 t=1619
-cai 	才	c=1 d=0.847894 t=1619
-cai 	踩	c=2 d=1.95556 t=1619
-cai zhi dao 	才知道	c=1 d=0.980199 t=1619
-ce shi 	測試	c=1 d=0.985112 t=1619
-cha 	差	c=1 d=0.88692 t=1619
-cha 	查	c=1 d=1.06576 t=1619
-cha bu duo 	差不多	c=1 d=0.511709 t=1619
-cha jian 	插件	c=0 d=0.0941765 t=1619
-cha jian ye mian 	插件頁面	c=1 d=0.946485 t=1619
-chang 	長	c=0 d=0.097531 t=1619
-chang lian jie 	長鏈接	c=1 d=0.980199 t=1619
-chao 	抄	c=1 d=0.946485 t=1619
-cheng 	成	c=1 d=0.980199 t=1619
-cheng 	澄	c=2 d=1.82746 t=1619
-cheng ben 	成本	c=1 d=0.955997 t=1619
-cheng du 	成都	c=2 d=1.59084 t=1619
-cheng du 	程度	c=1 d=0.941765 t=1619
-cheng fen 	成分	c=0 d=0.0913931 t=1619
-cheng fen fu za 	成分複雜	c=1 d=0.918512 t=1619
-cheng gong 	成功	c=1 d=0.99005 t=1619
-cheng xu 	程序	c=3 d=2.04334 t=1619
-chi 	吃	c=2 d=1.89477 t=1619
-chi bu man 	吃不滿	c=1 d=0.980199 t=1619
-chi fan 	吃飯	c=1 d=0.858028 t=1619
-chi ku 	吃苦	c=1 d=0.918512 t=1619
-chi wan 	吃完	c=1 d=0.965605 t=1619
-chi yi dun 	吃一頓	c=1 d=0.831104 t=1619
-chong ding xiang 	重定向	c=1 d=0.465334 t=1619
-chong dong 	衝動	c=1 d=0.985112 t=1619
-chong gou 	重構	c=1 d=0.913931 t=1619
-chong qi 	重啓	c=1 d=1.05523 t=1619
-chong qi guo le 	重啓過了	c=1 d=0.960789 t=1619
-chong xin 	重新	c=0 d=0.294402 t=1619
-chong xin da kai zhi hou 	重新打開之後	c=1 d=0.980199 t=1619
-chong xin deng lu 	重新登錄	c=1 d=0.900325 t=1619
-chong xin pao zhi hou 	重新跑之後	c=1 d=0.923116 t=1619
-chong xin xia le ge 	重新下了個	c=1 d=0.99005 t=1619
-chou 	抽	c=1 d=0.88195 t=1619
-chu 	出	c=0 d=0.0818731 t=1619
-chu fa 	觸發	c=0 d=0.0955997 t=1619
-chu fa tiao jian 	觸發條件	c=1 d=0.960789 t=1619
-chu fei 	除非	c=1 d=0.472367 t=1619
-chu lai 	出來	c=2 d=1.91652 t=1619
-chu lai le 	出來了	c=1 d=0.985112 t=1619
-chu le 	出了	c=1 d=1 t=1619
-chu le 	除了	c=2 d=1.36861 t=1619
-chuan 	傳	c=1 d=0.918512 t=1619
-chuang 	創	c=1 d=1 t=1619
-chuang jian 	創建	c=1 d=1 t=1619
-chui zi 	錘子	c=1 d=0.951229 t=1619
-chun ge 	春哥	c=1 d=0.97531 t=1619
-ci da 	次大	c=0 d=0.0909373 t=1619
-ci zhi 	辭職	c=1 d=0.99005 t=1619
-cong 	從	c=7 d=3.51798 t=1619
-cong tou 	從頭	c=1 d=0.869358 t=1619
-cun zai 	存在	c=1 d=0.985112 t=1619
-cuo 	錯	c=1 d=0.927743 t=1619
-da 	大	c=1 d=0.970446 t=1619
-da 	打	c=0 d=0.0579842 t=1619
-da bu fen 	大部分	c=1 d=0.88692 t=1619
-da chang 	大廠	c=3 d=2.62561 t=1619
-da dao 	打到	c=1 d=0.66365 t=1619
-da duan 	打斷	c=0 d=0.0960789 t=1619
-da fa 	大法	c=0 d=0.0752014 t=1619
-da gai 	大概	c=2 d=1.80961 t=1619
-da gai lv 	大概率	c=1 d=0.895834 t=1619
-da kai 	打開	c=2 d=1.8854 t=1619
-da kai le 	打開了	c=1 d=0.97531 t=1619
-da lao 	大佬	c=1 d=0.923116 t=1619
-da le 	打了	c=1 d=0.918512 t=1619
-da sao wei sheng 	打掃衛生	c=2 d=1.79187 t=1619
-da tian xia 	打天下	c=1 d=0.927743 t=1619
-da yi hang 	打一行	c=1 d=0.582748 t=1619
-da yue jin 	大躍進	c=1 d=0.794534 t=1619
-dai de 	帶的	c=1 d=0.980199 t=1619
-dai ma 	代碼	c=4 d=3.04651 t=1619
-dan 	單	c=0 d=0.0704688 t=1619
-dan kai yi ge 	單開一個	c=1 d=0.70822 t=1619
-dan mei 	但沒	c=1 d=0.995012 t=1619
-dan shi 	但是	c=22 d=8.74593 t=1619
-dan shi wo xia ban le 	但是我下搬了	c=1 d=0.909373 t=1619
-dan teng 	蛋疼	c=1 d=0.904837 t=1619
-dang cheng 	當成	c=1 d=0.873716 t=1619
-dang mian 	當面	c=0 d=0.0794534 t=1619
-dang mian wen 	當面文	c=1 d=0.798516 t=1619
-dang shi 	當時	c=1 d=0.970446 t=1619
-dao 	到	c=4 d=2.63748 t=1619
-dao shi hou 	到時候	c=1 d=0.941765 t=1619
-de 	的	c=55 d=18.4986 t=1619
-de guo 	德國	c=1 d=0.860708 t=1619
-dei 	得	c=1 d=0.932394 t=1619
-deng 	等	c=0 d=0.0937067 t=1619
-deng hui er 	等會兒	c=1 d=0.941765 t=1619
-deng lu 	登錄	c=0 d=0.0895834 t=1619
-di ceng 	底層	c=0 d=0.0718924 t=1619
-di er 	第二	c=0 d=0.0955997 t=1619
-di er hua 	第二話	c=1 d=0.960789 t=1619
-di liu 	第六	c=0 d=0.0980199 t=1619
-di liu guan 	第六關	c=1 d=0.985112 t=1619
-di san 	第三	c=0 d=0.0985112 t=1619
-di san fang 	第三方	c=1 d=0.88692 t=1619
-di san kuai 	第三塊	c=1 d=0.99005 t=1619
-di tie 	地鐵	c=2 d=1.38536 t=1619
-dian 	電	c=2 d=1.89842 t=1619
-dian 	點	c=2 d=1.89674 t=1619
-dian nao 	電腦	c=1 d=0.847894 t=1619
-dian zhang 	店長	c=1 d=0.985112 t=1619
-diao 	掉	c=1 d=0.831104 t=1619
-diao xing 	調性	c=1 d=0.818731 t=1619
-diao yong 	調用	c=3 d=1.85018 t=1619
-ding shi 	定時	c=0 d=0.0937067 t=1619
-ding shi cha 	定時查	c=1 d=0.941765 t=1619
-dong 	動	c=0 d=0.0965605 t=1619
-dong 	懂	c=1 d=0.97531 t=1619
-dong xi 	東西	c=3 d=1.63095 t=1619
-dou 	都	c=5 d=3.9257 t=1619
-dou 	鬥	c=1 d=0.995012 t=1619
-dou bei 	都被	c=1 d=0.895834 t=1619
-dou da 	都打	c=0 d=0.0637628 t=1619
-dou da dao 	都打到	c=2 d=1.32469 t=1619
-dou mei 	都沒	c=0 d=0.0960789 t=1619
-dou mei dian 	都沒點	c=1 d=0.965605 t=1619
-dou neng 	都能	c=1 d=0.99005 t=1619
-dou neng zhi jie yong 	都能直接用	c=1 d=0.891366 t=1619
-dou shi 	都是	c=4 d=2.80144 t=1619
-dou xi huan 	都喜歡	c=1 d=0.852144 t=1619
-dou xing 	都行	c=2 d=1.91683 t=1619
-dou zai 	都在	c=1 d=0.618783 t=1619
-dou zhe yang 	都這樣	c=1 d=0.980199 t=1619
-dou zhi kan 	都只看	c=1 d=0.814647 t=1619
-duan 	段	c=1 d=0.97531 t=1619
-duan kou 	端口	c=0 d=0.0980199 t=1619
-duan kou ying she 	端口映射	c=1 d=0.985112 t=1619
-duan shi jian 	段時間	c=0 d=0.0856415 t=1619
-dui 	對	c=1 d=0.794534 t=1619
-dui le 	對了	c=1 d=0.946485 t=1619
-duo 	多	c=2 d=1.5846 t=1619
-duo chu lai 	多出來	c=0 d=0.0806541 t=1619
-duo chu lai de 	多出來的	c=1 d=0.810584 t=1619
-duo le 	多了	c=0 d=0.0995012 t=1619
-duo miao 	多秒	c=1 d=0.798516 t=1619
-duo xia 	多下	c=1 d=0.99005 t=1619
-en 	嗯	c=1 d=0.543351 t=1619
-er jin zhi 	二進制	c=4 d=2.80068 t=1619
-er qie 	而且	c=9 d=5.85146 t=1619
-er xian 	二線	c=0 d=0.0856415 t=1619
-fa 	發	c=1 d=0.951229 t=1619
-fa le 	發了	c=1 d=0.960789 t=1619
-fa xian 	發現	c=3 d=2.60101 t=1619
-fa xian xin de 	發現新的	c=1 d=0.946485 t=1619
-fan yi 	翻譯	c=1 d=0.97531 t=1619
-fan zheng 	反正	c=2 d=1.7357 t=1619
-fang 	放	c=1 d=0.995012 t=1619
-fang qi 	放棄	c=1 d=0.941765 t=1619
-fang wen 	訪問	c=0 d=0.0955997 t=1619
-fang wen bu liao 	訪問不了	c=1 d=0.960789 t=1619
-fei hua 	廢話	c=1 d=0.941765 t=1619
-fei yao 	非要	c=1 d=0.878095 t=1619
-fen bian lv 	分辨率	c=2 d=1.95551 t=1619
-fen bu tu 	分佈圖	c=1 d=1 t=1619
-fen fa 	分發	c=3 d=1.90862 t=1619
-fen kai 	分開	c=0 d=0.0955997 t=1619
-fen kuai 	分塊	c=2 d=1.93124 t=1619
-feng di 	風笛	c=1 d=0.818731 t=1619
-feng ge 	風格	c=0 d=0.0923116 t=1619
-feng zhuang 	封裝	c=3 d=2.22624 t=1619
-feng zhuang jie guo shi 	封裝結果是	c=1 d=0.767206 t=1619
-fu hao 	符號	c=1 d=0.909373 t=1619
-fu jian 	復健	c=1 d=0.955997 t=1619
-fu pin 	扶貧	c=1 d=0.83527 t=1619
-fu wu 	服務	c=1 d=0.813318 t=1619
-fu wu qi 	服務器	c=1 d=0.865022 t=1619
-fu za 	複雜	c=0 d=0.0913931 t=1619
-gai 	改	c=1 d=0.640951 t=1619
-gai de 	改的	c=1 d=0.960789 t=1619
-gai ge 	改革	c=1 d=0.995012 t=1619
-gai hui qu 	改回去	c=0 d=0.0904837 t=1619
-gai hui qu le 	改回去了	c=1 d=0.909373 t=1619
-gan 	幹	c=1 d=0.965605 t=1619
-gan 	感	c=0 d=0.0913931 t=1619
-gan huo 	幹活	c=2 d=1.51402 t=1619
-gan jue 	感覺	c=6 d=4.43277 t=1619
-gan sha 	幹啥	c=1 d=1.16763 t=1619
-gan sha de 	幹啥的	c=1 d=0.97531 t=1619
-gang 	剛	c=0 d=0.0927743 t=1619
-gang shuo wan 	剛說完	c=1 d=0.932394 t=1619
-gao 	搞	c=1 d=0.946485 t=1619
-gao 	高	c=1 d=0.873716 t=1619
-gao chu lai 	搞出來	c=1 d=0.923116 t=1619
-gao ding 	搞定	c=1 d=0.860708 t=1619
-gao fei 	稿費	c=1 d=0.946485 t=1619
-gao huai 	搞壞	c=1 d=0.995012 t=1619
-gao nan du 	高難度	c=1 d=0.891366 t=1619
-gao zhe wan yi er 	搞這玩意兒	c=1 d=0.951229 t=1619
-ge 	個	c=3 d=2.59234 t=1619
-ge 	哥	c=1 d=0.99005 t=1619
-ge zhong 	各種	c=1 d=0.900325 t=1619
-gei 	給	c=2 d=1.37707 t=1619
-gei de shao 	給的少	c=1 d=0.826959 t=1619
-gei ni 	給你	c=0 d=0.19362 t=1619
-gei ni ge 	給你個	c=1 d=0.99005 t=1619
-gei ni zhao de 	給你找的	c=1 d=0.985112 t=1619
-gei ta 	給他	c=0 d=0.0951229 t=1619
-gei wo 	給我	c=1 d=0.918512 t=1619
-geng 	更	c=0 d=0.0718924 t=1619
-geng di ceng 	更底層	c=1 d=0.722527 t=1619
-geng xin 	更新	c=2 d=1.78593 t=1619
-geng xin zhi hou 	更新之後	c=1 d=0.941765 t=1619
-geng zhong 	更重	c=1 d=0.918512 t=1619
-gong neng 	功能	c=1 d=0.677057 t=1619
-gong yuan 	公園	c=1 d=0.99005 t=1619
-gou tong 	溝通	c=0 d=0.0826959 t=1619
-gou tong wen ti 	溝通問題	c=1 d=0.831104 t=1619
-gou yong 	夠用	c=1 d=0.891366 t=1619
-gou yuan 	夠遠	c=1 d=0.960789 t=1619
-gu ding 	固定	c=1 d=0.923116 t=1619
-gu ji 	估計	c=1 d=0.960789 t=1619
-gu ji shi 	估計是	c=1 d=0.856415 t=1619
-gua 	掛	c=0 d=0.0995012 t=1619
-gua zai 	掛在	c=1 d=0.965605 t=1619
-guai 	怪	c=0 d=0.0995012 t=1619
-guai dao 	怪到	c=1 d=0.782705 t=1619
-guan 	關	c=0 d=0.0980199 t=1619
-guan dian 	觀點	c=0 d=0.0937067 t=1619
-guan li qi 	管理器	c=0 d=0.0937067 t=1619
-guan wang 	官網	c=0 d=0.0900325 t=1619
-guan wang zhuang de 	官網裝的	c=1 d=0.904837 t=1619
-guan xi 	關係	c=1 d=1.14483 t=1619
-guan xi hao 	關係好	c=1 d=0.97531 t=1619
-guan xi hao 	關係號	c=1 d=0.970446 t=1619
-guang gao 	廣告	c=1 d=0.955997 t=1619
-guang rong 	光榮	c=0 d=0.185086 t=1619
-guang rong shi ming 	光榮使命	c=1 d=0.932394 t=1619
-guang rong xing dong 	光榮行動	c=1 d=0.927743 t=1619
-gun 	滾	c=1 d=0.941765 t=1619
-guo 	過	c=0 d=0.257752 t=1619
-guo duan 	果斷	c=1 d=0.937067 t=1619
-guo duan shi jian 	過段時間	c=1 d=0.860708 t=1619
-guo ji xiang qi 	國際象棋	c=1 d=0.99005 t=1619
-guo le 	過了	c=0 d=0.0955997 t=1619
-guo lu 	過路	c=1 d=1 t=1619
-guo qi 	國企	c=1 d=1.00624 t=1619
-guo qi 	過期	c=1 d=0.527695 t=1619
-guo qi feng ge 	國企風格	c=1 d=0.927743 t=1619
-hai 	還	c=5 d=2.80607 t=1619
-hai bi jiao shao 	還比較少	c=1 d=0.895834 t=1619
-hai bu ru 	還不如	c=1 d=0.900325 t=1619
-hai bu zhi dao 	還不知道	c=1 d=0.965605 t=1619
-hai dei 	還得	c=1 d=0.946485 t=1619
-hai guan 	還管	c=1 d=0.88692 t=1619
-hai hao 	還好	c=1 d=0.721129 t=1619
-hai mei 	還沒	c=0 d=0.171716 t=1619
-hai mei jin 	還沒進	c=1 d=1 t=1619
-hai mei kai shi 	還沒開始	c=1 d=0.869358 t=1619
-hai neng 	還能	c=1 d=0.839457 t=1619
-hai shi 	還是	c=5 d=3.70561 t=1619
-hai shi yin wei 	還是因爲	c=1 d=0.882497 t=1619
-hai xie ma 	還寫嗎	c=1 d=0.99005 t=1619
-hai xing 	還行	c=4 d=2.52602 t=1619
-hai you 	還有	c=2 d=1.94107 t=1619
-hai you zhe ge 	還有這個	c=1 d=0.941765 t=1619
-hai zai 	還在	c=0 d=0.0759572 t=1619
-hai zai jian 	還在建	c=1 d=0.763379 t=1619
-hai zhen shi 	還真是	c=0 d=0.0479505 t=1619
-han shu 	函數	c=1 d=1.02892 t=1619
-han shu zhi zhen 	函數指針	c=1 d=0.923116 t=1619
-hao 	好	c=3 d=1.68699 t=1619
-hao 	號	c=3 d=2.42013 t=1619
-hao ji ge 	好幾個	c=1 d=0.666977 t=1619
-hao jiu 	好久	c=1 d=1.06948 t=1619
-hao jiu le 	好久了	c=1 d=0.960789 t=1619
-hao kan 	好看	c=0 d=0.0774916 t=1619
-hao le 	好了	c=2 d=1.80977 t=1619
-hao shi 	好事	c=0 d=0.0995012 t=1619
-hao xiang 	好像	c=8 d=6.64447 t=1619
-hao xiang mei you 	好像沒有	c=1 d=0.585669 t=1619
-hao xiang que shi 	好像缺失	c=1 d=0.99005 t=1619
-hao xiang shi 	好象是	c=1 d=0.965605 t=1619
-hao xiang ye 	好像也	c=1 d=0.985112 t=1619
-he 	和	c=10 d=5.20322 t=1619
-he ge 	合格	c=1 d=0.856415 t=1619
-he ning 	賀寧	c=1 d=0.980199 t=1619
-hei ren 	黑人	c=1 d=0.865022 t=1619
-hen bu 	很不	c=0 d=0.0913931 t=1619
-hen bu kao pu 	很不靠譜	c=1 d=0.918512 t=1619
-hen cha 	很差	c=1 d=0.970446 t=1619
-hen gao 	很高	c=1 d=0.726149 t=1619
-hen zhong 	很重	c=1 d=1 t=1619
-hong lou 	紅樓	c=1 d=0.995012 t=1619
-hou duan 	後端	c=1 d=0.941765 t=1619
-hou mian 	後面	c=0 d=0.0913931 t=1619
-hou mian de 	後面的	c=2 d=1.85781 t=1619
-hu 	湖	c=1 d=0.918512 t=1619
-hu bian 	湖邊	c=1 d=0.980199 t=1619
-hu xiang 	互相	c=1 d=0.891366 t=1619
-hua 	話	c=0 d=0.0955997 t=1619
-huai le 	壞了	c=2 d=1.5714 t=1619
-huan 	換	c=1 d=0.927743 t=1619
-huan cheng 	換成	c=4 d=2.66656 t=1619
-huan diao 	換掉	c=1 d=0.822835 t=1619
-huan ge 	換個	c=1 d=0.748264 t=1619
-huan jing 	環境	c=1 d=0.831104 t=1619
-huan jing bian liang 	環境變量	c=1 d=0.99005 t=1619
-huan jiu 	換就	c=1 d=0.923116 t=1619
-huan xiang 	幻想	c=1 d=0.882497 t=1619
-huan ying jia ru 	歡迎加入	c=1 d=0.951229 t=1619
-hui 	會	c=3 d=2.60881 t=1619
-hui ba 	會把	c=2 d=1.93635 t=1619
-hui bang ni 	會幫你	c=1 d=0.937067 t=1619
-hui er 	會兒	c=0 d=0.0937067 t=1619
-hui lai 	回來	c=0 d=0.0980199 t=1619
-hui lai de 	回來的	c=1 d=0.985112 t=1619
-hui qu 	回去	c=1 d=0.701173 t=1619
-hui tui 	回退	c=1 d=0.904837 t=1619
-hui zha 	會炸	c=1 d=0.98204 t=1619
-huo 	活	c=1 d=0.970446 t=1619
-huo zhe 	或者	c=3 d=1.92992 t=1619
-ji 	姬	c=1 d=0.995012 t=1619
-ji 	幾	c=0 d=0.0960789 t=1619
-ji 	級	c=1 d=1 t=1619
-ji 	集	c=1 d=1 t=1619
-ji 	雞	c=2 d=1.9459 t=1619
-ji ben 	基本	c=1 d=0.995209 t=1619
-ji ben dou shi 	基本都是	c=1 d=0.786628 t=1619
-ji cheng 	集成	c=1 d=0.718924 t=1619
-ji cheng du 	集成度	c=1 d=0.722527 t=1619
-ji ge 	幾個	c=1 d=0.955997 t=1619
-ji shu 	技術	c=1 d=1 t=1619
-ji xie 	機械	c=0 d=0.0937067 t=1619
-ji xie jian pan 	機械鍵盤	c=1 d=0.941765 t=1619
-ji xu 	繼續	c=1 d=0.951229 t=1619
-ji zhu 	記住	c=1 d=0.909373 t=1619
-jia ban 	加班	c=1 d=0.895834 t=1619
-jia de 	加的	c=2 d=1.71387 t=1619
-jia zhuang 	假裝	c=0 d=0.0951229 t=1619
-jia zhuang yong guo 	假裝用過	c=1 d=0.955997 t=1619
-jian 	建	c=0 d=0.0759572 t=1619
-jian hao 	建好	c=1 d=0.810584 t=1619
-jian hua 	簡化	c=3 d=2.52456 t=1619
-jian pan 	鍵盤	c=0 d=0.0937067 t=1619
-jian ting 	監聽	c=1 d=0.985112 t=1619
-jian yi 	建議	c=1 d=0.995012 t=1619
-jian zhan 	建站	c=0 d=0.0694197 t=1619
-jiang dao li 	講道理	c=1 d=0.88692 t=1619
-jiang ji 	降級	c=1 d=0.697676 t=1619
-jiao 	叫	c=1 d=0.831104 t=1619
-jiao ben 	腳本	c=1 d=0.955997 t=1619
-jie duan 	截斷	c=1 d=0.995012 t=1619
-jie guo 	結果	c=1 d=0.980199 t=1619
-jie guo shi 	結果是	c=0 d=0.0763379 t=1619
-jie mian 	界面	c=1 d=0.980199 t=1619
-jie shou 	接收	c=1 d=0.951229 t=1619
-jie suo 	解鎖	c=1 d=0.970446 t=1619
-jie tu 	截圖	c=0 d=0.190722 t=1619
-jie tu ruan jian 	截圖軟件	c=1 d=0.955997 t=1619
-jie xi 	解析	c=1 d=0.985112 t=1619
-jie zhe 	接着	c=0 d=0.083527 t=1619
-jie zhe yong 	接着用	c=1 d=0.839457 t=1619
-jin 	進	c=0 d=0.0995012 t=1619
-jin qu 	進去	c=1 d=0.937067 t=1619
-jin tian 	今天	c=1 d=0.522046 t=1619
-jin xing dao 	進行到	c=1 d=0.960789 t=1619
-jing ji 	經濟	c=1 d=0.847894 t=1619
-jiu 	就	c=3 d=1.94725 t=1619
-jiu ba 	就把	c=0 d=0.0980199 t=1619
-jiu bie 	就別	c=0 d=0.0818731 t=1619
-jiu bie chu 	就別出	c=1 d=0.822835 t=1619
-jiu bu 	就不	c=0 d=0.0891366 t=1619
-jiu bu zhuang 	就不裝	c=1 d=0.895834 t=1619
-jiu de 	舊的	c=1 d=0.970446 t=1619
-jiu hui 	就會	c=2 d=1.87897 t=1619
-jiu pao tong le 	就跑通了	c=1 d=0.565525 t=1619
-jiu shi 	就是	c=7 d=3.76046 t=1619
-jiu shi ge 	就是個	c=1 d=0.786628 t=1619
-jiu xing 	就行	c=3 d=2.24997 t=1619
-jiu yi zhi 	就一直	c=1 d=0.810584 t=1619
-jiu zai 	就在	c=2 d=1.73558 t=1619
-jiu zhe yang 	就這樣	c=1 d=0.778801 t=1619
-ju ran 	居然	c=1 d=1.02724 t=1619
-ju ran bu shi 	居然不是	c=1 d=1 t=1619
-ju ran you 	居然有	c=1 d=0.941765 t=1619
-ju yu wang 	局域網	c=1 d=0.839457 t=1619
-jue de 	覺得	c=0 d=0.0900325 t=1619
-jue le 	絕了	c=1 d=0.946485 t=1619
-ka 	卡	c=1 d=1.05414 t=1619
-ka le 	卡勒	c=1 d=0.88692 t=1619
-ka si 	卡死	c=1 d=0.995012 t=1619
-ka zhu 	卡住	c=1 d=0.951229 t=1619
-kai 	開	c=0 d=0.0704688 t=1619
-kai de 	開得	c=0 d=0.0909373 t=1619
-kai fa 	開發	c=1 d=1 t=1619
-kai fa sha 	開發啥	c=1 d=0.744532 t=1619
-kai guan 	開關	c=1 d=0.970446 t=1619
-kai ji 	開機	c=0 d=0.0980199 t=1619
-kai ji le 	開機了	c=1 d=0.985112 t=1619
-kai le 	開了	c=0 d=0.0895834 t=1619
-kai shi 	開始	c=2 d=1.41611 t=1619
-kai yuan 	開源	c=1 d=0.951229 t=1619
-kan 	看	c=2 d=1.90415 t=1619
-kan dao 	看到	c=0 d=0.163378 t=1619
-kan jian 	看見	c=0 d=0.0786628 t=1619
-kan kan 	看看	c=1 d=1.02315 t=1619
-kan lai kan qu 	看來看去	c=1 d=0.97531 t=1619
-kan le 	看了	c=0 d=0.0965605 t=1619
-kan qi lai 	看起來	c=4 d=3.5737 t=1619
-kan qi lai yao 	看起來要	c=1 d=0.895834 t=1619
-kan xia lai 	看下來	c=1 d=0.932394 t=1619
-kan xiang 	看向	c=1 d=0.904837 t=1619
-kan yi xia 	看一下	c=1 d=0.946485 t=1619
-kao 	靠	c=1 d=0.683861 t=1619
-kao pu 	靠譜	c=0 d=0.0913931 t=1619
-ke mu 	科目	c=1 d=1.08119 t=1619
-ke mu ji 	科目幾	c=1 d=0.965605 t=1619
-ke neng 	可能	c=3 d=2.70776 t=1619
-ke neng hai zhen shi 	可能還真是	c=1 d=0.481909 t=1619
-ke pa 	可怕	c=2 d=1.71497 t=1619
-ke yi 	可以	c=5 d=3.73338 t=1619
-ke yi kao lv 	可以考慮	c=1 d=0.822835 t=1619
-ke yi shan diao le 	可以刪掉了	c=1 d=0.965605 t=1619
-ken ding shi 	肯定是	c=1 d=0.946485 t=1619
-keng 	坑	c=1 d=0.955997 t=1619
-ku 	庫	c=1 d=0.99005 t=1619
-kuai 	塊	c=1 d=1.0504 t=1619
-kuai 	快	c=1 d=0.970446 t=1619
-kuai jin 	快進	c=1 d=0.995012 t=1619
-kuai su 	快速	c=0 d=0.139537 t=1619
-kuai su gao 	快速搞	c=1 d=0.704688 t=1619
-kuai su jian zhan 	快速建站	c=1 d=0.697676 t=1619
-kuai suo 	塊梭	c=1 d=0.701173 t=1619
-kuang 	框	c=0 d=0.0932394 t=1619
-la 	辣	c=1 d=0.995012 t=1619
-lai 	來	c=1 d=0.970446 t=1619
-lai 	瀨	c=2 d=1.9605 t=1619
-lai zhe 	來着	c=2 d=1.97531 t=1619
-lai zi 	來自	c=1 d=0.918512 t=1619
-le 	了	c=31 d=11.5595 t=1619
-le ge 	了個	c=1 d=0.951229 t=1619
-lei si 	類似	c=1 d=0.715338 t=1619
-lei xing 	類型	c=0 d=0.0726149 t=1619
-lei xing de 	類型的	c=1 d=0.729789 t=1619
-lei yu 	雷雨	c=0 d=0.0946485 t=1619
-li 	裏	c=8 d=6.4144 t=1619
-li 	離	c=1 d=0.951229 t=1619
-li mian 	裏面	c=2 d=1.49027 t=1619
-li zi 	例子	c=1 d=0.995012 t=1619
-lia 	倆	c=1 d=0.810584 t=1619
-lian 	戀	c=1 d=0.985112 t=1619
-lian jie 	鏈接	c=1 d=1.07743 t=1619
-lian jie qi 	連接器	c=1 d=0.980199 t=1619
-liang 	兩	c=1 d=0.99005 t=1619
-liang ge 	兩個	c=2 d=1.95072 t=1619
-liang ju 	兩局	c=1 d=0.923116 t=1619
-liang xiao shi 	兩小時	c=1 d=0.97531 t=1619
-ling guan 	靈官	c=0 d=0.099005 t=1619
-liu chang 	流暢	c=1 d=0.932394 t=1619
-liu da 	溜達	c=1 d=0.88692 t=1619
-liu mang ruan jian 	流氓軟件	c=1 d=0.774916 t=1619
-luan ma 	亂馬	c=3 d=2.95536 t=1619
-luo sai 	羅賽	c=1 d=1 t=1619
-lv 	率	c=0 d=0.0891366 t=1619
-ma 	嗎	c=25 d=11.0206 t=1619
-ma fan 	麻煩	c=1 d=0.937067 t=1619
-ma shang 	馬上	c=1 d=0.965605 t=1619
-mai 	買	c=0 d=0.0865022 t=1619
-mai bu qi 	買不起	c=1 d=0.852144 t=1619
-mai lai 	買來	c=0 d=0.083527 t=1619
-mai lai gan sha 	買來幹啥	c=1 d=0.839457 t=1619
-mei 	沒	c=6 d=4.01455 t=1619
-mei bi yao 	沒必要	c=1 d=0.927743 t=1619
-mei ci 	每次	c=1 d=0.88692 t=1619
-mei guan xi 	沒關係	c=1 d=0.97531 t=1619
-mei jian guo 	沒見過	c=1 d=0.99005 t=1619
-mei kai 	沒開	c=0 d=0.0955997 t=1619
-mei kai xiang mu 	沒開項目	c=1 d=0.960789 t=1619
-mei kan 	沒看	c=1 d=0.818731 t=1619
-mei kan dong 	沒看動	c=1 d=0.970446 t=1619
-mei kan jian 	沒看見	c=1 d=0.790571 t=1619
-mei mian fei 	沒免費	c=1 d=0.985112 t=1619
-mei peng guo 	沒碰過	c=1 d=0.995012 t=1619
-mei qian 	沒錢	c=0 d=0.0865022 t=1619
-mei qian mai 	沒錢買	c=1 d=0.869358 t=1619
-mei ren 	沒人	c=0 d=0.097531 t=1619
-mei ren yong lai 	沒人用來	c=1 d=0.980199 t=1619
-mei sha 	沒啥	c=0 d=0.202525 t=1619
-mei sha hao kan de 	沒啥好看的	c=1 d=0.778801 t=1619
-mei sha wen ti 	沒啥問題	c=1 d=0.995012 t=1619
-mei sha yong 	沒啥用	c=3 d=2.67053 t=1619
-mei shen me 	沒什麼	c=2 d=1.93181 t=1619
-mei sheng yin 	沒聲音	c=1 d=0.985112 t=1619
-mei shi 	沒事	c=1 d=0.925286 t=1619
-mei shi 	沒試	c=1 d=0.932394 t=1619
-mei shi le 	沒事了	c=1 d=0.946485 t=1619
-mei shi le 	沒試了	c=1 d=0.946485 t=1619
-mei tong 	沒通	c=1 d=0.99005 t=1619
-mei yong 	沒用	c=1 d=0.99005 t=1619
-mei yong guo 	沒用過	c=1 d=0.970446 t=1619
-mei you 	沒有	c=9 d=5.49764 t=1619
-mei you tiao chu lai 	沒有跳出來	c=1 d=0.904837 t=1619
-mei zha 	沒炸	c=1 d=0.878095 t=1619
-mei zhuang 	沒裝	c=2 d=1.88995 t=1619
-mi ma 	密碼	c=2 d=1.89854 t=1619
-mi ma kuang 	密碼框	c=1 d=0.937067 t=1619
-mian fei 	免費	c=2 d=1.98718 t=1619
-mian fei le 	免費了	c=2 d=1.89942 t=1619
-miao shu 	描述	c=0 d=0.0733447 t=1619
-ming dian 	名點	c=1 d=0.909373 t=1619
-ming ling hang 	命令行	c=2 d=1.98476 t=1619
-ming xian 	明顯	c=1 d=0.913931 t=1619
-ming zi 	名字	c=1 d=0.932394 t=1619
-mo fa 	魔法	c=0 d=0.099005 t=1619
-mo fa shao nv 	魔法少女	c=1 d=0.995012 t=1619
-mo ren 	默認	c=2 d=1.62037 t=1619
-mu hou 	幕後	c=1 d=0.960789 t=1619
-mu qian 	目前	c=3 d=2.0319 t=1619
-na 	那	c=1 d=1.05397 t=1619
-na bian 	那邊	c=1 d=0.865022 t=1619
-na bu 	那不	c=0 d=0.0980199 t=1619
-na bu jiu ba 	那不就把	c=1 d=0.985112 t=1619
-na ge 	那個	c=3 d=2.55838 t=1619
-na lai 	拿來	c=1 d=0.790571 t=1619
-na me da 	那麼大	c=1 d=0.891366 t=1619
-na mei shi le 	那沒事了	c=1 d=1 t=1619
-na ni 	那你	c=1 d=0.873716 t=1619
-na shi 	那是	c=0 d=0.0826959 t=1619
-na shi sha 	那是啥	c=1 d=0.831104 t=1619
-na wan yi er 	那玩意兒	c=1 d=0.985112 t=1619
-na wo 	那我	c=1 d=0.990867 t=1619
-na wo mei zhu yi guo 	那我沒注意過	c=1 d=1 t=1619
-na xie 	那些	c=1 d=0.873716 t=1619
-nan 	難	c=1 d=0.748264 t=1619
-nao zi 	腦子	c=0 d=0.0847894 t=1619
-nao zi chou le 	腦子抽了	c=1 d=0.852144 t=1619
-ne 	呢	c=0 d=0.0980199 t=1619
-nei cun 	內存	c=1 d=0.970446 t=1619
-nei he 	內核	c=2 d=1.8097 t=1619
-neng 	能	c=3 d=2.01722 t=1619
-neng fen kai 	能分開	c=1 d=0.960789 t=1619
-neng kan 	能看	c=1 d=0.904837 t=1619
-neng kan dao 	能看到	c=1 d=0.847894 t=1619
-neng li 	能力	c=1 d=0.955997 t=1619
-neng pao 	能跑	c=1 d=0.995012 t=1619
-neng tiao 	能挑	c=1 d=0.995012 t=1619
-neng wan 	能玩	c=1 d=0.923116 t=1619
-neng yong 	能用	c=2 d=1.87045 t=1619
-neng yong de 	能用的	c=1 d=0.932394 t=1619
-neng yong jiu xing 	能用就行	c=1 d=0.771052 t=1619
-neng zhuang shang 	能裝上	c=1 d=0.955997 t=1619
-ni 	你	c=2 d=1.59546 t=1619
-ni ke neng bu xin 	你可能不信	c=1 d=0.932394 t=1619
-ni men 	你們	c=2 d=1.53453 t=1619
-ni qu 	你去	c=1 d=0.951229 t=1619
-ni rang wo 	你讓我	c=1 d=0.927743 t=1619
-ni shuo 	你說	c=1 d=1.0105 t=1619
-ni zhe 	你這	c=1 d=0.980199 t=1619
-ni zi ji 	你自己	c=0 d=0.0767206 t=1619
-ni zi ji zhuang 	你自己裝	c=1 d=0.771052 t=1619
-nian 	年	c=1 d=0.99005 t=1619
-nian jia 	年假	c=1 d=0.97531 t=1619
-nian qian 	年前	c=0 d=0.0923116 t=1619
-nian qing 	年輕	c=1 d=0.937067 t=1619
-nv 	女	c=1 d=0.995012 t=1619
-nv de 	女的	c=1 d=0.980199 t=1619
-o 	哦	c=0 d=0.0955997 t=1619
-o 	噢	c=2 d=1.8385 t=1619
-o mei shi le 	哦沒事了	c=1 d=0.960789 t=1619
-pai 	派	c=1 d=0.951229 t=1619
-pai le 	拍了	c=1 d=0.771052 t=1619
-pan 	盤	c=3 d=2.466 t=1619
-pang xie 	螃蟹	c=1 d=0.937067 t=1619
-pao 	跑	c=3 d=2.23935 t=1619
-pao bu qi lai 	跑不起來	c=1 d=0.955997 t=1619
-pao le 	跑了	c=1 d=0.960789 t=1619
-pao qi lai 	跑起來	c=1 d=0.965605 t=1619
-pei tao 	配套	c=1 d=0.895834 t=1619
-pei zhi 	配置	c=1 d=0.951229 t=1619
-peng guo 	碰過	c=0 d=0.099005 t=1619
-ping chang 	平常	c=1 d=0.826959 t=1619
-ping mu 	屏幕	c=1 d=0.955997 t=1619
-qi 	器	c=1 d=0.99005 t=1619
-qi dong 	啓動	c=1 d=0.986556 t=1619
-qi dong qi lai 	啓動起來	c=1 d=0.839457 t=1619
-qi fen 	氣氛	c=1 d=0.904837 t=1619
-qi lai 	起來	c=0 d=0.083527 t=1619
-qi ma 	起碼	c=0 d=0.0794534 t=1619
-qi shi 	其實	c=4 d=2.57589 t=1619
-qi ta 	其他	c=2 d=1.97344 t=1619
-qi ta quan shi 	其他全市	c=1 d=0.806541 t=1619
-qi ta wang ye 	其他網頁	c=1 d=0.985112 t=1619
-qian 	前	c=1 d=0.941765 t=1619
-qiang guo 	熗鍋	c=1 d=0.960789 t=1619
-qing jia 	請假	c=1 d=0.524663 t=1619
-qing li 	清理	c=1 d=0.865022 t=1619
-qing ni 	請你	c=1 d=0.826959 t=1619
-qing song 	輕鬆	c=1 d=0.918512 t=1619
-qing wo 	請我	c=0 d=0.0946485 t=1619
-qing wo chi fan 	請我吃飯	c=1 d=0.951229 t=1619
-qing xu 	情緒	c=0 d=0.0960789 t=1619
-qing xu wen ding 	情緒穩定	c=1 d=0.965605 t=1619
-qu 	去	c=2 d=1.73281 t=1619
-qu dong 	驅動	c=1 d=0.918512 t=1619
-qu na 	去哪	c=0 d=0.0960789 t=1619
-qu na bian 	去哪邊	c=1 d=0.965605 t=1619
-qu nian 	去年	c=1 d=0.913931 t=1619
-qu xiao 	取消	c=1 d=0.980199 t=1619
-quan bei 	全被	c=1 d=0.970446 t=1619
-quan da 	全打	c=0 d=0.099005 t=1619
-quan da chu lai 	全打出來	c=1 d=0.995012 t=1619
-quan dou 	全都	c=2 d=1.48314 t=1619
-quan shi 	全市	c=0 d=0.0802519 t=1619
-quan shi 	全是	c=1 d=0.878095 t=1619
-quan tui 	勸退	c=1 d=0.909373 t=1619
-que 	缺	c=1 d=1.01776 t=1619
-que shi 	確實	c=4 d=3.12824 t=1619
-que shi 	缺失	c=1 d=1.03558 t=1619
-que shi mei you 	確實沒有	c=1 d=0.995012 t=1619
-que yi ge 	缺一個	c=1 d=0.951229 t=1619
-ran hou 	然後	c=4 d=2.74077 t=1619
-ran hou jiu 	然後就	c=1 d=0.985112 t=1619
-ran hou ne 	然後呢	c=1 d=0.985112 t=1619
-rang wo 	讓我	c=0 d=0.0923116 t=1619
-ren li 	人力	c=1 d=0.951229 t=1619
-ren pin 	人品	c=1 d=0.960789 t=1619
-reng jin 	扔進	c=0 d=0.099005 t=1619
-reng jin qu 	扔進去	c=1 d=0.995012 t=1619
-ri chang 	日常	c=2 d=1.74745 t=1619
-rong qi 	容器	c=0 d=0.149283 t=1619
-rong qi da fa 	容器大法	c=1 d=0.755784 t=1619
-rong qi li 	容器裏	c=1 d=0.744532 t=1619
-ru 	入	c=1 d=0.946485 t=1619
-ru guo 	如果	c=1 d=0.650509 t=1619
-ruan jian 	軟件	c=0 d=0.177819 t=1619
-san ge 	三個	c=1 d=0.965605 t=1619
-san guo 	三國	c=1 d=0.951229 t=1619
-sha 	啥	c=3 d=2.43869 t=1619
-sha bi 	傻逼	c=1 d=0.988363 t=1619
-sha bi wen ti 	傻逼問題	c=1 d=0.980199 t=1619
-sha le 	傻了	c=1 d=0.941765 t=1619
-shan diao 	刪掉	c=2 d=1.7508 t=1619
-shang 	上	c=9 d=5.60736 t=1619
-shang ci 	上次	c=1 d=0.941765 t=1619
-shang qu 	上去	c=0 d=0.0923116 t=1619
-shang qu zhi hou 	上去之後	c=1 d=0.927743 t=1619
-shang shi ji 	上世紀	c=1 d=0.790571 t=1619
-shang wang 	上網	c=0 d=0.0995012 t=1619
-shang xia wen 	上下文	c=1 d=0.960789 t=1619
-shang ye 	商業	c=0 d=0.0895834 t=1619
-shang ye de 	商業的	c=1 d=0.900325 t=1619
-shao bu fen 	少部分	c=1 d=0.895834 t=1619
-shao nv 	少女	c=0 d=0.099005 t=1619
-she zhi 	設置	c=1 d=0.860708 t=1619
-shen me 	什麼	c=0 d=0.0951229 t=1619
-shen me yu ming 	什麼域名	c=1 d=0.955997 t=1619
-shen zhi 	甚至	c=0 d=0.0985112 t=1619
-shen zhi shi 	甚至是	c=1 d=0.99005 t=1619
-sheng cheng 	生成	c=2 d=1.3801 t=1619
-sheng ji 	升級	c=1 d=0.903086 t=1619
-sheng ji wan 	升級完	c=1 d=0.806541 t=1619
-sheng ming bu xi 	生命不息	c=1 d=0.99005 t=1619
-shi 	實	c=1 d=0.900325 t=1619
-shi 	是	c=20 d=8.64462 t=1619
-shi 	試	c=2 d=1.78845 t=1619
-shi a 	是啊	c=1 d=0.491644 t=1619
-shi ba 	是吧	c=1 d=0.937067 t=1619
-shi bie 	識別	c=1 d=0.970446 t=1619
-shi bu chong 	是補充	c=1 d=0.869358 t=1619
-shi bu shi 	是不是	c=2 d=1.81621 t=1619
-shi de 	是的	c=4 d=3.36215 t=1619
-shi guo 	試過	c=2 d=1.88504 t=1619
-shi hao shi 	是好事	c=1 d=1 t=1619
-shi hou 	時候	c=7 d=3.95549 t=1619
-shi jian 	時間	c=1 d=0.927743 t=1619
-shi ming 	使命	c=0 d=0.0927743 t=1619
-shi ming 	實名	c=0 d=0.0995012 t=1619
-shi ming shang wang 	實名上網	c=1 d=1 t=1619
-shi nian qian 	十年前	c=1 d=0.771052 t=1619
-shi sha 	是啥	c=2 d=1.16293 t=1619
-shi xiao 	失效	c=1 d=0.946485 t=1619
-shi yao 	是要	c=1 d=0.588605 t=1619
-shi yi xia 	是一下	c=1 d=0.923116 t=1619
-shi yong 	使用	c=2 d=1.77492 t=1619
-shi zhe yang 	是這樣	c=1 d=0.932394 t=1619
-shi zhe yang de 	是這樣的	c=1 d=0.882497 t=1619
-shou 	瘦	c=1 d=0.918512 t=1619
-shou fei 	收費	c=1 d=1 t=1619
-shou jian 	手賤	c=1 d=0.532592 t=1619
-shu chu 	輸出	c=2 d=1.48175 t=1619
-shu fu 	舒服	c=0 d=0.0995012 t=1619
-shu fu duo le 	舒服多了	c=1 d=1 t=1619
-shu ju 	數據	c=1 d=0.99005 t=1619
-shu le 	輸了	c=1 d=0.932394 t=1619
-shu ru fa 	輸入法	c=4 d=3.57228 t=1619
-shuang 	爽	c=0 d=0.097531 t=1619
-shuang 	雙	c=1 d=0.985112 t=1619
-shuang xi tong 	爽系統	c=1 d=0.980199 t=1619
-shui guo 	水果	c=1 d=0.97531 t=1619
-shui hu 	水滸	c=1 d=0.99005 t=1619
-shun bian 	順便	c=1 d=0.99005 t=1619
-shuo chu lai 	說出來	c=1 d=0.927743 t=1619
-shuo hua de 	說話的	c=1 d=0.951229 t=1619
-shuo le 	說了	c=0 d=0.0798516 t=1619
-shuo le yi nian le 	說了一年了	c=1 d=0.802519 t=1619
-shuo wan 	說完	c=0 d=0.0927743 t=1619
-si le 	死了	c=1 d=0.794534 t=1619
-si zai 	死在	c=1 d=0.934771 t=1619
-si zai zhe 	死在這	c=1 d=1 t=1619
-sou dao 	搜到	c=1 d=0.970446 t=1619
-su du man 	速度慢	c=1 d=0.946485 t=1619
-su zhou 	蘇州	c=0 d=0.0970446 t=1619
-su zhou zhe bian 	蘇州這邊	c=1 d=0.97531 t=1619
-suan 	算	c=3 d=2.67442 t=1619
-suan le 	算了	c=2 d=1.96079 t=1619
-sui ran 	雖然	c=2 d=1.82494 t=1619
-suo 	梭	c=0 d=0.0955997 t=1619
-suo yi 	所以	c=5 d=2.96422 t=1619
-ta 	他	c=1 d=0.701173 t=1619
-ta hui 	他會	c=1 d=0.904837 t=1619
-ta sui ran 	他雖然	c=1 d=0.826959 t=1619
-tai 	太	c=1 d=0.970446 t=1619
-tai dan teng 	太但疼	c=1 d=0.900325 t=1619
-tai di 	太低	c=0 d=0.0955997 t=1619
-tai di le 	太低了	c=1 d=0.960789 t=1619
-tai duo 	太多	c=1 d=0.932394 t=1619
-tai hu 	太湖	c=2 d=1.88839 t=1619
-tai keng le 	太坑了	c=1 d=1 t=1619
-tai man 	太慢	c=0 d=0.0932394 t=1619
-tai man le 	太慢了	c=1 d=0.937067 t=1619
-tai shi ji 	臺式機	c=4 d=2.84152 t=1619
-tai shi ji shang 	臺式機上	c=1 d=0.955997 t=1619
-te bie 	特別	c=0 d=0.0980199 t=1619
-te bie xiao 	特別小	c=1 d=0.985112 t=1619
-ti gong 	提供	c=0 d=0.146549 t=1619
-ti gong de 	提供的	c=1 d=0.802519 t=1619
-ti liang 	體量	c=2 d=1.80562 t=1619
-ti yan 	體驗	c=0 d=0.0965605 t=1619
-ti yan yi xia 	體驗一下	c=1 d=0.970446 t=1619
-ti zi 	梯子	c=2 d=1.68 t=1619
-tian ping 	天平	c=1 d=0.869358 t=1619
-tian qi 	天氣	c=1 d=0.955997 t=1619
-tiao 	調	c=0 d=0.0995012 t=1619
-tiao chu lai 	跳出來	c=0 d=0.0900325 t=1619
-tiao jian 	條件	c=0 d=0.0955997 t=1619
-ting guo 	聽過	c=1 d=1 t=1619
-ting hao 	挺好	c=0 d=0.0937067 t=1619
-ting hao de 	挺好的	c=1 d=0.941765 t=1619
-ting shuo 	聽說	c=1 d=0.980199 t=1619
-tong bu 	同步	c=1 d=0.873716 t=1619
-tong guan 	通關	c=1 d=0.965605 t=1619
-tong le 	通了	c=0 d=0.0562705 t=1619
-tong xue 	同學	c=0 d=0.099005 t=1619
-tong yi ge 	同一個	c=1 d=0.726149 t=1619
-tong zhi 	通知	c=1 d=0.955997 t=1619
-tou shang 	頭上	c=1 d=0.786628 t=1619
-tu biao 	圖標	c=1 d=1 t=1619
-tu pian 	圖片	c=1 d=1 t=1619
-tu ran 	突然	c=1 d=0.839457 t=1619
-tui 	退	c=0 d=0.0822835 t=1619
-tui huan jing 	退環境	c=1 d=0.826959 t=1619
-tui jian 	推薦	c=0 d=0.099005 t=1619
-wai 	歪	c=1 d=0.878095 t=1619
-wai mian 	外面	c=2 d=1.83662 t=1619
-wan 	完	c=0 d=0.0802519 t=1619
-wan fan 	晚飯	c=1 d=0.970446 t=1619
-wan le 	玩了	c=0 d=0.0687289 t=1619
-wan le yi xia 	玩了一下	c=1 d=0.690734 t=1619
-wan quan 	完全	c=0 d=0.0790571 t=1619
-wan quan bu guan 	完全不管	c=1 d=0.794534 t=1619
-wan quan mian fei 	完全免費	c=1 d=1 t=1619
-wan yi er 	玩意兒	c=0 d=0.237147 t=1619
-wang 	王	c=0 d=0.099005 t=1619
-wang le 	忘了	c=2 d=1.91202 t=1619
-wang ling guan 	王靈官	c=1 d=0.995012 t=1619
-wang ye 	網頁	c=0 d=0.0980199 t=1619
-wang zhan 	網站	c=1 d=0.955997 t=1619
-wei dao 	味道	c=1 d=0.99005 t=1619
-wei du 	維度	c=1 d=0.970446 t=1619
-wei sha 	爲啥	c=1 d=0.845736 t=1619
-wei sha mei you yi ge 	爲啥沒有一個	c=1 d=0.71177 t=1619
-wei shen me 	爲什麼	c=4 d=2.46957 t=1619
-wei shen me yao 	爲什麼要	c=1 d=0.923116 t=1619
-wei yi 	唯一	c=0 d=0.0860708 t=1619
-wei yi yin su 	唯一因素	c=1 d=0.865022 t=1619
-wei zhi 	位置	c=1 d=0.995012 t=1619
-wen 	文	c=1 d=0.965605 t=1619
-wen ding 	穩定	c=0 d=0.0960789 t=1619
-wen ge 	問個	c=1 d=0.97531 t=1619
-wen jian 	文件	c=3 d=2.17224 t=1619
-wen jian guan li qi 	文件管理器	c=1 d=0.941765 t=1619
-wen jian ming 	文件名	c=2 d=1.52684 t=1619
-wen ti 	問題	c=6 d=3.43467 t=1619
-wo 	我	c=8 d=4.12046 t=1619
-wo ba 	我把	c=2 d=0.83459 t=1619
-wo bu 	我不	c=0 d=0.157064 t=1619
-wo bu jiu 	我不就	c=1 d=0.806541 t=1619
-wo bu jue de 	我不覺得	c=1 d=0.904837 t=1619
-wo bu yong 	我不用	c=1 d=0.66034 t=1619
-wo cong 	我從	c=1 d=0.923116 t=1619
-wo dao 	我倒	c=0 d=0.0980199 t=1619
-wo dao xian zai 	我倒現在	c=1 d=0.985112 t=1619
-wo de 	我的	c=2 d=1.53175 t=1619
-wo dou 	我都	c=0 d=0.15794 t=1619
-wo dou mei you 	我都沒有	c=1 d=0.995012 t=1619
-wo dou yu dao guo 	我都遇到過	c=1 d=0.946485 t=1619
-wo fa xian 	我發現	c=1 d=0.891366 t=1619
-wo gei ta 	我給他	c=1 d=0.955997 t=1619
-wo guan dian 	我觀點	c=1 d=0.941765 t=1619
-wo jiu 	我就	c=1 d=1.07835 t=1619
-wo jiu zhao chu lai le 	我就找出來了	c=1 d=0.937067 t=1619
-wo jue de 	我覺得	c=1 d=1.02335 t=1619
-wo jue de shi 	我覺得是	c=1 d=0.960789 t=1619
-wo kai le 	我開了	c=1 d=0.900325 t=1619
-wo kan dao 	我看到	c=0 d=0.0722527 t=1619
-wo kan dao de 	我看到的	c=1 d=0.726149 t=1619
-wo kan le xia 	我看了下	c=1 d=0.970446 t=1619
-wo qu 	我去	c=1 d=1.00857 t=1619
-wo qu kan kan 	我去看看	c=1 d=0.489192 t=1619
-wo shang 	我上	c=0 d=0.0909373 t=1619
-wo shang ci da kai de 	我上次大開得	c=1 d=0.913931 t=1619
-wo shi 	我是	c=1 d=0.995012 t=1619
-wo tong xue 	我同學	c=1 d=0.995012 t=1619
-wo xia 	我下	c=0 d=0.0904837 t=1619
-wo xian zai 	我現在	c=3 d=1.76578 t=1619
-wo xiang mai 	我想買	c=1 d=0.856415 t=1619
-wo xin 	我信	c=1 d=0.951229 t=1619
-wo yao zhao 	我要找	c=1 d=0.946485 t=1619
-wo yong 	我用	c=1 d=0.980199 t=1619
-wo yong de jiu shi 	我用的就是	c=1 d=0.460704 t=1619
-wo you 	我有	c=0 d=0.0818731 t=1619
-wo you zui 	我有罪	c=1 d=0.822835 t=1619
-wo zai 	我在	c=2 d=1.67556 t=1619
-wo zai kan 	我在看	c=1 d=0.955997 t=1619
-wo zai xiang 	我在想	c=1 d=0.744532 t=1619
-wo zai yong 	我在用	c=1 d=0.995012 t=1619
-wo zen me 	我怎麼	c=1 d=0.960789 t=1619
-wo zhe ge 	我這個	c=1 d=0.90977 t=1619
-wo zhe ge shi 	我這個是	c=1 d=0.955997 t=1619
-wo zheng zai 	我正在	c=1 d=0.985112 t=1619
-wo zuo tian 	我昨天	c=2 d=1.76521 t=1619
-wu suo wei 	無所謂	c=1 d=1 t=1619
-xi huan 	喜歡	c=0 d=0.0847894 t=1619
-xi tong 	系統	c=5 d=4.30751 t=1619
-xi tong de 	系統的	c=1 d=0.985112 t=1619
-xi yin 	吸引	c=1 d=0.995012 t=1619
-xia 	下	c=3 d=2.34072 t=1619
-xia ban 	下班	c=1 d=0.913931 t=1619
-xia ban nian 	下半年	c=1 d=0.937067 t=1619
-xia ci 	下次	c=0 d=0.0818731 t=1619
-xia ci yi ding 	下次一定	c=1 d=0.822835 t=1619
-xia lai 	下來	c=0 d=0.0965605 t=1619
-xia lai de 	下來的	c=1 d=0.970446 t=1619
-xia le 	下了	c=0 d=0.0985112 t=1619
-xia mian 	下面	c=1 d=0.856415 t=1619
-xia yuan ma 	下源碼	c=1 d=0.847894 t=1619
-xian chang 	現場	c=1 d=0.852144 t=1619
-xian ka 	顯卡	c=1 d=0.985112 t=1619
-xian ka qu dong 	顯卡驅動	c=2 d=1.79671 t=1619
-xian shang 	線上	c=0 d=0.0946485 t=1619
-xian shang fu wu 	線上服務	c=1 d=0.951229 t=1619
-xian shi 	顯示	c=0 d=0.099005 t=1619
-xian zai 	現在	c=3 d=1.89984 t=1619
-xian zai hao le 	現在好了	c=1 d=0.802519 t=1619
-xiang 	想	c=0 d=0.0740818 t=1619
-xiang bu dao 	想不到	c=1 d=0.970446 t=1619
-xiang kan 	想看	c=1 d=0.875479 t=1619
-xiang mu 	項目	c=2 d=1.84568 t=1619
-xiang mu li 	項目裏	c=1 d=0.97531 t=1619
-xiang xue 	想學	c=1 d=0.891366 t=1619
-xiao 	小	c=3 d=2.64535 t=1619
-xiao dian 	笑點	c=1 d=0.980199 t=1619
-xiao guo 	效果	c=1 d=0.882497 t=1619
-xiao shi 	消失	c=1 d=0.97531 t=1619
-xiao yuan 	小圓	c=1 d=1 t=1619
-xie 	些	c=1 d=0.951229 t=1619
-xie 	寫	c=2 d=1.38865 t=1619
-xie ben shu 	寫本書	c=1 d=0.932394 t=1619
-xie de 	寫的	c=1 d=0.882497 t=1619
-xie jiao 	邪教	c=1 d=0.955997 t=1619
-xie si 	寫死	c=1 d=0.778801 t=1619
-xin 	新	c=1 d=0.930432 t=1619
-xin ban ben 	新版本	c=1 d=0.970446 t=1619
-xin de 	新的	c=1 d=0.985538 t=1619
-xin hua yang 	新花樣	c=1 d=0.932394 t=1619
-xin jia po 	新加坡	c=1 d=0.506617 t=1619
-xin xi lan 	新西蘭	c=1 d=0.519442 t=1619
-xin you jian 	新郵件	c=1 d=0.965605 t=1619
-xing 	性	c=0 d=0.0980199 t=1619
-xing 	星	c=1 d=0.97531 t=1619
-xing 	行	c=1 d=0.755784 t=1619
-xing dong 	行動	c=0 d=0.0923116 t=1619
-xing neng 	性能	c=1 d=0.891578 t=1619
-xing neng bu ru 	性能不如	c=1 d=0.97531 t=1619
-xiu 	休	c=1 d=0.970446 t=1619
-xiu 	修	c=1 d=0.995012 t=1619
-xiu xian 	休閒	c=1 d=0.909373 t=1619
-xu ni ji 	虛擬機	c=3 d=1.92748 t=1619
-xuan ran 	渲染	c=1 d=1.09109 t=1619
-xue 	學	c=2 d=1.73013 t=1619
-xue bu hui 	學不會	c=1 d=0.995012 t=1619
-xue li 	學歷	c=1 d=0.951229 t=1619
-ya yi 	壓抑	c=1 d=0.839457 t=1619
-yan chi 	延遲	c=2 d=1.45384 t=1619
-yan chi gan 	延遲感	c=1 d=0.918512 t=1619
-yang 	陽	c=1 d=0.909373 t=1619
-yang zhou 	揚州	c=1 d=0.946485 t=1619
-yao 	要	c=3 d=2.37138 t=1619
-yao bu 	要不	c=1 d=0.99005 t=1619
-yao bu yao 	要不要	c=1 d=0.941765 t=1619
-yao qiu 	要求	c=0 d=0.0980199 t=1619
-yao shi 	要是	c=1 d=0.88692 t=1619
-yao you 	要有	c=1 d=0.960789 t=1619
-ye 	也	c=7 d=3.77921 t=1619
-ye bu hao yong 	也不好用	c=1 d=0.891366 t=1619
-ye bu shao 	也不少	c=1 d=1 t=1619
-ye bu shi 	也不是	c=2 d=1.66322 t=1619
-ye bu xing 	也不行	c=1 d=1 t=1619
-ye hai hao 	也還好	c=1 d=1 t=1619
-ye hui 	也會	c=0 d=0.0995012 t=1619
-ye hui gua 	也會掛	c=1 d=1 t=1619
-ye ke yi 	也可以	c=1 d=0.918512 t=1619
-ye mei you 	也沒有	c=1 d=0.852144 t=1619
-ye mian 	頁面	c=1 d=1.04207 t=1619
-ye shi 	也是	c=2 d=1.46583 t=1619
-ye shi yong 	也是用	c=1 d=0.814647 t=1619
-ye zha le 	也炸了	c=2 d=1.79247 t=1619
-yi 	一	c=2 d=2.01796 t=1619
-yi ba 	一把	c=0 d=0.0955997 t=1619
-yi ba suo 	一把梭	c=1 d=0.960789 t=1619
-yi ban 	一般	c=0 d=0.0774916 t=1619
-yi ban bu hui 	一般不會	c=1 d=0.778801 t=1619
-yi ci 	一次	c=1 d=0.923116 t=1619
-yi da duan 	一打斷	c=1 d=0.965605 t=1619
-yi dian dian 	一點點	c=1 d=0.878095 t=1619
-yi ding 	一定	c=0 d=0.143206 t=1619
-yi dun 	一頓	c=0 d=0.0826959 t=1619
-yi er xian 	一二線	c=1 d=0.860708 t=1619
-yi ge 	一個	c=4 d=2.76215 t=1619
-yi ge cheng xu 	一個程序	c=1 d=0.878095 t=1619
-yi gong 	一共	c=1 d=0.767206 t=1619
-yi hang 	一行	c=0 d=0.0579842 t=1619
-yi jian 	一鍵	c=1 d=0.826959 t=1619
-yi jing 	已經	c=4 d=2.81052 t=1619
-yi kai 	一開	c=1 d=0.985112 t=1619
-yi kai shi 	一開始	c=1 d=0.818731 t=1619
-yi kuai 	一塊	c=1 d=0.687289 t=1619
-yi nian 	一年	c=0 d=0.0798516 t=1619
-yi qi 	一起	c=1 d=0.67368 t=1619
-yi xia 	一下	c=2 d=1.9473 t=1619
-yi yan 	一眼	c=0 d=0.0946485 t=1619
-yi yan kan dao 	一眼看到	c=1 d=0.951229 t=1619
-yi yang 	一樣	c=1 d=0.986216 t=1619
-yi zhi 	一直	c=2 d=1.63087 t=1619
-yi zhi dou shi 	一直都是	c=1 d=0.946485 t=1619
-yin jian 	陰間	c=1 d=0.97531 t=1619
-yin su 	因素	c=0 d=0.0860708 t=1619
-yin wei 	因爲	c=1 d=1.00036 t=1619
-yin xiang 	印象	c=1 d=1.07118 t=1619
-ying gai 	應該	c=3 d=1.71283 t=1619
-ying gai shi 	應該是	c=2 d=1.82059 t=1619
-ying gai shuo 	應該說	c=1 d=0.869358 t=1619
-ying pan 	硬盤	c=2 d=1.84646 t=1619
-ying shang 	硬上	c=1 d=0.904837 t=1619
-ying she 	映射	c=0 d=0.0980199 t=1619
-ying xiang 	影響	c=0 d=0.0895834 t=1619
-ying xiang bu da 	影響不大	c=1 d=0.900325 t=1619
-yong 	用	c=9 d=4.89221 t=1619
-yong bu shang 	用不上	c=1 d=0.715338 t=1619
-yong bu zhao 	用不着	c=2 d=1.71803 t=1619
-yong de 	用的	c=1 d=1.03453 t=1619
-yong guo 	用過	c=0 d=0.186593 t=1619
-yong hu 	用戶	c=1 d=0.951229 t=1619
-yong lai 	用來	c=0 d=0.097531 t=1619
-yong ming ling hang 	用命令行	c=1 d=0.970446 t=1619
-yong qi lai 	用起來	c=1 d=0.980199 t=1619
-yong zai 	用在	c=1 d=0.995012 t=1619
-you 	有	c=6 d=4.45604 t=1619
-you a 	有啊	c=1 d=0.852144 t=1619
-you ben shi de 	有本事的	c=1 d=0.847894 t=1619
-you bu 	又不	c=0 d=0.0869358 t=1619
-you bu shi 	又不是	c=2 d=1.80175 t=1619
-you bu yi ding 	又不一定	c=1 d=0.873716 t=1619
-you dian 	有點	c=4 d=3.09995 t=1619
-you dian guai 	有點怪	c=1 d=1 t=1619
-you du 	有毒	c=2 d=1.88839 t=1619
-you ge 	有個	c=2 d=1.8437 t=1619
-you jian 	郵件	c=0 d=0.0960789 t=1619
-you qian ren 	有錢人	c=1 d=0.810584 t=1619
-you ren 	有人	c=1 d=0.985112 t=1619
-you sha 	有啥	c=1 d=0.955997 t=1619
-you sha guan xi 	有啥關係	c=1 d=0.767206 t=1619
-you xie 	有些	c=1 d=0.985112 t=1619
-you yin xiang 	有印象	c=1 d=0.748264 t=1619
-you yin ying 	有陰影	c=1 d=0.798516 t=1619
-you ying xiang 	有影響	c=1 d=0.873716 t=1619
-you zhe ge 	有這個	c=1 d=0.955997 t=1619
-yu 	喻	c=1 d=0.878095 t=1619
-yu dao 	遇到	c=0 d=0.0941765 t=1619
-yu ming 	域名	c=0 d=0.0951229 t=1619
-yu shi 	於是	c=1 d=0.960789 t=1619
-yu yan 	語言	c=1 d=0.995012 t=1619
-yuan lai 	原來	c=3 d=2.55501 t=1619
-yuan ma 	源碼	c=3 d=2.25492 t=1619
-yuan yin 	原因	c=1 d=0.904837 t=1619
-yue 	月	c=1 d=1 t=1619
-yun wei 	運維	c=1 d=0.869358 t=1619
-za hao 	雜號	c=1 d=1 t=1619
-zai 	在	c=9 d=5.56669 t=1619
-zai jia 	在家	c=2 d=1.48419 t=1619
-zai na 	在哪	c=0 d=0.0995012 t=1619
-zai na tiao 	在哪調	c=1 d=1 t=1619
-zai wan 	再玩	c=1 d=0.955997 t=1619
-zai yong 	在用	c=1 d=0.97531 t=1619
-zen me 	怎麼	c=2 d=2.06019 t=1619
-zen me gan jue 	怎麼感覺	c=1 d=0.913931 t=1619
-zen me hai shi 	怎麼還是	c=1 d=1 t=1619
-zen me hai you 	怎麼還有	c=1 d=0.980199 t=1619
-zen me kan 	怎麼看	c=1 d=0.869358 t=1619
-zen me miao shu 	怎麼描述	c=1 d=0.737123 t=1619
-zen me xie 	怎麼寫	c=1 d=1 t=1619
-zha de 	炸的	c=1 d=0.882497 t=1619
-zha le 	炸了	c=8 d=5.273 t=1619
-zhan qi 	戰棋	c=1 d=0.895834 t=1619
-zhan shi 	展示	c=0 d=0.0955997 t=1619
-zhan shi jie tu 	展示截圖	c=1 d=0.960789 t=1619
-zhang 	張	c=1 d=0.774916 t=1619
-zhang hao 	帳號	c=1 d=0.869358 t=1619
-zhao 	找	c=1 d=0.874408 t=1619
-zhao bu dao 	找不到	c=2 d=1.70046 t=1619
-zhao chu lai 	找出來	c=0 d=0.0932394 t=1619
-zhao de 	找的	c=0 d=0.0980199 t=1619
-zhao xi 	朝夕	c=1 d=1 t=1619
-zhao yi ge 	找一個	c=1 d=0.932394 t=1619
-zhe 	這	c=2 d=2.09052 t=1619
-zhe bian 	這邊	c=0 d=0.0970446 t=1619
-zhe ci 	這次	c=2 d=1.53863 t=1619
-zhe ge 	這個	c=10 d=4.99808 t=1619
-zhe ge di fang 	這個地方	c=1 d=0.609571 t=1619
-zhe ge hao xiang shi 	這個好象是	c=1 d=0.759572 t=1619
-zhe ge que shi 	這個確實	c=1 d=0.985112 t=1619
-zhe ge wen ti 	這個問題	c=1 d=0.826959 t=1619
-zhe he 	這和	c=1 d=0.763379 t=1619
-zhe lei yu 	這雷雨	c=1 d=0.951229 t=1619
-zhe li 	這裏	c=1 d=0.644036 t=1619
-zhe lia 	這倆	c=1 d=0.980199 t=1619
-zhe shi 	這是	c=3 d=2.50231 t=1619
-zhe shi sha 	這是啥	c=1 d=0.913931 t=1619
-zhe tao 	這套	c=1 d=0.995012 t=1619
-zhe teng 	折騰	c=3 d=2.4571 t=1619
-zhe wan yi er 	這玩意兒	c=2 d=1.6865 t=1619
-zhe yang 	這樣	c=2 d=1.68729 t=1619
-zhe zhang 	這張	c=0 d=0.0985112 t=1619
-zhe zhang bi zhi 	這張壁紙	c=1 d=0.99005 t=1619
-zhe zhong 	這種	c=1 d=0.941765 t=1619
-zhen 	真	c=1 d=0.937067 t=1619
-zhen xiang 	真像	c=1 d=1 t=1619
-zhen you 	真有	c=0 d=0.0778801 t=1619
-zhen you de 	真有的	c=1 d=0.782705 t=1619
-zheng chang 	正常	c=2 d=1.43699 t=1619
-zheng chang xian shi 	正常顯示	c=1 d=0.995012 t=1619
-zheng jing 	正經	c=2 d=1.88052 t=1619
-zheng jing ruan jian 	正經軟件	c=1 d=0.891366 t=1619
-zheng shu 	證書	c=1 d=0.525305 t=1619
-zheng shu guo qi 	證書過期	c=1 d=0.484325 t=1619
-zheng zai 	正在	c=0 d=0.0980199 t=1619
-zhi 	之	c=2 d=1.95072 t=1619
-zhi 	指	c=2 d=1.84956 t=1619
-zhi bao 	質保	c=1 d=0.985112 t=1619
-zhi chi 	支持	c=1 d=0.888538 t=1619
-zhi da 	只打	c=0 d=0.0937067 t=1619
-zhi da 	直達	c=1 d=0.904837 t=1619
-zhi da guo 	只打過	c=1 d=0.941765 t=1619
-zhi dao 	知道	c=1 d=0.980199 t=1619
-zhi hou 	之後	c=3 d=2.18479 t=1619
-zhi jie 	直接	c=4 d=2.81174 t=1619
-zhi jie pao 	直接跑	c=1 d=1 t=1619
-zhi jie zhuang 	直接裝	c=1 d=0.97531 t=1619
-zhi kan 	只看	c=0 d=0.0810584 t=1619
-zhi neng 	只能	c=1 d=0.965605 t=1619
-zhi shang 	智商	c=1 d=0.945111 t=1619
-zhi shang de 	智商的	c=1 d=0.891366 t=1619
-zhi you 	只有	c=1 d=0.995012 t=1619
-zhi zhen 	指針	c=1 d=1.03361 t=1619
-zhong 	中	c=1 d=0.980199 t=1619
-zhong guo 	中國	c=1 d=0.923116 t=1619
-zhu chong 	蛀蟲	c=1 d=0.869358 t=1619
-zhu wan yuan 	住完院	c=1 d=0.932394 t=1619
-zhu yi 	注意	c=0 d=0.0995012 t=1619
-zhu yi li 	注意力	c=1 d=0.965605 t=1619
-zhu yuan 	住院	c=1 d=0.927743 t=1619
-zhuan ye 	專業	c=0 d=0.0932394 t=1619
-zhuan ye ka 	專業卡	c=1 d=0.937067 t=1619
-zhuan yi 	轉移	c=1 d=0.980199 t=1619
-zhuang 	裝	c=6 d=4.03161 t=1619
-zhuang de 	裝的	c=0 d=0.0900325 t=1619
-zhuang ge 	裝個	c=1 d=0.965605 t=1619
-zhuang huai 	撞壞	c=1 d=0.995012 t=1619
-zhuang le 	撞了	c=2 d=0.965925 t=1619
-zhuang le 	裝了	c=1 d=0.980199 t=1619
-zhuang shang 	裝上	c=0 d=0.0951229 t=1619
-zhuang tai 	狀態	c=0 d=0.0878095 t=1619
-zhuang tai bu yi yang 	狀態不一樣	c=1 d=0.882497 t=1619
-zhuang wan 	裝完	c=1 d=0.818731 t=1619
-zhuo mian 	桌面	c=2 d=1.58324 t=1619
-zi dai 	自帶	c=1 d=0.828095 t=1619
-zi dai de 	自帶的	c=1 d=0.951229 t=1619
-zi dong 	自動	c=1 d=0.826959 t=1619
-zi hao 	字號	c=1 d=0.97531 t=1619
-zi ji 	自己	c=3 d=1.76245 t=1619
-zi ji gai 	自己改	c=2 d=1.68754 t=1619
-zi ji xie 	自己寫	c=1 d=0.591555 t=1619
-zi ti 	字體	c=2 d=1.96546 t=1619
-zi ti xuan ran 	字體渲染	c=1 d=0.965605 t=1619
-zong shi 	總是	c=0 d=0.0909373 t=1619
-zong shi neng 	總是能	c=1 d=0.913931 t=1619
-zou 	奏	c=1 d=0.980199 t=1619
-zou de 	走的	c=0 d=0.0909373 t=1619
-zou de shi 	走的是	c=1 d=0.913931 t=1619
-zou le 	走了	c=1 d=1 t=1619
-zu jian 	組件	c=1 d=0.650509 t=1619
-zui 	最	c=1 d=0.802519 t=1619
-zui 	罪	c=0 d=0.13802 t=1619
-zui di 	最低	c=1 d=0.499074 t=1619
-zui gui 	最貴	c=0 d=0.0814647 t=1619
-zui gui de 	最貴的	c=1 d=0.818731 t=1619
-zui hao 	最好	c=1 d=0.814647 t=1619
-zui jian dan de 	最簡單的	c=3 d=1.81466 t=1619
-zui qi ma 	罪起碼	c=2 d=1.77872 t=1619
-zui xin 	最新	c=0 d=0.0865022 t=1619
-zui xin ban 	最新版	c=1 d=0.97531 t=1619
-zui xin de 	最新的	c=1 d=0.869358 t=1619
-zuo 	做	c=1 d=0.694197 t=1619
-zuo tian 	昨天	c=0 d=0.0869358 t=1619
+a 	啊	c=8 d=4.65234 t=1628
+a yi 	阿姨	c=1 d=0.878095 t=1628
+ai 	愛	c=3 d=1.78353 t=1628
+an 	按	c=2 d=1.95072 t=1628
+an 	暗	c=1 d=0.873716 t=1628
+an zhuang 	安裝	c=2 d=1.54521 t=1628
+ba 	吧	c=10 d=6.29834 t=1628
+ba 	把	c=2 d=1.7128 t=1628
+bai 	白	c=1 d=0.97531 t=1628
+ban 	半	c=2 d=1.93124 t=1628
+ban ben 	版本	c=0 d=0.0965605 t=1628
+ban le 	搬了	c=0 d=0.0904837 t=1628
+ban nian qian 	半年前	c=1 d=0.927743 t=1628
+bang 	棒	c=1 d=0.941765 t=1628
+bang ni 	幫你	c=0 d=0.0932394 t=1628
+bao 	包	c=1 d=0.970446 t=1628
+bao 	報	c=1 d=0.913931 t=1628
+bao pi qi 	暴脾氣	c=1 d=0.995012 t=1628
+bei 	唄	c=1 d=0.946485 t=1628
+bei 	被	c=2 d=1.69219 t=1628
+ben di 	本地	c=1 d=0.843665 t=1628
+ben lai 	本來	c=1 d=0.774916 t=1628
+ben shen 	本身	c=1 d=0.666977 t=1628
+ben shi 	本事	c=0 d=0.0843665 t=1628
+ben shu 	本書	c=0 d=0.0927743 t=1628
+bi 	彼	c=1 d=0.99005 t=1628
+bi 	比	c=3 d=1.96225 t=1628
+bi ji ben 	筆記本	c=1 d=0.860708 t=1628
+bi jiao shao 	比較少	c=0 d=0.0891366 t=1628
+bi qi 	比起	c=2 d=1.6996 t=1628
+bi ru 	比如	c=3 d=1.85179 t=1628
+bi shu 	避暑	c=1 d=0.941765 t=1628
+bi xu 	必須	c=1 d=0.965605 t=1628
+bi zhi 	壁紙	c=1 d=0.839329 t=1628
+bian 	邊	c=0 d=0.0960789 t=1628
+bian hua 	變化	c=1 d=1 t=1628
+bian jie 	便捷	c=0 d=0.0980199 t=1628
+bian jie xing 	便捷性	c=1 d=0.985112 t=1628
+bian liang 	變量	c=1 d=0.99005 t=1628
+bian yi 	編譯	c=2 d=1.6585 t=1628
+bian yi hui zha 	編譯會炸	c=1 d=0.955997 t=1628
+biao shi 	表示	c=1 d=0.955997 t=1628
+biao ti 	標題	c=2 d=1.95084 t=1628
+bing mei you 	並沒有	c=1 d=0.985112 t=1628
+bu 	不	c=3 d=2.47398 t=1628
+bu chong 	補充	c=1 d=0.959913 t=1628
+bu da 	不大	c=0 d=0.0895834 t=1628
+bu dong 	不懂	c=1 d=0.843665 t=1628
+bu dui 	不對	c=2 d=1.38258 t=1628
+bu dui 	部隊	c=1 d=0.918512 t=1628
+bu dui a 	不對啊	c=1 d=0.895834 t=1628
+bu gao 	不高	c=1 d=0.985112 t=1628
+bu gei 	補給	c=2 d=1.81058 t=1628
+bu guan 	不管	c=1 d=1.0472 t=1628
+bu guo 	不過	c=2 d=1.74134 t=1628
+bu hao yong 	不好用	c=1 d=0.970446 t=1628
+bu hui 	不會	c=2 d=1.85114 t=1628
+bu jie 	不接	c=1 d=0.843665 t=1628
+bu liao 	不了	c=1 d=1.05738 t=1628
+bu man 	不滿	c=0 d=0.097531 t=1628
+bu mang 	不忙	c=1 d=0.99005 t=1628
+bu neng 	不能	c=5 d=2.94444 t=1628
+bu neng yong 	不能用	c=1 d=0.997859 t=1628
+bu qi lai 	不起來	c=0 d=0.0951229 t=1628
+bu ru 	不如	c=1 d=1.08709 t=1628
+bu shang 	不上	c=0 d=0.071177 t=1628
+bu shao 	不少	c=0 d=0.0995012 t=1628
+bu shi 	不是	c=17 d=7.69571 t=1628
+bu shi ni shuo 	不是你說	c=1 d=0.970446 t=1628
+bu shu 	部署	c=1 d=0.865022 t=1628
+bu tai 	不太	c=0 d=0.0752014 t=1628
+bu tai yi yang 	不太一樣	c=1 d=0.755784 t=1628
+bu ti gong 	不提供	c=1 d=0.67032 t=1628
+bu tui jian 	不推薦	c=1 d=0.995012 t=1628
+bu xi guan 	不習慣	c=1 d=0.946485 t=1628
+bu xi huan 	不喜歡	c=1 d=0.913931 t=1628
+bu xiang 	不想	c=0 d=0.0932394 t=1628
+bu xiang kan 	不想看	c=1 d=0.932394 t=1628
+bu xiang zhuang 	不想裝	c=1 d=0.937067 t=1628
+bu xin 	不信	c=0 d=0.0927743 t=1628
+bu xing 	不行	c=0 d=0.0995012 t=1628
+bu yao 	不要	c=4 d=3.62445 t=1628
+bu yao qiu 	不要求	c=1 d=0.985112 t=1628
+bu ye 	不也	c=1 d=0.99005 t=1628
+bu yi yang 	不一樣	c=2 d=1.10863 t=1628
+bu yong 	不用	c=2 d=1.60524 t=1628
+bu zhi 	不止	c=1 d=1 t=1628
+bu zhi chi 	不支持	c=1 d=0.960789 t=1628
+bu zhi dao 	不知道	c=12 d=7.29342 t=1628
+cai 	才	c=1 d=0.847894 t=1628
+cai 	踩	c=2 d=1.95556 t=1628
+cai zhi dao 	才知道	c=1 d=0.980199 t=1628
+ce shi 	測試	c=1 d=0.985112 t=1628
+cha 	差	c=1 d=0.88692 t=1628
+cha 	查	c=1 d=1.06576 t=1628
+cha bu duo 	差不多	c=1 d=0.511709 t=1628
+cha jian 	插件	c=0 d=0.0941765 t=1628
+cha jian ye mian 	插件頁面	c=1 d=0.946485 t=1628
+chang 	長	c=0 d=0.097531 t=1628
+chang lian jie 	長鏈接	c=1 d=0.980199 t=1628
+chao 	抄	c=1 d=0.946485 t=1628
+cheng 	成	c=1 d=0.980199 t=1628
+cheng 	澄	c=2 d=1.82746 t=1628
+cheng ben 	成本	c=1 d=0.955997 t=1628
+cheng du 	成都	c=2 d=1.59084 t=1628
+cheng du 	程度	c=1 d=0.941765 t=1628
+cheng fen 	成分	c=0 d=0.0913931 t=1628
+cheng fen fu za 	成分複雜	c=1 d=0.918512 t=1628
+cheng gong 	成功	c=1 d=0.99005 t=1628
+cheng xu 	程序	c=3 d=2.04334 t=1628
+chi 	吃	c=2 d=1.89477 t=1628
+chi bu man 	吃不滿	c=1 d=0.980199 t=1628
+chi fan 	吃飯	c=1 d=0.858028 t=1628
+chi ku 	吃苦	c=1 d=0.918512 t=1628
+chi wan 	吃完	c=1 d=0.965605 t=1628
+chi yi dun 	吃一頓	c=1 d=0.831104 t=1628
+chong ding xiang 	重定向	c=1 d=0.465334 t=1628
+chong dong 	衝動	c=1 d=0.985112 t=1628
+chong gou 	重構	c=1 d=0.913931 t=1628
+chong qi 	重啓	c=1 d=1.05523 t=1628
+chong qi guo le 	重啓過了	c=1 d=0.960789 t=1628
+chong xin 	重新	c=0 d=0.294402 t=1628
+chong xin da kai zhi hou 	重新打開之後	c=1 d=0.980199 t=1628
+chong xin deng lu 	重新登錄	c=1 d=0.900325 t=1628
+chong xin pao zhi hou 	重新跑之後	c=1 d=0.923116 t=1628
+chong xin xia le ge 	重新下了個	c=1 d=0.99005 t=1628
+chou 	抽	c=1 d=0.88195 t=1628
+chu 	出	c=0 d=0.0818731 t=1628
+chu fa 	觸發	c=0 d=0.0955997 t=1628
+chu fa tiao jian 	觸發條件	c=1 d=0.960789 t=1628
+chu fei 	除非	c=1 d=0.472367 t=1628
+chu lai 	出來	c=2 d=1.91652 t=1628
+chu lai le 	出來了	c=1 d=0.985112 t=1628
+chu le 	出了	c=1 d=1 t=1628
+chu le 	除了	c=2 d=1.36861 t=1628
+chuan 	傳	c=1 d=0.918512 t=1628
+chuang 	創	c=1 d=1 t=1628
+chuang jian 	創建	c=1 d=1 t=1628
+chui zi 	錘子	c=1 d=0.951229 t=1628
+chun ge 	春哥	c=1 d=0.97531 t=1628
+ci da 	次大	c=0 d=0.0909373 t=1628
+ci zhi 	辭職	c=1 d=0.99005 t=1628
+cong 	從	c=7 d=3.51798 t=1628
+cong tou 	從頭	c=1 d=0.869358 t=1628
+cun zai 	存在	c=1 d=0.985112 t=1628
+cuo 	錯	c=1 d=0.927743 t=1628
+da 	大	c=1 d=0.970446 t=1628
+da 	打	c=0 d=0.0579842 t=1628
+da bu fen 	大部分	c=1 d=0.88692 t=1628
+da chang 	大廠	c=3 d=2.62561 t=1628
+da dao 	打到	c=1 d=0.66365 t=1628
+da duan 	打斷	c=0 d=0.0960789 t=1628
+da fa 	大法	c=0 d=0.0752014 t=1628
+da gai 	大概	c=2 d=1.80961 t=1628
+da gai lv 	大概率	c=1 d=0.895834 t=1628
+da kai 	打開	c=2 d=1.8854 t=1628
+da kai le 	打開了	c=1 d=0.97531 t=1628
+da lao 	大佬	c=1 d=0.923116 t=1628
+da le 	打了	c=1 d=0.918512 t=1628
+da sao wei sheng 	打掃衛生	c=2 d=1.79187 t=1628
+da tian xia 	打天下	c=1 d=0.927743 t=1628
+da yi hang 	打一行	c=1 d=0.582748 t=1628
+da yue jin 	大躍進	c=1 d=0.794534 t=1628
+dai de 	帶的	c=1 d=0.980199 t=1628
+dai ma 	代碼	c=4 d=3.04651 t=1628
+dan 	單	c=0 d=0.0704688 t=1628
+dan kai yi ge 	單開一個	c=1 d=0.70822 t=1628
+dan mei 	但沒	c=1 d=0.995012 t=1628
+dan shi 	但是	c=22 d=8.74593 t=1628
+dan shi wo xia ban le 	但是我下搬了	c=1 d=0.909373 t=1628
+dan teng 	蛋疼	c=1 d=0.904837 t=1628
+dang cheng 	當成	c=1 d=0.873716 t=1628
+dang mian 	當面	c=0 d=0.0794534 t=1628
+dang mian wen 	當面文	c=1 d=0.798516 t=1628
+dang shi 	當時	c=1 d=0.970446 t=1628
+dao 	到	c=4 d=2.63748 t=1628
+dao shi hou 	到時候	c=1 d=0.941765 t=1628
+de 	的	c=55 d=18.4986 t=1628
+de guo 	德國	c=1 d=0.860708 t=1628
+dei 	得	c=2 d=1.88141 t=1628
+deng 	等	c=0 d=0.0937067 t=1628
+deng hui er 	等會兒	c=1 d=0.941765 t=1628
+deng lu 	登錄	c=0 d=0.0895834 t=1628
+di ceng 	底層	c=0 d=0.0718924 t=1628
+di er 	第二	c=0 d=0.0955997 t=1628
+di er hua 	第二話	c=1 d=0.960789 t=1628
+di liu 	第六	c=0 d=0.0980199 t=1628
+di liu guan 	第六關	c=1 d=0.985112 t=1628
+di san 	第三	c=0 d=0.0985112 t=1628
+di san fang 	第三方	c=1 d=0.88692 t=1628
+di san kuai 	第三塊	c=1 d=0.99005 t=1628
+di tie 	地鐵	c=2 d=1.38536 t=1628
+dian 	電	c=2 d=1.89842 t=1628
+dian 	點	c=2 d=1.89674 t=1628
+dian nao 	電腦	c=1 d=0.847894 t=1628
+dian zhang 	店長	c=1 d=0.985112 t=1628
+diao 	掉	c=1 d=0.831104 t=1628
+diao xing 	調性	c=1 d=0.818731 t=1628
+diao yong 	調用	c=3 d=1.85018 t=1628
+ding shi 	定時	c=0 d=0.0937067 t=1628
+ding shi cha 	定時查	c=1 d=0.941765 t=1628
+dong 	動	c=0 d=0.0965605 t=1628
+dong 	懂	c=1 d=0.97531 t=1628
+dong xi 	東西	c=3 d=1.63095 t=1628
+dou 	都	c=5 d=3.9257 t=1628
+dou 	鬥	c=1 d=0.995012 t=1628
+dou bei 	都被	c=1 d=0.895834 t=1628
+dou da 	都打	c=0 d=0.0637628 t=1628
+dou da dao 	都打到	c=2 d=1.32469 t=1628
+dou mei 	都沒	c=0 d=0.0960789 t=1628
+dou mei dian 	都沒點	c=1 d=0.965605 t=1628
+dou neng 	都能	c=1 d=0.99005 t=1628
+dou neng zhi jie yong 	都能直接用	c=1 d=0.891366 t=1628
+dou shi 	都是	c=4 d=2.80144 t=1628
+dou xi huan 	都喜歡	c=1 d=0.852144 t=1628
+dou xing 	都行	c=2 d=1.91683 t=1628
+dou zai 	都在	c=1 d=0.618783 t=1628
+dou zhe yang 	都這樣	c=1 d=0.980199 t=1628
+dou zhi kan 	都只看	c=1 d=0.814647 t=1628
+duan 	段	c=1 d=0.97531 t=1628
+duan kou 	端口	c=0 d=0.0980199 t=1628
+duan kou ying she 	端口映射	c=1 d=0.985112 t=1628
+duan shi jian 	段時間	c=0 d=0.0856415 t=1628
+dui 	對	c=1 d=0.794534 t=1628
+dui le 	對了	c=1 d=0.946485 t=1628
+duo 	多	c=2 d=1.5846 t=1628
+duo chu lai 	多出來	c=0 d=0.0806541 t=1628
+duo chu lai de 	多出來的	c=1 d=0.810584 t=1628
+duo le 	多了	c=0 d=0.0995012 t=1628
+duo miao 	多秒	c=1 d=0.798516 t=1628
+duo xia 	多下	c=1 d=0.99005 t=1628
+en 	嗯	c=1 d=0.543351 t=1628
+er jin zhi 	二進制	c=4 d=2.80068 t=1628
+er qie 	而且	c=9 d=5.85146 t=1628
+er xian 	二線	c=0 d=0.0856415 t=1628
+fa 	發	c=1 d=0.951229 t=1628
+fa le 	發了	c=1 d=0.960789 t=1628
+fa xian 	發現	c=3 d=2.60101 t=1628
+fa xian xin de 	發現新的	c=1 d=0.946485 t=1628
+fan yi 	翻譯	c=1 d=0.97531 t=1628
+fan zheng 	反正	c=2 d=1.7357 t=1628
+fang 	放	c=1 d=0.995012 t=1628
+fang qi 	放棄	c=1 d=0.941765 t=1628
+fang wen 	訪問	c=0 d=0.0955997 t=1628
+fang wen bu liao 	訪問不了	c=1 d=0.960789 t=1628
+fei hua 	廢話	c=1 d=0.941765 t=1628
+fei yao 	非要	c=1 d=0.878095 t=1628
+fen bian lv 	分辨率	c=2 d=1.95551 t=1628
+fen bu tu 	分佈圖	c=1 d=1 t=1628
+fen fa 	分發	c=3 d=1.90862 t=1628
+fen kai 	分開	c=0 d=0.0955997 t=1628
+fen kuai 	分塊	c=2 d=1.93124 t=1628
+feng di 	風笛	c=1 d=0.818731 t=1628
+feng ge 	風格	c=0 d=0.0923116 t=1628
+feng zhuang 	封裝	c=3 d=2.22624 t=1628
+feng zhuang jie guo shi 	封裝結果是	c=1 d=0.767206 t=1628
+fu hao 	符號	c=1 d=0.909373 t=1628
+fu jian 	復健	c=1 d=0.955997 t=1628
+fu pin 	扶貧	c=1 d=0.83527 t=1628
+fu wu 	服務	c=1 d=0.813318 t=1628
+fu wu qi 	服務器	c=1 d=0.865022 t=1628
+fu za 	複雜	c=0 d=0.0913931 t=1628
+gai 	改	c=1 d=0.640951 t=1628
+gai de 	改的	c=1 d=0.960789 t=1628
+gai ge 	改革	c=1 d=0.995012 t=1628
+gai hui qu 	改回去	c=0 d=0.0904837 t=1628
+gai hui qu le 	改回去了	c=1 d=0.909373 t=1628
+gan 	幹	c=1 d=0.965605 t=1628
+gan 	感	c=0 d=0.0913931 t=1628
+gan huo 	幹活	c=2 d=1.51402 t=1628
+gan jue 	感覺	c=6 d=4.43277 t=1628
+gan sha 	幹啥	c=1 d=1.16763 t=1628
+gan sha de 	幹啥的	c=1 d=0.97531 t=1628
+gang 	剛	c=0 d=0.0927743 t=1628
+gang shuo wan 	剛說完	c=1 d=0.932394 t=1628
+gao 	搞	c=1 d=0.946485 t=1628
+gao 	高	c=1 d=0.873716 t=1628
+gao chu lai 	搞出來	c=1 d=0.923116 t=1628
+gao ding 	搞定	c=1 d=0.860708 t=1628
+gao fei 	稿費	c=1 d=0.946485 t=1628
+gao huai 	搞壞	c=1 d=0.995012 t=1628
+gao nan du 	高難度	c=1 d=0.891366 t=1628
+gao zhe wan yi er 	搞這玩意兒	c=1 d=0.951229 t=1628
+ge 	個	c=3 d=2.59234 t=1628
+ge 	哥	c=1 d=0.99005 t=1628
+ge zhong 	各種	c=1 d=0.900325 t=1628
+gei 	給	c=2 d=1.37707 t=1628
+gei de shao 	給的少	c=1 d=0.826959 t=1628
+gei ni 	給你	c=0 d=0.19362 t=1628
+gei ni ge 	給你個	c=1 d=0.99005 t=1628
+gei ni zhao de 	給你找的	c=1 d=0.985112 t=1628
+gei ta 	給他	c=0 d=0.0951229 t=1628
+gei wo 	給我	c=1 d=0.918512 t=1628
+geng 	更	c=0 d=0.0718924 t=1628
+geng di ceng 	更底層	c=1 d=0.722527 t=1628
+geng xin 	更新	c=2 d=1.78593 t=1628
+geng xin zhi hou 	更新之後	c=1 d=0.941765 t=1628
+geng zhong 	更重	c=1 d=0.918512 t=1628
+gong neng 	功能	c=1 d=0.677057 t=1628
+gong yuan 	公園	c=1 d=0.99005 t=1628
+gou tong 	溝通	c=0 d=0.0826959 t=1628
+gou tong wen ti 	溝通問題	c=1 d=0.831104 t=1628
+gou yong 	夠用	c=1 d=0.891366 t=1628
+gou yuan 	夠遠	c=1 d=0.960789 t=1628
+gu ding 	固定	c=1 d=0.923116 t=1628
+gu ji 	估計	c=1 d=0.960789 t=1628
+gu ji shi 	估計是	c=1 d=0.856415 t=1628
+gua 	掛	c=0 d=0.0995012 t=1628
+gua zai 	掛在	c=1 d=0.965605 t=1628
+guai 	怪	c=0 d=0.0995012 t=1628
+guai dao 	怪到	c=1 d=0.782705 t=1628
+guan 	關	c=0 d=0.0980199 t=1628
+guan dian 	觀點	c=0 d=0.0937067 t=1628
+guan li qi 	管理器	c=0 d=0.0937067 t=1628
+guan wang 	官網	c=0 d=0.0900325 t=1628
+guan wang zhuang de 	官網裝的	c=1 d=0.904837 t=1628
+guan xi 	關係	c=1 d=1.14483 t=1628
+guan xi hao 	關係好	c=1 d=0.97531 t=1628
+guan xi hao 	關係號	c=1 d=0.970446 t=1628
+guang gao 	廣告	c=1 d=0.955997 t=1628
+guang rong 	光榮	c=0 d=0.185086 t=1628
+guang rong shi ming 	光榮使命	c=1 d=0.932394 t=1628
+guang rong xing dong 	光榮行動	c=1 d=0.927743 t=1628
+gun 	滾	c=1 d=0.941765 t=1628
+guo 	過	c=0 d=0.257752 t=1628
+guo duan 	果斷	c=1 d=0.937067 t=1628
+guo duan shi jian 	過段時間	c=1 d=0.860708 t=1628
+guo ji xiang qi 	國際象棋	c=1 d=0.99005 t=1628
+guo le 	過了	c=0 d=0.0955997 t=1628
+guo lu 	過路	c=1 d=1 t=1628
+guo qi 	國企	c=1 d=1.00624 t=1628
+guo qi 	過期	c=1 d=0.527695 t=1628
+guo qi feng ge 	國企風格	c=1 d=0.927743 t=1628
+hai 	還	c=5 d=2.80607 t=1628
+hai bi jiao shao 	還比較少	c=1 d=0.895834 t=1628
+hai bu neng yong 	還不能用	c=1 d=1 t=1624
+hai bu ru 	還不如	c=1 d=0.900325 t=1628
+hai bu zhi dao 	還不知道	c=1 d=0.965605 t=1628
+hai dei 	還得	c=1 d=0.946485 t=1628
+hai guan 	還管	c=1 d=0.88692 t=1628
+hai hao 	還好	c=1 d=0.721129 t=1628
+hai mei 	還沒	c=0 d=0.171716 t=1628
+hai mei jin 	還沒進	c=1 d=1 t=1628
+hai mei kai shi 	還沒開始	c=1 d=0.869358 t=1628
+hai neng 	還能	c=1 d=0.839457 t=1628
+hai shi 	還是	c=5 d=3.70561 t=1628
+hai shi yin wei 	還是因爲	c=1 d=0.882497 t=1628
+hai xie ma 	還寫嗎	c=1 d=0.99005 t=1628
+hai xing 	還行	c=4 d=2.52602 t=1628
+hai you 	還有	c=2 d=1.94107 t=1628
+hai you zhe ge 	還有這個	c=1 d=0.941765 t=1628
+hai zai 	還在	c=0 d=0.0759572 t=1628
+hai zai jian 	還在建	c=1 d=0.763379 t=1628
+hai zhen shi 	還真是	c=0 d=0.0479505 t=1628
+han shu 	函數	c=1 d=1.02892 t=1628
+han shu zhi zhen 	函數指針	c=1 d=0.923116 t=1628
+hao 	好	c=3 d=1.68699 t=1628
+hao 	號	c=3 d=2.42013 t=1628
+hao ji ge 	好幾個	c=1 d=0.666977 t=1628
+hao jiu 	好久	c=1 d=1.06948 t=1628
+hao jiu le 	好久了	c=1 d=0.960789 t=1628
+hao kan 	好看	c=0 d=0.0774916 t=1628
+hao le 	好了	c=2 d=1.80977 t=1628
+hao shi 	好事	c=0 d=0.0995012 t=1628
+hao xiang 	好像	c=8 d=6.64447 t=1628
+hao xiang mei you 	好像沒有	c=1 d=0.585669 t=1628
+hao xiang que shi 	好像缺失	c=1 d=0.99005 t=1628
+hao xiang shi 	好象是	c=1 d=0.965605 t=1628
+hao xiang ye 	好像也	c=1 d=0.985112 t=1628
+he 	和	c=10 d=5.20322 t=1628
+he ge 	合格	c=1 d=0.856415 t=1628
+he ning 	賀寧	c=1 d=0.980199 t=1628
+hei ren 	黑人	c=1 d=0.865022 t=1628
+hen bu 	很不	c=0 d=0.0913931 t=1628
+hen bu kao pu 	很不靠譜	c=1 d=0.918512 t=1628
+hen cha 	很差	c=1 d=0.970446 t=1628
+hen gao 	很高	c=1 d=0.726149 t=1628
+hen zhong 	很重	c=1 d=1 t=1628
+hong lou 	紅樓	c=1 d=0.995012 t=1628
+hou duan 	後端	c=1 d=0.941765 t=1628
+hou mian 	後面	c=0 d=0.0913931 t=1628
+hou mian de 	後面的	c=2 d=1.85781 t=1628
+hu 	湖	c=1 d=0.918512 t=1628
+hu bian 	湖邊	c=1 d=0.980199 t=1628
+hu xiang 	互相	c=1 d=0.891366 t=1628
+hua 	話	c=0 d=0.0955997 t=1628
+huai le 	壞了	c=2 d=1.5714 t=1628
+huan 	換	c=1 d=0.927743 t=1628
+huan cheng 	換成	c=4 d=2.66656 t=1628
+huan diao 	換掉	c=1 d=0.822835 t=1628
+huan ge 	換個	c=1 d=0.748264 t=1628
+huan jing 	環境	c=1 d=0.831104 t=1628
+huan jing bian liang 	環境變量	c=2 d=1.94649 t=1628
+huan jiu 	換就	c=1 d=0.923116 t=1628
+huan xiang 	幻想	c=1 d=0.882497 t=1628
+huan ying jia ru 	歡迎加入	c=1 d=0.951229 t=1628
+hui 	會	c=3 d=2.60881 t=1628
+hui ba 	會把	c=2 d=1.93635 t=1628
+hui bang ni 	會幫你	c=1 d=0.937067 t=1628
+hui er 	會兒	c=0 d=0.0937067 t=1628
+hui lai 	回來	c=0 d=0.0980199 t=1628
+hui lai de 	回來的	c=1 d=0.985112 t=1628
+hui qu 	回去	c=1 d=0.701173 t=1628
+hui tui 	回退	c=1 d=0.904837 t=1628
+hui zha 	會炸	c=1 d=0.98204 t=1628
+huo 	活	c=1 d=0.970446 t=1628
+huo zhe 	或者	c=3 d=1.92992 t=1628
+ji 	姬	c=1 d=0.995012 t=1628
+ji 	幾	c=0 d=0.0960789 t=1628
+ji 	級	c=1 d=1 t=1628
+ji 	集	c=1 d=1 t=1628
+ji 	雞	c=2 d=1.9459 t=1628
+ji ben 	基本	c=1 d=0.995209 t=1628
+ji ben dou shi 	基本都是	c=1 d=0.786628 t=1628
+ji cheng 	集成	c=1 d=0.718924 t=1628
+ji cheng du 	集成度	c=1 d=0.722527 t=1628
+ji ge 	幾個	c=1 d=0.955997 t=1628
+ji shu 	技術	c=1 d=1 t=1628
+ji xie 	機械	c=0 d=0.0937067 t=1628
+ji xie jian pan 	機械鍵盤	c=1 d=0.941765 t=1628
+ji xu 	繼續	c=1 d=0.951229 t=1628
+ji zhu 	記住	c=1 d=0.909373 t=1628
+jia 	加	c=0 d=0.1 t=1626
+jia ban 	加班	c=1 d=0.895834 t=1628
+jia de 	加的	c=2 d=1.71387 t=1628
+jia zhuang 	假裝	c=0 d=0.0951229 t=1628
+jia zhuang yong guo 	假裝用過	c=1 d=0.955997 t=1628
+jian 	建	c=0 d=0.0759572 t=1628
+jian hao 	建好	c=1 d=0.810584 t=1628
+jian hua 	簡化	c=3 d=2.52456 t=1628
+jian pan 	鍵盤	c=0 d=0.0937067 t=1628
+jian ting 	監聽	c=1 d=0.985112 t=1628
+jian yi 	建議	c=1 d=0.995012 t=1628
+jian zhan 	建站	c=0 d=0.0694197 t=1628
+jiang dao li 	講道理	c=1 d=0.88692 t=1628
+jiang ji 	降級	c=1 d=0.697676 t=1628
+jiao 	叫	c=1 d=0.831104 t=1628
+jiao ben 	腳本	c=1 d=0.955997 t=1628
+jie duan 	截斷	c=1 d=0.995012 t=1628
+jie guo 	結果	c=1 d=0.980199 t=1628
+jie guo shi 	結果是	c=0 d=0.0763379 t=1628
+jie mian 	界面	c=1 d=0.980199 t=1628
+jie shou 	接收	c=1 d=0.951229 t=1628
+jie suo 	解鎖	c=1 d=0.970446 t=1628
+jie tu 	截圖	c=0 d=0.190722 t=1628
+jie tu ruan jian 	截圖軟件	c=1 d=0.955997 t=1628
+jie xi 	解析	c=1 d=0.985112 t=1628
+jie zhe 	接着	c=0 d=0.083527 t=1628
+jie zhe yong 	接着用	c=1 d=0.839457 t=1628
+jin 	進	c=0 d=0.0995012 t=1628
+jin qu 	進去	c=1 d=0.937067 t=1628
+jin tian 	今天	c=1 d=0.522046 t=1628
+jin xing dao 	進行到	c=1 d=0.960789 t=1628
+jing ji 	經濟	c=1 d=0.847894 t=1628
+jiu 	就	c=3 d=1.94725 t=1628
+jiu ba 	就把	c=0 d=0.0980199 t=1628
+jiu bie 	就別	c=0 d=0.0818731 t=1628
+jiu bie chu 	就別出	c=1 d=0.822835 t=1628
+jiu bu 	就不	c=0 d=0.0891366 t=1628
+jiu bu zhuang 	就不裝	c=1 d=0.895834 t=1628
+jiu de 	舊的	c=1 d=0.970446 t=1628
+jiu hui 	就會	c=2 d=1.87897 t=1628
+jiu pao tong le 	就跑通了	c=1 d=0.565525 t=1628
+jiu shi 	就是	c=7 d=3.76046 t=1628
+jiu shi ge 	就是個	c=1 d=0.786628 t=1628
+jiu xing 	就行	c=3 d=2.24997 t=1628
+jiu yi zhi 	就一直	c=1 d=0.810584 t=1628
+jiu zai 	就在	c=2 d=1.73558 t=1628
+jiu zhe yang 	就這樣	c=1 d=0.778801 t=1628
+ju ran 	居然	c=1 d=1.02724 t=1628
+ju ran bu shi 	居然不是	c=1 d=1 t=1628
+ju ran you 	居然有	c=1 d=0.941765 t=1628
+ju yu wang 	局域網	c=1 d=0.839457 t=1628
+jue de 	覺得	c=0 d=0.0900325 t=1628
+jue le 	絕了	c=1 d=0.946485 t=1628
+ka 	卡	c=1 d=1.05414 t=1628
+ka le 	卡勒	c=1 d=0.88692 t=1628
+ka si 	卡死	c=1 d=0.995012 t=1628
+ka zhu 	卡住	c=1 d=0.951229 t=1628
+kai 	開	c=0 d=0.0704688 t=1628
+kai de 	開得	c=0 d=0.0909373 t=1628
+kai fa 	開發	c=1 d=1 t=1628
+kai fa sha 	開發啥	c=1 d=0.744532 t=1628
+kai guan 	開關	c=1 d=0.970446 t=1628
+kai ji 	開機	c=0 d=0.0980199 t=1628
+kai ji le 	開機了	c=1 d=0.985112 t=1628
+kai le 	開了	c=0 d=0.0895834 t=1628
+kai shi 	開始	c=2 d=1.41611 t=1628
+kai yuan 	開源	c=1 d=0.951229 t=1628
+kan 	看	c=2 d=1.90415 t=1628
+kan dao 	看到	c=0 d=0.163378 t=1628
+kan jian 	看見	c=0 d=0.0786628 t=1628
+kan kan 	看看	c=1 d=1.02315 t=1628
+kan lai kan qu 	看來看去	c=1 d=0.97531 t=1628
+kan le 	看了	c=0 d=0.0965605 t=1628
+kan qi lai 	看起來	c=4 d=3.5737 t=1628
+kan qi lai yao 	看起來要	c=1 d=0.895834 t=1628
+kan xia lai 	看下來	c=1 d=0.932394 t=1628
+kan xiang 	看向	c=1 d=0.904837 t=1628
+kan yi xia 	看一下	c=1 d=0.946485 t=1628
+kao 	靠	c=1 d=0.683861 t=1628
+kao pu 	靠譜	c=0 d=0.0913931 t=1628
+ke mu 	科目	c=1 d=1.08119 t=1628
+ke mu ji 	科目幾	c=1 d=0.965605 t=1628
+ke neng 	可能	c=3 d=2.70776 t=1628
+ke neng hai zhen shi 	可能還真是	c=1 d=0.481909 t=1628
+ke pa 	可怕	c=2 d=1.71497 t=1628
+ke yi 	可以	c=5 d=3.73338 t=1628
+ke yi kao lv 	可以考慮	c=1 d=0.822835 t=1628
+ke yi shan diao le 	可以刪掉了	c=1 d=0.965605 t=1628
+ken ding shi 	肯定是	c=1 d=0.946485 t=1628
+keng 	坑	c=1 d=0.955997 t=1628
+ku 	庫	c=1 d=0.99005 t=1628
+kuai 	塊	c=1 d=1.0504 t=1628
+kuai 	快	c=1 d=0.970446 t=1628
+kuai jin 	快進	c=1 d=0.995012 t=1628
+kuai su 	快速	c=0 d=0.139537 t=1628
+kuai su gao 	快速搞	c=1 d=0.704688 t=1628
+kuai su jian zhan 	快速建站	c=1 d=0.697676 t=1628
+kuai suo 	塊梭	c=1 d=0.701173 t=1628
+kuang 	框	c=0 d=0.0932394 t=1628
+la 	辣	c=1 d=0.995012 t=1628
+lai 	來	c=1 d=0.970446 t=1628
+lai 	瀨	c=2 d=1.9605 t=1628
+lai zhe 	來着	c=2 d=1.97531 t=1628
+lai zi 	來自	c=1 d=0.918512 t=1628
+le 	了	c=31 d=11.5595 t=1628
+le ge 	了個	c=1 d=0.951229 t=1628
+lei si 	類似	c=1 d=0.715338 t=1628
+lei xing 	類型	c=0 d=0.0726149 t=1628
+lei xing de 	類型的	c=1 d=0.729789 t=1628
+lei yu 	雷雨	c=0 d=0.0946485 t=1628
+li 	裏	c=8 d=6.4144 t=1628
+li 	離	c=1 d=0.951229 t=1628
+li mian 	裏面	c=2 d=1.49027 t=1628
+li zi 	例子	c=1 d=0.995012 t=1628
+lia 	倆	c=1 d=0.810584 t=1628
+lian 	戀	c=1 d=0.985112 t=1628
+lian jie 	鏈接	c=1 d=1.07743 t=1628
+lian jie qi 	連接器	c=1 d=0.980199 t=1628
+liang 	兩	c=1 d=0.99005 t=1628
+liang ge 	兩個	c=2 d=1.95072 t=1628
+liang ju 	兩局	c=1 d=0.923116 t=1628
+liang xiao shi 	兩小時	c=1 d=0.97531 t=1628
+ling guan 	靈官	c=0 d=0.099005 t=1628
+liu chang 	流暢	c=1 d=0.932394 t=1628
+liu da 	溜達	c=1 d=0.88692 t=1628
+liu mang ruan jian 	流氓軟件	c=1 d=0.774916 t=1628
+luan ma 	亂馬	c=3 d=2.95536 t=1628
+luo sai 	羅賽	c=1 d=1 t=1628
+lv 	率	c=0 d=0.0891366 t=1628
+ma 	嗎	c=25 d=11.0206 t=1628
+ma fan 	麻煩	c=1 d=0.937067 t=1628
+ma shang 	馬上	c=1 d=0.965605 t=1628
+mai 	買	c=0 d=0.0865022 t=1628
+mai bu qi 	買不起	c=1 d=0.852144 t=1628
+mai lai 	買來	c=0 d=0.083527 t=1628
+mai lai gan sha 	買來幹啥	c=1 d=0.839457 t=1628
+mei 	沒	c=6 d=4.01455 t=1628
+mei bi yao 	沒必要	c=1 d=0.927743 t=1628
+mei ci 	每次	c=1 d=0.88692 t=1628
+mei guan xi 	沒關係	c=1 d=0.97531 t=1628
+mei jian guo 	沒見過	c=1 d=0.99005 t=1628
+mei kai 	沒開	c=0 d=0.0955997 t=1628
+mei kai xiang mu 	沒開項目	c=1 d=0.960789 t=1628
+mei kan 	沒看	c=1 d=0.818731 t=1628
+mei kan dong 	沒看動	c=1 d=0.970446 t=1628
+mei kan jian 	沒看見	c=1 d=0.790571 t=1628
+mei mian fei 	沒免費	c=1 d=0.985112 t=1628
+mei peng guo 	沒碰過	c=1 d=0.995012 t=1628
+mei qian 	沒錢	c=0 d=0.0865022 t=1628
+mei qian mai 	沒錢買	c=1 d=0.869358 t=1628
+mei ren 	沒人	c=0 d=0.097531 t=1628
+mei ren yong lai 	沒人用來	c=1 d=0.980199 t=1628
+mei sha 	沒啥	c=0 d=0.202525 t=1628
+mei sha hao kan de 	沒啥好看的	c=1 d=0.778801 t=1628
+mei sha wen ti 	沒啥問題	c=1 d=0.995012 t=1628
+mei sha yong 	沒啥用	c=3 d=2.67053 t=1628
+mei shen me 	沒什麼	c=2 d=1.93181 t=1628
+mei sheng yin 	沒聲音	c=1 d=0.985112 t=1628
+mei shi 	沒事	c=1 d=0.925286 t=1628
+mei shi 	沒試	c=1 d=0.932394 t=1628
+mei shi le 	沒事了	c=1 d=0.946485 t=1628
+mei shi le 	沒試了	c=1 d=0.946485 t=1628
+mei tong 	沒通	c=1 d=0.99005 t=1628
+mei yong 	沒用	c=1 d=0.99005 t=1628
+mei yong guo 	沒用過	c=1 d=0.970446 t=1628
+mei you 	沒有	c=9 d=5.49764 t=1628
+mei you sheng yin 	沒有聲音	c=2 d=1.99005 t=1622
+mei you tiao chu lai 	沒有跳出來	c=1 d=0.904837 t=1628
+mei zha 	沒炸	c=1 d=0.878095 t=1628
+mei zhuang 	沒裝	c=2 d=1.88995 t=1628
+mi ma 	密碼	c=2 d=1.89854 t=1628
+mi ma kuang 	密碼框	c=1 d=0.937067 t=1628
+mian fei 	免費	c=2 d=1.98718 t=1628
+mian fei le 	免費了	c=2 d=1.89942 t=1628
+miao shu 	描述	c=0 d=0.0733447 t=1628
+ming dian 	名點	c=1 d=0.909373 t=1628
+ming ling hang 	命令行	c=2 d=1.98476 t=1628
+ming xian 	明顯	c=1 d=0.913931 t=1628
+ming zi 	名字	c=1 d=0.932394 t=1628
+mo fa 	魔法	c=0 d=0.099005 t=1628
+mo fa shao nv 	魔法少女	c=1 d=0.995012 t=1628
+mo ren 	默認	c=2 d=1.62037 t=1628
+mu hou 	幕後	c=1 d=0.960789 t=1628
+mu qian 	目前	c=3 d=2.0319 t=1628
+na 	那	c=1 d=1.05397 t=1628
+na bian 	那邊	c=1 d=0.865022 t=1628
+na bu 	那不	c=0 d=0.0980199 t=1628
+na bu jiu ba 	那不就把	c=1 d=0.985112 t=1628
+na ge 	那個	c=3 d=2.55838 t=1628
+na lai 	拿來	c=1 d=0.790571 t=1628
+na me da 	那麼大	c=1 d=0.891366 t=1628
+na mei shi le 	那沒事了	c=1 d=1 t=1628
+na ni 	那你	c=1 d=0.873716 t=1628
+na shi 	那是	c=0 d=0.0826959 t=1628
+na shi sha 	那是啥	c=1 d=0.831104 t=1628
+na wan yi er 	那玩意兒	c=1 d=0.985112 t=1628
+na wo 	那我	c=1 d=0.990867 t=1628
+na wo mei zhu yi guo 	那我沒注意過	c=1 d=1 t=1628
+na xie 	那些	c=1 d=0.873716 t=1628
+nan 	難	c=1 d=0.748264 t=1628
+nao zi 	腦子	c=0 d=0.0847894 t=1628
+nao zi chou le 	腦子抽了	c=1 d=0.852144 t=1628
+ne 	呢	c=0 d=0.0980199 t=1628
+nei cun 	內存	c=1 d=0.970446 t=1628
+nei he 	內核	c=2 d=1.8097 t=1628
+neng 	能	c=3 d=2.01722 t=1628
+neng fen kai 	能分開	c=1 d=0.960789 t=1628
+neng kan 	能看	c=1 d=0.904837 t=1628
+neng kan dao 	能看到	c=1 d=0.847894 t=1628
+neng li 	能力	c=1 d=0.955997 t=1628
+neng pao 	能跑	c=1 d=0.995012 t=1628
+neng tiao 	能挑	c=1 d=0.995012 t=1628
+neng wan 	能玩	c=1 d=0.923116 t=1628
+neng yong 	能用	c=2 d=1.87045 t=1628
+neng yong de 	能用的	c=1 d=0.932394 t=1628
+neng yong jiu xing 	能用就行	c=1 d=0.771052 t=1628
+neng zhuang shang 	能裝上	c=1 d=0.955997 t=1628
+ni 	你	c=2 d=1.59546 t=1628
+ni ke neng bu xin 	你可能不信	c=1 d=0.932394 t=1628
+ni men 	你們	c=2 d=1.53453 t=1628
+ni qu 	你去	c=1 d=0.951229 t=1628
+ni rang wo 	你讓我	c=1 d=0.927743 t=1628
+ni shuo 	你說	c=1 d=1.0105 t=1628
+ni zhe 	你這	c=1 d=0.980199 t=1628
+ni zi ji 	你自己	c=0 d=0.0767206 t=1628
+ni zi ji zhuang 	你自己裝	c=1 d=0.771052 t=1628
+nian 	年	c=1 d=0.99005 t=1628
+nian jia 	年假	c=1 d=0.97531 t=1628
+nian qian 	年前	c=0 d=0.0923116 t=1628
+nian qing 	年輕	c=1 d=0.937067 t=1628
+nv 	女	c=1 d=0.995012 t=1628
+nv de 	女的	c=1 d=0.980199 t=1628
+o 	哦	c=0 d=0.0955997 t=1628
+o 	噢	c=2 d=1.8385 t=1628
+o mei shi le 	哦沒事了	c=1 d=0.960789 t=1628
+pai 	派	c=1 d=0.951229 t=1628
+pai le 	拍了	c=1 d=0.771052 t=1628
+pan 	盤	c=3 d=2.466 t=1628
+pang xie 	螃蟹	c=1 d=0.937067 t=1628
+pao 	跑	c=3 d=2.23935 t=1628
+pao bu qi lai 	跑不起來	c=1 d=0.955997 t=1628
+pao le 	跑了	c=1 d=0.960789 t=1628
+pao qi lai 	跑起來	c=1 d=0.965605 t=1628
+pei tao 	配套	c=1 d=0.895834 t=1628
+pei zhi 	配置	c=1 d=0.951229 t=1628
+peng guo 	碰過	c=0 d=0.099005 t=1628
+ping chang 	平常	c=1 d=0.826959 t=1628
+ping mu 	屏幕	c=1 d=0.955997 t=1628
+qi 	器	c=1 d=0.99005 t=1628
+qi dong 	啓動	c=1 d=0.986556 t=1628
+qi dong qi lai 	啓動起來	c=1 d=0.839457 t=1628
+qi fen 	氣氛	c=1 d=0.904837 t=1628
+qi lai 	起來	c=0 d=0.083527 t=1628
+qi ma 	起碼	c=0 d=0.0794534 t=1628
+qi shi 	其實	c=4 d=2.57589 t=1628
+qi ta 	其他	c=2 d=1.97344 t=1628
+qi ta quan shi 	其他全市	c=1 d=0.806541 t=1628
+qi ta wang ye 	其他網頁	c=1 d=0.985112 t=1628
+qian 	前	c=1 d=0.941765 t=1628
+qiang guo 	熗鍋	c=1 d=0.960789 t=1628
+qing jia 	請假	c=1 d=0.524663 t=1628
+qing li 	清理	c=1 d=0.865022 t=1628
+qing ni 	請你	c=1 d=0.826959 t=1628
+qing song 	輕鬆	c=1 d=0.918512 t=1628
+qing wo 	請我	c=0 d=0.0946485 t=1628
+qing wo chi fan 	請我吃飯	c=1 d=0.951229 t=1628
+qing xu 	情緒	c=0 d=0.0960789 t=1628
+qing xu wen ding 	情緒穩定	c=1 d=0.965605 t=1628
+qu 	去	c=2 d=1.73281 t=1628
+qu dong 	驅動	c=1 d=0.918512 t=1628
+qu na 	去哪	c=0 d=0.0960789 t=1628
+qu na bian 	去哪邊	c=1 d=0.965605 t=1628
+qu nian 	去年	c=1 d=0.913931 t=1628
+qu xiao 	取消	c=1 d=0.980199 t=1628
+quan bei 	全被	c=1 d=0.970446 t=1628
+quan da 	全打	c=0 d=0.099005 t=1628
+quan da chu lai 	全打出來	c=1 d=0.995012 t=1628
+quan dou 	全都	c=2 d=1.48314 t=1628
+quan shi 	全市	c=0 d=0.0802519 t=1628
+quan shi 	全是	c=1 d=0.878095 t=1628
+quan tui 	勸退	c=1 d=0.909373 t=1628
+que 	缺	c=1 d=1.01776 t=1628
+que shi 	確實	c=4 d=3.12824 t=1628
+que shi 	缺失	c=1 d=1.03558 t=1628
+que shi mei you 	確實沒有	c=1 d=0.995012 t=1628
+que yi ge 	缺一個	c=1 d=0.951229 t=1628
+ran hou 	然後	c=4 d=2.74077 t=1628
+ran hou jiu 	然後就	c=1 d=0.985112 t=1628
+ran hou ne 	然後呢	c=1 d=0.985112 t=1628
+rang wo 	讓我	c=0 d=0.0923116 t=1628
+ren li 	人力	c=1 d=0.951229 t=1628
+ren pin 	人品	c=1 d=0.960789 t=1628
+reng jin 	扔進	c=0 d=0.099005 t=1628
+reng jin qu 	扔進去	c=1 d=0.995012 t=1628
+ri chang 	日常	c=2 d=1.74745 t=1628
+rong qi 	容器	c=0 d=0.149283 t=1628
+rong qi da fa 	容器大法	c=1 d=0.755784 t=1628
+rong qi li 	容器裏	c=1 d=0.744532 t=1628
+ru 	入	c=1 d=0.946485 t=1628
+ru guo 	如果	c=1 d=0.650509 t=1628
+ruan jian 	軟件	c=0 d=0.177819 t=1628
+san ge 	三個	c=1 d=0.965605 t=1628
+san guo 	三國	c=1 d=0.951229 t=1628
+sha 	啥	c=3 d=2.43869 t=1628
+sha bi 	傻逼	c=1 d=0.988363 t=1628
+sha bi wen ti 	傻逼問題	c=1 d=0.980199 t=1628
+sha le 	傻了	c=1 d=0.941765 t=1628
+shan diao 	刪掉	c=2 d=1.7508 t=1628
+shang 	上	c=9 d=5.60736 t=1628
+shang ci 	上次	c=1 d=0.941765 t=1628
+shang qu 	上去	c=0 d=0.0923116 t=1628
+shang qu zhi hou 	上去之後	c=1 d=0.927743 t=1628
+shang shi ji 	上世紀	c=1 d=0.790571 t=1628
+shang wang 	上網	c=0 d=0.0995012 t=1628
+shang xia wen 	上下文	c=1 d=0.960789 t=1628
+shang ye 	商業	c=0 d=0.0895834 t=1628
+shang ye de 	商業的	c=1 d=0.900325 t=1628
+shao bu fen 	少部分	c=1 d=0.895834 t=1628
+shao nv 	少女	c=0 d=0.099005 t=1628
+she zhi 	設置	c=1 d=0.860708 t=1628
+shen me 	什麼	c=0 d=0.0951229 t=1628
+shen me yu ming 	什麼域名	c=1 d=0.955997 t=1628
+shen zhi 	甚至	c=0 d=0.0985112 t=1628
+shen zhi shi 	甚至是	c=1 d=0.99005 t=1628
+sheng cheng 	生成	c=2 d=1.3801 t=1628
+sheng ji 	升級	c=1 d=0.903086 t=1628
+sheng ji wan 	升級完	c=1 d=0.806541 t=1628
+sheng ming bu xi 	生命不息	c=1 d=0.99005 t=1628
+shi 	實	c=1 d=0.900325 t=1628
+shi 	是	c=20 d=8.64462 t=1628
+shi 	試	c=2 d=1.78845 t=1628
+shi a 	是啊	c=1 d=0.491644 t=1628
+shi ba 	是吧	c=1 d=0.937067 t=1628
+shi bie 	識別	c=1 d=0.970446 t=1628
+shi bu chong 	是補充	c=1 d=0.869358 t=1628
+shi bu shi 	是不是	c=2 d=1.81621 t=1628
+shi de 	是的	c=4 d=3.36215 t=1628
+shi guo 	試過	c=2 d=1.88504 t=1628
+shi hao shi 	是好事	c=1 d=1 t=1628
+shi hou 	時候	c=7 d=3.95549 t=1628
+shi jian 	時間	c=1 d=0.927743 t=1628
+shi ming 	使命	c=0 d=0.0927743 t=1628
+shi ming 	實名	c=0 d=0.0995012 t=1628
+shi ming shang wang 	實名上網	c=1 d=1 t=1628
+shi nian qian 	十年前	c=1 d=0.771052 t=1628
+shi sha 	是啥	c=2 d=1.16293 t=1628
+shi xiao 	失效	c=1 d=0.946485 t=1628
+shi yao 	是要	c=1 d=0.588605 t=1628
+shi yi xia 	是一下	c=1 d=0.923116 t=1628
+shi yong 	使用	c=2 d=1.77492 t=1628
+shi zhe yang 	是這樣	c=1 d=0.932394 t=1628
+shi zhe yang de 	是這樣的	c=1 d=0.882497 t=1628
+shou 	瘦	c=1 d=0.918512 t=1628
+shou dong 	手動	c=0 d=0.1 t=1626
+shou dong jia 	手動加	c=1 d=1 t=1627
+shou fei 	收費	c=1 d=1 t=1628
+shou jian 	手賤	c=1 d=0.532592 t=1628
+shu chu 	輸出	c=2 d=1.48175 t=1628
+shu fu 	舒服	c=0 d=0.0995012 t=1628
+shu fu duo le 	舒服多了	c=1 d=1 t=1628
+shu ju 	數據	c=1 d=0.99005 t=1628
+shu le 	輸了	c=1 d=0.932394 t=1628
+shu ru fa 	輸入法	c=4 d=3.57228 t=1628
+shuang 	爽	c=0 d=0.097531 t=1628
+shuang 	雙	c=1 d=0.985112 t=1628
+shuang xi tong 	爽系統	c=1 d=0.980199 t=1628
+shui guo 	水果	c=1 d=0.97531 t=1628
+shui hu 	水滸	c=1 d=0.99005 t=1628
+shun bian 	順便	c=1 d=0.99005 t=1628
+shuo chu lai 	說出來	c=1 d=0.927743 t=1628
+shuo hua de 	說話的	c=1 d=0.951229 t=1628
+shuo le 	說了	c=0 d=0.0798516 t=1628
+shuo le yi nian le 	說了一年了	c=1 d=0.802519 t=1628
+shuo wan 	說完	c=0 d=0.0927743 t=1628
+si le 	死了	c=1 d=0.794534 t=1628
+si zai 	死在	c=1 d=0.934771 t=1628
+si zai zhe 	死在這	c=1 d=1 t=1628
+sou dao 	搜到	c=1 d=0.970446 t=1628
+su du man 	速度慢	c=1 d=0.946485 t=1628
+su zhou 	蘇州	c=0 d=0.0970446 t=1628
+su zhou zhe bian 	蘇州這邊	c=1 d=0.97531 t=1628
+suan 	算	c=3 d=2.67442 t=1628
+suan le 	算了	c=2 d=1.96079 t=1628
+sui ran 	雖然	c=2 d=1.82494 t=1628
+suo 	梭	c=0 d=0.0955997 t=1628
+suo yi 	所以	c=5 d=2.96422 t=1628
+ta 	他	c=1 d=0.701173 t=1628
+ta hui 	他會	c=1 d=0.904837 t=1628
+ta sui ran 	他雖然	c=1 d=0.826959 t=1628
+tai 	太	c=1 d=0.970446 t=1628
+tai dan teng 	太但疼	c=1 d=0.900325 t=1628
+tai di 	太低	c=0 d=0.0955997 t=1628
+tai di le 	太低了	c=1 d=0.960789 t=1628
+tai duo 	太多	c=1 d=0.932394 t=1628
+tai hu 	太湖	c=2 d=1.88839 t=1628
+tai keng le 	太坑了	c=1 d=1 t=1628
+tai man 	太慢	c=0 d=0.0932394 t=1628
+tai man le 	太慢了	c=1 d=0.937067 t=1628
+tai shi ji 	臺式機	c=4 d=2.84152 t=1628
+tai shi ji shang 	臺式機上	c=1 d=0.955997 t=1628
+te bie 	特別	c=0 d=0.0980199 t=1628
+te bie xiao 	特別小	c=1 d=0.985112 t=1628
+ti gong 	提供	c=0 d=0.146549 t=1628
+ti gong de 	提供的	c=1 d=0.802519 t=1628
+ti liang 	體量	c=2 d=1.80562 t=1628
+ti yan 	體驗	c=0 d=0.0965605 t=1628
+ti yan yi xia 	體驗一下	c=1 d=0.970446 t=1628
+ti zi 	梯子	c=2 d=1.68 t=1628
+tian ping 	天平	c=1 d=0.869358 t=1628
+tian qi 	天氣	c=1 d=0.955997 t=1628
+tiao 	調	c=0 d=0.0995012 t=1628
+tiao chu lai 	跳出來	c=0 d=0.0900325 t=1628
+tiao jian 	條件	c=0 d=0.0955997 t=1628
+ting guo 	聽過	c=1 d=1 t=1628
+ting hao 	挺好	c=0 d=0.0937067 t=1628
+ting hao de 	挺好的	c=1 d=0.941765 t=1628
+ting shuo 	聽說	c=1 d=0.980199 t=1628
+tong bu 	同步	c=1 d=0.873716 t=1628
+tong guan 	通關	c=1 d=0.965605 t=1628
+tong le 	通了	c=0 d=0.0562705 t=1628
+tong xue 	同學	c=0 d=0.099005 t=1628
+tong yi ge 	同一個	c=1 d=0.726149 t=1628
+tong zhi 	通知	c=1 d=0.955997 t=1628
+tou shang 	頭上	c=1 d=0.786628 t=1628
+tu biao 	圖標	c=1 d=1 t=1628
+tu pian 	圖片	c=1 d=1 t=1628
+tu ran 	突然	c=1 d=0.839457 t=1628
+tui 	退	c=0 d=0.0822835 t=1628
+tui huan jing 	退環境	c=1 d=0.826959 t=1628
+tui jian 	推薦	c=0 d=0.099005 t=1628
+wai 	歪	c=1 d=0.878095 t=1628
+wai mian 	外面	c=2 d=1.83662 t=1628
+wan 	完	c=0 d=0.0802519 t=1628
+wan 	玩	c=1 d=1 t=1621
+wan fan 	晚飯	c=1 d=0.970446 t=1628
+wan le 	玩了	c=0 d=0.0687289 t=1628
+wan le yi xia 	玩了一下	c=1 d=0.690734 t=1628
+wan quan 	完全	c=0 d=0.0790571 t=1628
+wan quan bu guan 	完全不管	c=1 d=0.794534 t=1628
+wan quan mian fei 	完全免費	c=1 d=1 t=1628
+wan yi er 	玩意兒	c=0 d=0.237147 t=1628
+wang 	王	c=0 d=0.099005 t=1628
+wang le 	忘了	c=2 d=1.91202 t=1628
+wang ling guan 	王靈官	c=1 d=0.995012 t=1628
+wang ye 	網頁	c=0 d=0.0980199 t=1628
+wang zhan 	網站	c=1 d=0.955997 t=1628
+wei dao 	味道	c=1 d=0.99005 t=1628
+wei du 	維度	c=1 d=0.970446 t=1628
+wei sha 	爲啥	c=1 d=0.845736 t=1628
+wei sha mei you yi ge 	爲啥沒有一個	c=1 d=0.71177 t=1628
+wei shen me 	爲什麼	c=4 d=2.46957 t=1628
+wei shen me yao 	爲什麼要	c=1 d=0.923116 t=1628
+wei yi 	唯一	c=0 d=0.0860708 t=1628
+wei yi yin su 	唯一因素	c=1 d=0.865022 t=1628
+wei zhi 	位置	c=1 d=0.995012 t=1628
+wen 	文	c=1 d=0.965605 t=1628
+wen ding 	穩定	c=0 d=0.0960789 t=1628
+wen ge 	問個	c=1 d=0.97531 t=1628
+wen jian 	文件	c=3 d=2.17224 t=1628
+wen jian guan li qi 	文件管理器	c=1 d=0.941765 t=1628
+wen jian ming 	文件名	c=2 d=1.52684 t=1628
+wen ti 	問題	c=6 d=3.43467 t=1628
+wo 	我	c=8 d=4.12046 t=1628
+wo ba 	我把	c=2 d=0.83459 t=1628
+wo bu 	我不	c=0 d=0.157064 t=1628
+wo bu jiu 	我不就	c=1 d=0.806541 t=1628
+wo bu jue de 	我不覺得	c=1 d=0.904837 t=1628
+wo bu yong 	我不用	c=1 d=0.66034 t=1628
+wo cong 	我從	c=1 d=0.923116 t=1628
+wo dao 	我倒	c=0 d=0.0980199 t=1628
+wo dao xian zai 	我倒現在	c=1 d=0.985112 t=1628
+wo de 	我的	c=2 d=1.53175 t=1628
+wo dou 	我都	c=0 d=0.15794 t=1628
+wo dou mei you 	我都沒有	c=1 d=0.995012 t=1628
+wo dou yu dao guo 	我都遇到過	c=1 d=0.946485 t=1628
+wo fa xian 	我發現	c=1 d=0.891366 t=1628
+wo gei ta 	我給他	c=1 d=0.955997 t=1628
+wo guan dian 	我觀點	c=1 d=0.941765 t=1628
+wo jiu 	我就	c=1 d=1.07835 t=1628
+wo jiu zhao chu lai le 	我就找出來了	c=1 d=0.937067 t=1628
+wo jue de 	我覺得	c=1 d=1.02335 t=1628
+wo jue de shi 	我覺得是	c=1 d=0.960789 t=1628
+wo kai le 	我開了	c=1 d=0.900325 t=1628
+wo kan dao 	我看到	c=0 d=0.0722527 t=1628
+wo kan dao de 	我看到的	c=1 d=0.726149 t=1628
+wo kan le xia 	我看了下	c=1 d=0.970446 t=1628
+wo qu 	我去	c=1 d=1.00857 t=1628
+wo qu kan kan 	我去看看	c=1 d=0.489192 t=1628
+wo shang 	我上	c=0 d=0.0909373 t=1628
+wo shang ci da kai de 	我上次大開得	c=1 d=0.913931 t=1628
+wo shi 	我是	c=1 d=0.995012 t=1628
+wo tong xue 	我同學	c=1 d=0.995012 t=1628
+wo xia 	我下	c=0 d=0.0904837 t=1628
+wo xian zai 	我現在	c=3 d=1.76578 t=1628
+wo xiang mai 	我想買	c=1 d=0.856415 t=1628
+wo xin 	我信	c=1 d=0.951229 t=1628
+wo yao zhao 	我要找	c=1 d=0.946485 t=1628
+wo yong 	我用	c=1 d=0.980199 t=1628
+wo yong de jiu shi 	我用的就是	c=1 d=0.460704 t=1628
+wo you 	我有	c=0 d=0.0818731 t=1628
+wo you zui 	我有罪	c=1 d=0.822835 t=1628
+wo zai 	我在	c=2 d=1.67556 t=1628
+wo zai kan 	我在看	c=1 d=0.955997 t=1628
+wo zai xiang 	我在想	c=1 d=0.744532 t=1628
+wo zai yong 	我在用	c=1 d=0.995012 t=1628
+wo zen me 	我怎麼	c=1 d=0.960789 t=1628
+wo zhe ge 	我這個	c=1 d=0.90977 t=1628
+wo zhe ge shi 	我這個是	c=1 d=0.955997 t=1628
+wo zheng zai 	我正在	c=1 d=0.985112 t=1628
+wo zuo tian 	我昨天	c=2 d=1.76521 t=1628
+wu suo wei 	無所謂	c=1 d=1 t=1628
+xi huan 	喜歡	c=0 d=0.0847894 t=1628
+xi tong 	系統	c=5 d=4.30751 t=1628
+xi tong de 	系統的	c=1 d=0.985112 t=1628
+xi yin 	吸引	c=1 d=0.995012 t=1628
+xia 	下	c=3 d=2.34072 t=1628
+xia ban 	下班	c=1 d=0.913931 t=1628
+xia ban nian 	下半年	c=1 d=0.937067 t=1628
+xia ci 	下次	c=0 d=0.0818731 t=1628
+xia ci yi ding 	下次一定	c=1 d=0.822835 t=1628
+xia lai 	下來	c=0 d=0.0965605 t=1628
+xia lai de 	下來的	c=1 d=0.970446 t=1628
+xia le 	下了	c=0 d=0.0985112 t=1628
+xia mian 	下面	c=1 d=0.856415 t=1628
+xia yuan ma 	下源碼	c=1 d=0.847894 t=1628
+xian chang 	現場	c=1 d=0.852144 t=1628
+xian ka 	顯卡	c=2 d=1.92688 t=1628
+xian ka qu dong 	顯卡驅動	c=2 d=1.79671 t=1628
+xian shang 	線上	c=0 d=0.0946485 t=1628
+xian shang fu wu 	線上服務	c=1 d=0.951229 t=1628
+xian shi 	顯示	c=0 d=0.099005 t=1628
+xian zai 	現在	c=3 d=1.89984 t=1628
+xian zai hao le 	現在好了	c=1 d=0.802519 t=1628
+xiang 	想	c=0 d=0.0740818 t=1628
+xiang bu dao 	想不到	c=1 d=0.970446 t=1628
+xiang kan 	想看	c=1 d=0.875479 t=1628
+xiang mu 	項目	c=2 d=1.84568 t=1628
+xiang mu li 	項目裏	c=1 d=0.97531 t=1628
+xiang xue 	想學	c=1 d=0.891366 t=1628
+xiao 	小	c=3 d=2.64535 t=1628
+xiao dian 	笑點	c=1 d=0.980199 t=1628
+xiao guo 	效果	c=1 d=0.882497 t=1628
+xiao shi 	消失	c=1 d=0.97531 t=1628
+xiao yuan 	小圓	c=1 d=1 t=1628
+xie 	些	c=1 d=0.951229 t=1628
+xie 	寫	c=2 d=1.38865 t=1628
+xie ben shu 	寫本書	c=1 d=0.932394 t=1628
+xie de 	寫的	c=1 d=0.882497 t=1628
+xie jiao 	邪教	c=1 d=0.955997 t=1628
+xie si 	寫死	c=1 d=0.778801 t=1628
+xin 	新	c=1 d=0.930432 t=1628
+xin ban ben 	新版本	c=1 d=0.970446 t=1628
+xin de 	新的	c=1 d=0.985538 t=1628
+xin hua yang 	新花樣	c=1 d=0.932394 t=1628
+xin jia po 	新加坡	c=1 d=0.506617 t=1628
+xin xi lan 	新西蘭	c=1 d=0.519442 t=1628
+xin you jian 	新郵件	c=1 d=0.965605 t=1628
+xing 	性	c=0 d=0.0980199 t=1628
+xing 	星	c=1 d=0.97531 t=1628
+xing 	行	c=1 d=0.755784 t=1628
+xing dong 	行動	c=0 d=0.0923116 t=1628
+xing neng 	性能	c=1 d=0.891578 t=1628
+xing neng bu ru 	性能不如	c=1 d=0.97531 t=1628
+xiu 	休	c=1 d=0.970446 t=1628
+xiu 	修	c=1 d=0.995012 t=1628
+xiu xian 	休閒	c=1 d=0.909373 t=1628
+xu ni ji 	虛擬機	c=3 d=1.92748 t=1628
+xuan ran 	渲染	c=1 d=1.09109 t=1628
+xue 	學	c=2 d=1.73013 t=1628
+xue bu hui 	學不會	c=1 d=0.995012 t=1628
+xue li 	學歷	c=1 d=0.951229 t=1628
+ya yi 	壓抑	c=1 d=0.839457 t=1628
+yan chi 	延遲	c=2 d=1.45384 t=1628
+yan chi gan 	延遲感	c=1 d=0.918512 t=1628
+yang 	陽	c=1 d=0.909373 t=1628
+yang zhou 	揚州	c=1 d=0.946485 t=1628
+yao 	要	c=3 d=2.37138 t=1628
+yao bu 	要不	c=1 d=0.99005 t=1628
+yao bu yao 	要不要	c=1 d=0.941765 t=1628
+yao qiu 	要求	c=0 d=0.0980199 t=1628
+yao shi 	要是	c=1 d=0.88692 t=1628
+yao you 	要有	c=1 d=0.960789 t=1628
+ye 	也	c=7 d=3.77921 t=1628
+ye bu hao yong 	也不好用	c=1 d=0.891366 t=1628
+ye bu shao 	也不少	c=1 d=1 t=1628
+ye bu shi 	也不是	c=2 d=1.66322 t=1628
+ye bu xing 	也不行	c=1 d=1 t=1628
+ye hai hao 	也還好	c=1 d=1 t=1628
+ye hui 	也會	c=0 d=0.0995012 t=1628
+ye hui gua 	也會掛	c=1 d=1 t=1628
+ye ke yi 	也可以	c=1 d=0.918512 t=1628
+ye mei you 	也沒有	c=1 d=0.852144 t=1628
+ye mian 	頁面	c=1 d=1.04207 t=1628
+ye shi 	也是	c=2 d=1.46583 t=1628
+ye shi yong 	也是用	c=1 d=0.814647 t=1628
+ye zha le 	也炸了	c=2 d=1.79247 t=1628
+yi 	一	c=2 d=2.01796 t=1628
+yi ba 	一把	c=0 d=0.0955997 t=1628
+yi ba suo 	一把梭	c=1 d=0.960789 t=1628
+yi ban 	一般	c=0 d=0.0774916 t=1628
+yi ban bu hui 	一般不會	c=1 d=0.778801 t=1628
+yi ci 	一次	c=1 d=0.923116 t=1628
+yi da duan 	一打斷	c=1 d=0.965605 t=1628
+yi dian dian 	一點點	c=1 d=0.878095 t=1628
+yi ding 	一定	c=0 d=0.143206 t=1628
+yi dun 	一頓	c=0 d=0.0826959 t=1628
+yi er xian 	一二線	c=1 d=0.860708 t=1628
+yi ge 	一個	c=4 d=2.76215 t=1628
+yi ge cheng xu 	一個程序	c=1 d=0.878095 t=1628
+yi gong 	一共	c=1 d=0.767206 t=1628
+yi hang 	一行	c=0 d=0.0579842 t=1628
+yi jian 	一鍵	c=1 d=0.826959 t=1628
+yi jing 	已經	c=4 d=2.81052 t=1628
+yi kai 	一開	c=1 d=0.985112 t=1628
+yi kai shi 	一開始	c=2 d=1.75802 t=1628
+yi kuai 	一塊	c=1 d=0.687289 t=1628
+yi nian 	一年	c=0 d=0.0798516 t=1628
+yi qi 	一起	c=1 d=0.67368 t=1628
+yi xia 	一下	c=2 d=1.9473 t=1628
+yi yan 	一眼	c=0 d=0.0946485 t=1628
+yi yan kan dao 	一眼看到	c=1 d=0.951229 t=1628
+yi yang 	一樣	c=1 d=0.986216 t=1628
+yi zhi 	一直	c=2 d=1.63087 t=1628
+yi zhi dou shi 	一直都是	c=1 d=0.946485 t=1628
+yin jian 	陰間	c=1 d=0.97531 t=1628
+yin su 	因素	c=0 d=0.0860708 t=1628
+yin wei 	因爲	c=1 d=1.00036 t=1628
+yin xiang 	印象	c=1 d=1.07118 t=1628
+ying gai 	應該	c=3 d=1.71283 t=1628
+ying gai shi 	應該是	c=2 d=1.82059 t=1628
+ying gai shuo 	應該說	c=1 d=0.869358 t=1628
+ying pan 	硬盤	c=2 d=1.84646 t=1628
+ying shang 	硬上	c=1 d=0.904837 t=1628
+ying she 	映射	c=0 d=0.0980199 t=1628
+ying xiang 	影響	c=0 d=0.0895834 t=1628
+ying xiang bu da 	影響不大	c=1 d=0.900325 t=1628
+yong 	用	c=9 d=4.89221 t=1628
+yong bu shang 	用不上	c=1 d=0.715338 t=1628
+yong bu zhao 	用不着	c=2 d=1.71803 t=1628
+yong de 	用的	c=1 d=1.03453 t=1628
+yong guo 	用過	c=0 d=0.186593 t=1628
+yong hu 	用戶	c=1 d=0.951229 t=1628
+yong lai 	用來	c=0 d=0.097531 t=1628
+yong ming ling hang 	用命令行	c=1 d=0.970446 t=1628
+yong qi lai 	用起來	c=1 d=0.980199 t=1628
+yong zai 	用在	c=1 d=0.995012 t=1628
+you 	有	c=6 d=4.45604 t=1628
+you a 	有啊	c=1 d=0.852144 t=1628
+you ben shi de 	有本事的	c=1 d=0.847894 t=1628
+you bu 	又不	c=0 d=0.0869358 t=1628
+you bu shi 	又不是	c=2 d=1.80175 t=1628
+you bu yi ding 	又不一定	c=1 d=0.873716 t=1628
+you dian 	有點	c=4 d=3.09995 t=1628
+you dian guai 	有點怪	c=1 d=1 t=1628
+you du 	有毒	c=2 d=1.88839 t=1628
+you ge 	有個	c=2 d=1.8437 t=1628
+you jian 	郵件	c=0 d=0.0960789 t=1628
+you qian ren 	有錢人	c=1 d=0.810584 t=1628
+you ren 	有人	c=1 d=0.985112 t=1628
+you sha 	有啥	c=1 d=0.955997 t=1628
+you sha guan xi 	有啥關係	c=1 d=0.767206 t=1628
+you xie 	有些	c=1 d=0.985112 t=1628
+you yin xiang 	有印象	c=1 d=0.748264 t=1628
+you yin ying 	有陰影	c=1 d=0.798516 t=1628
+you ying xiang 	有影響	c=1 d=0.873716 t=1628
+you zhe ge 	有這個	c=1 d=0.955997 t=1628
+yu 	喻	c=1 d=0.878095 t=1628
+yu dao 	遇到	c=0 d=0.0941765 t=1628
+yu ming 	域名	c=0 d=0.0951229 t=1628
+yu shi 	於是	c=1 d=0.960789 t=1628
+yu yan 	語言	c=1 d=0.995012 t=1628
+yuan lai 	原來	c=3 d=2.55501 t=1628
+yuan ma 	源碼	c=3 d=2.25492 t=1628
+yuan yin 	原因	c=1 d=0.904837 t=1628
+yue 	月	c=1 d=1 t=1628
+yun wei 	運維	c=1 d=0.869358 t=1628
+za hao 	雜號	c=1 d=1 t=1628
+zai 	在	c=9 d=5.56669 t=1628
+zai jia 	在家	c=2 d=1.48419 t=1628
+zai na 	在哪	c=0 d=0.0995012 t=1628
+zai na tiao 	在哪調	c=1 d=1 t=1628
+zai wan 	再玩	c=1 d=0.955997 t=1628
+zai yong 	在用	c=1 d=0.97531 t=1628
+zen me 	怎麼	c=2 d=2.06019 t=1628
+zen me gan jue 	怎麼感覺	c=1 d=0.913931 t=1628
+zen me hai shi 	怎麼還是	c=1 d=1 t=1628
+zen me hai you 	怎麼還有	c=1 d=0.980199 t=1628
+zen me kan 	怎麼看	c=1 d=0.869358 t=1628
+zen me miao shu 	怎麼描述	c=1 d=0.737123 t=1628
+zen me xie 	怎麼寫	c=1 d=1 t=1628
+zha de 	炸的	c=1 d=0.882497 t=1628
+zha le 	炸了	c=8 d=5.273 t=1628
+zhan qi 	戰棋	c=1 d=0.895834 t=1628
+zhan shi 	展示	c=0 d=0.0955997 t=1628
+zhan shi jie tu 	展示截圖	c=1 d=0.960789 t=1628
+zhang 	張	c=1 d=0.774916 t=1628
+zhang hao 	帳號	c=1 d=0.869358 t=1628
+zhao 	找	c=1 d=0.874408 t=1628
+zhao bu dao 	找不到	c=2 d=1.70046 t=1628
+zhao chu lai 	找出來	c=0 d=0.0932394 t=1628
+zhao de 	找的	c=0 d=0.0980199 t=1628
+zhao xi 	朝夕	c=1 d=1 t=1628
+zhao yi ge 	找一個	c=1 d=0.932394 t=1628
+zhe 	這	c=2 d=2.09052 t=1628
+zhe bian 	這邊	c=0 d=0.0970446 t=1628
+zhe ci 	這次	c=2 d=1.53863 t=1628
+zhe ge 	這個	c=10 d=4.99808 t=1628
+zhe ge di fang 	這個地方	c=1 d=0.609571 t=1628
+zhe ge hao xiang shi 	這個好象是	c=1 d=0.759572 t=1628
+zhe ge que shi 	這個確實	c=1 d=0.985112 t=1628
+zhe ge wen ti 	這個問題	c=1 d=0.826959 t=1628
+zhe he 	這和	c=1 d=0.763379 t=1628
+zhe lei yu 	這雷雨	c=1 d=0.951229 t=1628
+zhe li 	這裏	c=1 d=0.644036 t=1628
+zhe lia 	這倆	c=1 d=0.980199 t=1628
+zhe shi 	這是	c=3 d=2.50231 t=1628
+zhe shi sha 	這是啥	c=1 d=0.913931 t=1628
+zhe tao 	這套	c=1 d=0.995012 t=1628
+zhe teng 	折騰	c=3 d=2.4571 t=1628
+zhe wan yi er 	這玩意兒	c=2 d=1.6865 t=1628
+zhe yang 	這樣	c=2 d=1.68729 t=1628
+zhe zhang 	這張	c=0 d=0.0985112 t=1628
+zhe zhang bi zhi 	這張壁紙	c=1 d=0.99005 t=1628
+zhe zhong 	這種	c=1 d=0.941765 t=1628
+zhen 	真	c=1 d=0.937067 t=1628
+zhen xiang 	真像	c=1 d=1 t=1628
+zhen you 	真有	c=0 d=0.0778801 t=1628
+zhen you de 	真有的	c=1 d=0.782705 t=1628
+zheng chang 	正常	c=2 d=1.43699 t=1628
+zheng chang xian shi 	正常顯示	c=1 d=0.995012 t=1628
+zheng jing 	正經	c=2 d=1.88052 t=1628
+zheng jing ruan jian 	正經軟件	c=1 d=0.891366 t=1628
+zheng shu 	證書	c=1 d=0.525305 t=1628
+zheng shu guo qi 	證書過期	c=1 d=0.484325 t=1628
+zheng zai 	正在	c=0 d=0.0980199 t=1628
+zhi 	之	c=2 d=1.95072 t=1628
+zhi 	指	c=2 d=1.84956 t=1628
+zhi bao 	質保	c=1 d=0.985112 t=1628
+zhi chi 	支持	c=1 d=0.888538 t=1628
+zhi da 	只打	c=0 d=0.0937067 t=1628
+zhi da 	直達	c=1 d=0.904837 t=1628
+zhi da guo 	只打過	c=1 d=0.941765 t=1628
+zhi dao 	知道	c=1 d=0.980199 t=1628
+zhi hou 	之後	c=3 d=2.18479 t=1628
+zhi jie 	直接	c=4 d=2.81174 t=1628
+zhi jie pao 	直接跑	c=1 d=1 t=1628
+zhi jie zhuang 	直接裝	c=1 d=0.97531 t=1628
+zhi kan 	只看	c=0 d=0.0810584 t=1628
+zhi neng 	只能	c=1 d=0.965605 t=1628
+zhi shang 	智商	c=1 d=0.945111 t=1628
+zhi shang de 	智商的	c=1 d=0.891366 t=1628
+zhi you 	只有	c=1 d=0.995012 t=1628
+zhi zhen 	指針	c=1 d=1.03361 t=1628
+zhong 	中	c=1 d=0.980199 t=1628
+zhong guo 	中國	c=1 d=0.923116 t=1628
+zhu chong 	蛀蟲	c=1 d=0.869358 t=1628
+zhu wan yuan 	住完院	c=1 d=0.932394 t=1628
+zhu yi 	注意	c=0 d=0.0995012 t=1628
+zhu yi li 	注意力	c=1 d=0.965605 t=1628
+zhu yuan 	住院	c=1 d=0.927743 t=1628
+zhuan ye 	專業	c=0 d=0.0932394 t=1628
+zhuan ye ka 	專業卡	c=1 d=0.937067 t=1628
+zhuan yi 	轉移	c=1 d=0.980199 t=1628
+zhuang 	裝	c=6 d=4.03161 t=1628
+zhuang de 	裝的	c=0 d=0.0900325 t=1628
+zhuang ge 	裝個	c=1 d=0.965605 t=1628
+zhuang huai 	撞壞	c=1 d=0.995012 t=1628
+zhuang le 	撞了	c=2 d=0.965925 t=1628
+zhuang le 	裝了	c=1 d=0.980199 t=1628
+zhuang shang 	裝上	c=0 d=0.0951229 t=1628
+zhuang tai 	狀態	c=0 d=0.0878095 t=1628
+zhuang tai bu yi yang 	狀態不一樣	c=1 d=0.882497 t=1628
+zhuang wan 	裝完	c=1 d=0.818731 t=1628
+zhuo mian 	桌面	c=2 d=1.58324 t=1628
+zi dai 	自帶	c=1 d=0.828095 t=1628
+zi dai de 	自帶的	c=1 d=0.951229 t=1628
+zi dong 	自動	c=1 d=0.826959 t=1628
+zi hao 	字號	c=1 d=0.97531 t=1628
+zi ji 	自己	c=3 d=1.76245 t=1628
+zi ji gai 	自己改	c=2 d=1.68754 t=1628
+zi ji xie 	自己寫	c=1 d=0.591555 t=1628
+zi ti 	字體	c=2 d=1.96546 t=1628
+zi ti xuan ran 	字體渲染	c=1 d=0.965605 t=1628
+zong shi 	總是	c=0 d=0.0909373 t=1628
+zong shi neng 	總是能	c=1 d=0.913931 t=1628
+zou 	奏	c=1 d=0.980199 t=1628
+zou de 	走的	c=0 d=0.0909373 t=1628
+zou de shi 	走的是	c=1 d=0.913931 t=1628
+zou le 	走了	c=1 d=1 t=1628
+zu jian 	組件	c=1 d=0.650509 t=1628
+zui 	最	c=1 d=0.802519 t=1628
+zui 	罪	c=0 d=0.13802 t=1628
+zui di 	最低	c=1 d=0.499074 t=1628
+zui gui 	最貴	c=0 d=0.0814647 t=1628
+zui gui de 	最貴的	c=1 d=0.818731 t=1628
+zui hao 	最好	c=1 d=0.814647 t=1628
+zui jian dan de 	最簡單的	c=3 d=1.81466 t=1628
+zui qi ma 	罪起碼	c=2 d=1.77872 t=1628
+zui xin 	最新	c=0 d=0.0865022 t=1628
+zui xin ban 	最新版	c=1 d=0.97531 t=1628
+zui xin de 	最新的	c=1 d=0.869358 t=1628
+zuo 	做	c=1 d=0.694197 t=1628
+zuo tian 	昨天	c=0 d=0.0869358 t=1628
