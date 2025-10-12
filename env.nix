@@ -54,6 +54,7 @@ linuxphypkgs = [
   # flamegraph
   # frp
   fish
+  # ffmpeg
   htop
   # glibc.static
   # jdk21_headless
