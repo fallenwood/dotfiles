@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "kanagawa.nvim": {
+      "rev": "27f1e11",
+      "src": "https://github.com/rebelot/kanagawa.nvim"
+    }
+  }
+}

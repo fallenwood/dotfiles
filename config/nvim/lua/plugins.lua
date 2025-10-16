@@ -2,6 +2,8 @@ local load = require("load")
 
 local utils = load("utils")
 
+local enable_vimpack = vim.pack ~= nil
+
 local module = {}
 
 local ensureLazy = function()
@@ -30,22 +32,33 @@ function module.startup(callback)
     load("plugins.nvim-cmp"),
     load("plugins.nvim-dap"),
     load("plugins.nvim-treesitter"),
-    load("plugins.themes"),
     load("plugins.nvim-rooter"),
   })
 
-  load("lazy").setup({
-    spec = plugins,
-  },
+  if not enable_vimpack then
+    plugins = utils.merge(plugins, { load("plugins.themes") })
+  end
 
-  {
-    performance = {
-      reset_packpath = false,
-      rtp = {
-        reset = false,
-      },
+  load("lazy").setup({
+      spec = plugins,
     },
-  })
+
+    {
+      performance = {
+        reset_packpath = false,
+        rtp = {
+          reset = false,
+        },
+      },
+    })
+
+  if enable_vimpack then
+    local themes = load("plugins.themes")
+    for _, theme in ipairs(themes) do
+      vim.pack.add({ theme[1], })
+      theme["config"]()
+    end
+  end
 
   callback()
 end
