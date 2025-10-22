@@ -202,6 +202,8 @@ alias kind="KIND_EXPERIMENTAL_PROVIDER=podman systemd-run --scope --user -p 'Del
 # rust
 export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
 export RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup
-. "$HOME/.cargo/env"
+[[ -s "$HOME/.cargo/env" ]] && . "$HOME/.cargo/env"
 
 systemctl --user import-environment PATH
+
+[[ -s "/usr/bin/toolbox" ]] && alias devbox="toolbox enter devbox"
