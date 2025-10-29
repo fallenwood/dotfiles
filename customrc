@@ -106,7 +106,7 @@ alias proxychains="proxychains4"
 alias pc4="proxychains"
 alias pc="proxychains"
 alias rm="rm -i"
-alias pacman=yay
+# alias pacman=yay
 if command -v nvim > /dev/null; then
   alias vim=nvim
   alias nvimf="NVIM_APPNAME='nvim-lite' nvim"
@@ -200,8 +200,8 @@ alias nix-gc="nix-collect-garbage -d"
 alias kind="KIND_EXPERIMENTAL_PROVIDER=podman systemd-run --scope --user -p 'Delegate=yes'"
 
 # rust
-export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
-export RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup
+export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rustup
+export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rustup/rustup
 [[ -s "$HOME/.cargo/env" ]] && . "$HOME/.cargo/env"
 
 systemctl --user import-environment PATH

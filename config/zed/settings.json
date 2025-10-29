@@ -35,16 +35,10 @@
   },
   // "proxy": "socks5h://192.168.1.128:10800",
   "lsp": {
-    "omnisharp": {
-      "binary": {
-        "path": "/home/vbox/.local/opt/Microsoft.CodeAnalysis.LanguageServer/Microsoft.CodeAnalysis.LanguageServer",
-        "arguments": [
-          "--logLevel",
-          "Information",
-          "--extensionLogDirectory",
-          ".roslynls",
-          "--stdio"
-        ]
+    "roslyn": {
+      "binary": {},
+      "settings": {
+        // "roslynls_path": "/home/vbox/.local/bin/roslynls"
       }
     }
   }
