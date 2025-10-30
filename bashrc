@@ -17,9 +17,15 @@ function custom_prompt_command() {
     ret_status="${_omb_prompt_bold_brown}"
   fi
 
+  # Get distro name from /etc/os-release
+  distro=$(grep '^PRETTY_NAME=' /etc/os-release | cut -d '=' -f 2 | tr -d '"')
+  if [[ ! "$distro" == *Toolbx* ]]; then
+    distro=$(grep '^NAME=' /etc/os-release | cut -d '=' -f 2 | tr -d '"')
+  fi
+
   # Append new history lines to history file
   history -a
-  PS1="$(clock_prompt)$python_venv ${hostname} ${_omb_prompt_bold_teal}\W $(scm_prompt_char_info)${ret_status}
+  PS1="$(clock_prompt)$python_venv ${hostname} (${distro}) ${_omb_prompt_bold_teal}\W $(scm_prompt_char_info)${ret_status}
 → ${_omb_prompt_normal}"
 }
 

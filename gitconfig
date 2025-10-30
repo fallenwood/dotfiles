@@ -15,6 +15,6 @@
 [init]
 	defaultBranch = master
 [credential]
-	helper = "!f() { /home/vbox/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node /tmp/vscode-remote-containers-5c145925-bfde-430b-b3c6-a79b66045893.js git-credential-helper $*; }; f"
+	helper = "!f() { /home/vbox/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node /tmp/vscode-remote-containers-ee296e26-27ad-4c2e-be3a-6923b23d3557.js git-credential-helper $*; }; f"
 [credential "https://dev.azure.com"]
 	useHttpPath = true
