@@ -33,6 +33,7 @@ function module.startup(callback)
     load("plugins.nvim-dap"),
     load("plugins.nvim-treesitter"),
     load("plugins.nvim-rooter"),
+    -- load("plugins.themes"),
   })
 
   if not enable_vimpack then
