@@ -16,5 +16,7 @@
 	defaultBranch = master
 [credential]
 	helper = "!f() { /home/vbox/.vscode-server/bin/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/node /tmp/vscode-remote-containers-979e4844-f424-44cf-b8bc-b4c5ecc10623.js git-credential-helper $*; }; f"
+	helper = 
+	helper = /home/vbox/.local/bin/git-credential-manager
 [credential "https://dev.azure.com"]
 	useHttpPath = true
