@@ -200,8 +200,8 @@ alias nix-gc="nix-collect-garbage -d"
 alias kind="KIND_EXPERIMENTAL_PROVIDER=podman systemd-run --scope --user -p 'Delegate=yes'"
 
 # rust
-export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rustup
-export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rustup/rustup
+#export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rustup
+#export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rustup/rustup
 [[ -s "$HOME/.cargo/env" ]] && . "$HOME/.cargo/env"
 
 systemctl --user import-environment PATH
