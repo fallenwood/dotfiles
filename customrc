@@ -63,6 +63,7 @@ export PATH=$HOME/.local/opt/zig:$PATH
 export PATH=$HOME/.zvm/bin:$PATH
 export PATH=$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH
 export PATH=$HOME/.local/opt/bun:$PATH
+export PATH=$HOME/.local/opt/bun/bin:$PATH
 export PATH=$HOME/.bun/bin:$PATH
 export PATH=$HOME/.local/opt/bflat:$PATH
 
@@ -130,6 +131,9 @@ export QEMU_BASE="$HOME/.local/opt/qemu"
 alias qemu-system-x86_64="$QEMU_BASE/build/qemu-system-x86_64 -L $QEMU_BASE/pc-bios -nographic -enable-kvm"
 alias qemu-system-aarch64="$QEMU_BASE/build/qemu-system-aarch64 -cpu cortex-a57 -M virt -nographic"
 
+alias singboxup="systemctl --user start singbox"
+alias singboxdown="systemctl --user stop singbox"
+
 if [ "$isUbuntu" = true ] || [ "$isDebian" =  true ]; then
   alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt remove -y && sudo apt autoclean'
 fi
@@ -188,7 +192,6 @@ fi
 alias nix-update="nix-channel --update && nix-env -irf $HOME/.env.nix"
 alias nix-upgrade="nix-channel --update && nix-env -uf $HOME/.env.nix"
 alias nix-gc="nix-collect-garbage -d"
-
 
 # Container
 # alias podman="docker"
