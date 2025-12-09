@@ -126,10 +126,13 @@ alias e=$EDITOR
 
 alias gdb="LC_ALL=C.UTF-8 gdb"
 
-export QEMU_BASE="$HOME/.local/opt/qemu"
 
-alias qemu-system-x86_64="$QEMU_BASE/build/qemu-system-x86_64 -L $QEMU_BASE/pc-bios -nographic -enable-kvm"
-alias qemu-system-aarch64="$QEMU_BASE/build/qemu-system-aarch64 -cpu cortex-a57 -M virt -nographic"
+if [[ -s "$HOME/.local/opt/qemu" ]]; then
+  export QEMU_BASE="$HOME/.local/opt/qemu"
+
+  alias qemu-system-x86_64="$QEMU_BASE/build/qemu-system-x86_64 -L $QEMU_BASE/pc-bios -nographic -enable-kvm"
+  alias qemu-system-aarch64="$QEMU_BASE/build/qemu-system-aarch64 -cpu cortex-a57 -M virt -nographic"
+fi
 
 alias singboxup="systemctl --user start singbox"
 alias singboxdown="systemctl --user stop singbox"
