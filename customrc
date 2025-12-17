@@ -67,6 +67,8 @@ export PATH=$HOME/.local/opt/bun/bin:$PATH
 export PATH=$HOME/.bun/bin:$PATH
 export PATH=$HOME/.local/opt/bflat:$PATH
 
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$HOME/.local/opt/asdf:$PATH"
+
 export PYTHONPATH=$HOME/.nix-profile/lib/python3.11/site-packages:$PYTHONPATH
 
 function setproxy() {
