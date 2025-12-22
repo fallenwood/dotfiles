@@ -15,6 +15,7 @@ commonpkgs = [
   # graphviz
   # gdb
   git
+  git-lfs
   gnumake
   go
   jq

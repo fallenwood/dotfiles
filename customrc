@@ -72,7 +72,7 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$HOME/.local/opt/asdf:$PATH"
 export PYTHONPATH=$HOME/.nix-profile/lib/python3.11/site-packages:$PYTHONPATH
 
 function setproxy() {
-  PROXY=http://192.168.1.128:10801
+  PROXY=http://192.168.1.11:10801
   export HTTP_PROXY=$PROXY
   export HTTPS_PROXY=$PROXY
   export ALL_PROXY=$PROXY
