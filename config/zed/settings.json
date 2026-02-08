@@ -30,16 +30,16 @@
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "theme": {
-    "mode": "system",
-    "light": "Kanagawa",
+    "mode": "light",
+    "light": "One Dark",
     "dark": "One Dark"
   },
-  // "proxy": "socks5h://192.168.1.128:10800",
+  "proxy": "socks5h://192.168.1.11:10800",
   "lsp": {
     "roslyn": {
       "binary": {},
       "settings": {
-        // "roslynls_path": "/home/vbox/.local/bin/roslynls"
+        "roslynls_path": "/home/vbox/workspace/zed-roslynls/wrapper/bin/Debug/net10.0/linux-x64/roslynls"
       }
     }
   }

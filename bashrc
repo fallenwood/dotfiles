@@ -66,3 +66,6 @@ if [[ -n "${EXEC_FISH_ONCE}" ]]; then
   unset EXEC_FISH_ONCE
   exec fish
 fi
+
+# opencode
+export PATH=/home/vbox/.opencode/bin:$PATH
