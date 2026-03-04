@@ -22,7 +22,8 @@ $dirs=@(
   "config/fish",
   "config/containers",
   "config/wf-shell",
-  "config/zed")
+  "config/zed",
+  "copilot")
 
 function Link-Folder {
   param(
