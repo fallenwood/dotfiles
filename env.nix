@@ -3,29 +3,29 @@ let
 
 commonpkgs = [
   aria
-  bottom
-  cmake
-  sccache
+  #bottom
+  #cmake
+  #sccache
   # conda
-  fzf
+  #fzf
   kubectl
-  gawk
+  #gawk
   # gcc
   # gcc12
   # graphviz
   # gdb
   git
   git-lfs
-  gnumake
-  go
-  jq
-  neovim
-  ripgrep
-  skim
-  shellcheck
-  tmux
-  perl
-  nushell
+  #gnumake
+  #go
+  #jq
+  #neovim
+  #ripgrep
+  #skim
+  #shellcheck
+  #tmux
+  #perl
+  #nushell
 ];
 
 linuxpkgs = [
@@ -44,23 +44,23 @@ linuxphypkgs = [
   # clang_18
   # clang-tools_18
   cloud-utils
-  cloc
+  #cloc
   # dub
   # dotnet-sdk_8
   # omnisharp-roslyn
   # dotnet-sdk
   # emacs-nox
   # emscripten
-  elixir
+  # elixir
   # flamegraph
   # frp
-  fish
+  # fish
   # ffmpeg
-  htop
+  # htop
   # glibc.static
   # jdk21_headless
-  kind
-  kubernetes-helm
+  # kind
+  # kubernetes-helm
   # koka
   lm_sensors
   # lldb_17
@@ -74,31 +74,31 @@ linuxphypkgs = [
   # nerdctl
   # tree-sitter
   # neofetch
-  fastfetch
+  # fastfetch
   # cpufetch
   # ocaml
-  opam
-  ninja
+  # opam
+  # ninja
   # mimalloc
   # jemalloc
   podman
   powershell
   # postgresql
   # quickjs
-  strace
-  stack
-  tailspin
-  libvirt
+  #strace
+  #stack
+  #tailspin
+  #libvirt
   # tig
   # ldc
   # musl
   # lua
-  luajit
+  # luajit
   # llvm
-  wrk
+  # wrk
   # nushell
-  nmap
-  valgrind
+  # nmap
+  # valgrind
   # vagrant
   # rakudo
   # upx
@@ -107,8 +107,8 @@ linuxphypkgs = [
   # zsh
   # zig
   # zstd
-  wireguard-ui
-  wireguard-tools
+  # wireguard-ui
+  # wireguard-tools
 ];
 
 macpkgs = [
