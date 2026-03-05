@@ -1,0 +1,87 @@
+{
+  "preset": "dynamic",
+  "presets": {
+    "dynamic": {
+      "oracle": {
+        "model": "github-copilot/claude-opus-4.6",
+        "variant": "high",
+        "skills": [],
+        "mcps": []
+      },
+      "orchestrator": {
+        "model": "github-copilot/claude-opus-4.6",
+        "skills": [
+          "*"
+        ],
+        "mcps": [
+          "websearch"
+        ]
+      },
+      "fixer": {
+        "model": "github-copilot/gpt-5.1-codex-mini",
+        "variant": "low",
+        "skills": [],
+        "mcps": []
+      },
+      "designer": {
+        "model": "github-copilot/gemini-3-pro",
+        "variant": "medium",
+        "skills": [
+          "agent-browser"
+        ],
+        "mcps": []
+      },
+      "librarian": {
+        "model": "github-copilot/gpt-5.1-codex-mini",
+        "variant": "low",
+        "skills": [],
+        "mcps": [
+          "websearch",
+          "context7",
+          "grep_app"
+        ]
+      },
+      "explorer": {
+        "model": "github-copilot/gemini-3-flash",
+        "variant": "low",
+        "skills": [],
+        "mcps": []
+      }
+    }
+  },
+  "balanceProviderUsage": false,
+  "fallback": {
+    "enabled": true,
+    "timeoutMs": 15000,
+    "chains": {
+      "oracle": [
+        "github-copilot/gpt-5.2-codex",
+        "github-copilot/gpt-5.1-codex-mini",
+        "opencode/big-pickle"
+      ],
+      "orchestrator": [
+        "github-copilot/gpt-5.2-codex",
+        "github-copilot/gpt-5.1-codex-mini",
+        "opencode/big-pickle"
+      ],
+      "fixer": [
+        "github-copilot/gpt-5.1-codex-mini",
+        "github-copilot/gpt-5.2-codex",
+        "opencode/big-pickle"
+      ],
+      "designer": [
+        "github-copilot/gpt-5.2-codex",
+        "github-copilot/gpt-5.1-codex-mini",
+        "opencode/big-pickle"
+      ],
+      "librarian": [
+        "github-copilot/gpt-5.2-codex",
+        "opencode/big-pickle"
+      ],
+      "explorer": [
+        "github-copilot/gpt-5.1-codex-mini",
+        "opencode/big-pickle"
+      ]
+    }
+  }
+}

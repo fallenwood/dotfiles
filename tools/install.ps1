@@ -23,6 +23,7 @@ $dirs=@(
   "config/containers",
   "config/wf-shell",
   "config/zed",
+  "config/opencode",
   "copilot")
 
 function Link-Folder {
