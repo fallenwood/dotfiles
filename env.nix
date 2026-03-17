@@ -14,8 +14,8 @@ commonpkgs = [
   # gcc12
   # graphviz
   # gdb
-  git
-  git-lfs
+  #git
+  #git-lfs
   #gnumake
   #go
   #jq
@@ -44,7 +44,7 @@ linuxphypkgs = [
   # clang_18
   # clang-tools_18
   cloud-utils
-  #cloc
+  cloc
   # dub
   # dotnet-sdk_8
   # omnisharp-roslyn
