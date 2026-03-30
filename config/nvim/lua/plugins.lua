@@ -33,32 +33,32 @@ function module.startup(callback)
     load("plugins.nvim-dap"),
     load("plugins.nvim-treesitter"),
     load("plugins.nvim-rooter"),
-    -- load("plugins.themes"),
+    load("plugins.themes"),
   })
 
-  if not enable_vimpack then
-    plugins = utils.merge(plugins, { load("plugins.themes") })
-  end
-
-  load("lazy").setup({
-      spec = plugins,
-    },
-
-    {
-      performance = {
-        reset_packpath = false,
-        rtp = {
-          reset = false,
-        },
-      },
-    })
-
   if enable_vimpack then
-    local themes = load("plugins.themes")
-    for _, theme in ipairs(themes) do
-      vim.pack.add({ theme[1], })
-      theme["config"]()
+    for _, plugin in ipairs(plugins) do
+      vim.pack.add({
+        {
+          src = plugin[1],
+        }
+      })
+
+      plugin["config"]()
     end
+  else
+    load("lazy").setup({
+        spec = plugins,
+      },
+
+      {
+        performance = {
+          reset_packpath = false,
+          rtp = {
+            reset = false,
+          },
+        },
+      })
   end
 
   callback()
