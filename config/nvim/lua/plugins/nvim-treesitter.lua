@@ -14,7 +14,7 @@ local module = {
       load("nvim-treesitter.configs").setup({
         -- ensure_installed = { "c", "cpp", "lua", "rust", "c_sharp", "python", "elixir" },
         -- ensure_installed = { "lua", "rust", "python", "elixir" },
-        ensure_installed = { "elixir" },
+        ensure_installed = { "lua", "elixir" },
         highlight = {
           enable = true,
           --[[

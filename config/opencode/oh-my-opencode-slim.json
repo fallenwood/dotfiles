@@ -18,13 +18,13 @@
         ]
       },
       "fixer": {
-        "model": "github-copilot/gpt-5.1-codex-mini",
+        "model": "github-copilot/claude-sonnet-4.6",
         "variant": "low",
         "skills": [],
         "mcps": []
       },
       "designer": {
-        "model": "github-copilot/gemini-3-pro",
+        "model": "github-copilot/gemini-3.1-pro-preview",
         "variant": "medium",
         "skills": [
           "agent-browser"
@@ -32,7 +32,7 @@
         "mcps": []
       },
       "librarian": {
-        "model": "github-copilot/gpt-5.1-codex-mini",
+        "model": "github-copilot/gemini-3.1-pro-preview",
         "variant": "low",
         "skills": [],
         "mcps": [
@@ -42,7 +42,7 @@
         ]
       },
       "explorer": {
-        "model": "github-copilot/gemini-3-flash",
+        "model": "github-copilot/gemini-3-flash-preview",
         "variant": "low",
         "skills": [],
         "mcps": []

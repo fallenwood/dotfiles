@@ -2,7 +2,7 @@ local load = require("load")
 
 local utils = load("utils")
 
-local enable_vimpack = vim.pack ~= nil
+local enable_vimpack = false -- vim.pack ~= nil
 
 local module = {}
 
