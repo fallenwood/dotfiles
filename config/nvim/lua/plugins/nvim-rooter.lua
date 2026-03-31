@@ -2,7 +2,7 @@ local load = require("load")
 
 local module = {
   {
-    "notjedi/nvim-rooter.lua",
+    "https://github.com/notjedi/nvim-rooter.lua",
     config = function()
     local rooter = load("nvim-rooter")
       rooter.setup({

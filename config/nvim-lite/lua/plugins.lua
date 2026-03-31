@@ -26,11 +26,11 @@ function module.startup(callback)
   load("lazy").setup({
     spec = {
       {
-        "hrsh7th/nvim-cmp",
-        dependencies = {{
-          "hrsh7th/cmp-buffer",
-          "FelipeLema/cmp-async-path",
-        }},
+        "https://github.com/hrsh7th/nvim-cmp",
+        dependencies = {
+          "https://github.com/hrsh7th/cmp-buffer",
+          "https://github.com/FelipeLema/cmp-async-path",
+        },
         config = function()
           local cmp = require("cmp")
           vim.opt.completeopt = { "menu", "menuone", "noselect", }

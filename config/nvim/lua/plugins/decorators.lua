@@ -1,11 +1,12 @@
 local load = require("load")
 
-local module = {
+local enable_vimpack = load("pack").enable_vimpack
 
+local module = {
   {
-    "nvim-telescope/telescope.nvim",
+    "https://github.com/nvim-telescope/telescope.nvim",
     dependencies = {
-      "nvim-lua/plenary.nvim",
+      "https://github.com/nvim-lua/plenary.nvim",
     },
     config = function()
       local builtin = load("telescope.builtin")
@@ -17,7 +18,7 @@ local module = {
   },
 
   {
-    "nvim-lualine/lualine.nvim",
+    "https://github.com/nvim-lualine/lualine.nvim",
     config = function()
       local lualine = load("lualine");
       local options = load("lualine.config").get_config()
@@ -50,7 +51,7 @@ local module = {
   },
 
   {
-    "romgrk/barbar.nvim",
+    "https://github.com/romgrk/barbar.nvim",
     dependencies = {
       -- "lewis6991/gitsigns.nvim", -- OPTIONAL: for git status
       -- "nvim-tree/nvim-web-devicons", -- OPTIONAL: for file icons
@@ -64,6 +65,23 @@ local module = {
         },
       },
     },
+    config = function()
+      if not enable_vimpack then
+        return
+      end
+
+      vim.g.barbar_auto_setup = false
+
+      local barbar = load("barbar")
+      barbar.setup({
+        animation = false,
+        icons = {
+          filetype = {
+            enabled = false,
+          },
+        }
+       })
+    end,
   },
 }
 

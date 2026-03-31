@@ -19,4 +19,13 @@ module.mergearrays = function (arrays)
   return result
 end
 
+module.isEnabled = function(plugin)
+  local enabled = plugin["enabled"]
+  if enabled == nil then
+    return true
+  else
+    return enabled
+  end
+end
+
 return module

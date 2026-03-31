@@ -1,35 +1,32 @@
 local load = require("load")
+local enable_vimpack = load("pack").enable_vimpack
+
+local build_treesitter = ":TSUpdate"
+if enable_vimpack then
+  build_treesitter = nil
+end
 
 local module = {
   {
-    "nvim-treesitter/nvim-treesitter",
-    build = function()
-      local ts_update = load("nvim-treesitter.install")
-          .update({
-            with_sync = true
-          })
-      ts_update()
-    end,
+    "https://github.com/nvim-treesitter/nvim-treesitter",
+    build = build_treesitter,
     config = function()
-      load("nvim-treesitter.configs").setup({
-        -- ensure_installed = { "c", "cpp", "lua", "rust", "c_sharp", "python", "elixir" },
-        -- ensure_installed = { "lua", "rust", "python", "elixir" },
-        ensure_installed = { "lua", "elixir" },
-        highlight = {
-          enable = true,
-          --[[
-        -- provided by google gemi, but does not work at all
-        -- it does not support function call instead of boolean, function is treated as true
-        enable = function (ft)
-          local lsp_client = vim.lsp.buf_get_clients(0) [1] -- Check if any LSP client is active on the current buffer
-          enabled = not lsp_client or not lsp_client.resolved_capabilities.document_highlight
-          vim.print("Enable TreeSiter?" .. tostring(enabled))
-          return false
-        end,
-        --]]
-          additional_vim_regex_highlighting = false,
-        },
-        indent = { enable = true },
+      local ts = load("nvim-treesitter")
+      local langauges = {
+        -- "c",
+        -- "cpp",
+        -- "c_sharp",
+        "elixir",
+        "lua",
+        -- "rust",
+        -- "python",
+        -- "zig",
+      }
+      ts.install(langauges)
+
+      vim.api.nvim_create_autocmd('FileType', {
+        pattern = langauges,
+        callback = function() vim.treesitter.start() end,
       })
     end,
     lazy = false,
@@ -37,10 +34,10 @@ local module = {
   },
 
   {
-    "Nsidorenco/tree-sitter-fsharp",
+    "https://github.com/Nsidorenco/tree-sitter-fsharp",
     branch = "develop",
     dependencies = {
-      "nvim-treesitter/nvim-treesitter",
+      "https://github.com/nvim-treesitter/nvim-treesitter",
     },
     build = function()
       vim.fn.system({

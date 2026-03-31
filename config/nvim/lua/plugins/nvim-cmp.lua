@@ -2,16 +2,16 @@ local load = require("load")
 
 local module = {
   {
-    "hrsh7th/nvim-cmp",
+    "https://github.com/hrsh7th/nvim-cmp",
     dependencies = {
-      "hrsh7th/cmp-buffer",
-      "FelipeLema/cmp-async-path",
-      "hrsh7th/cmp-nvim-lsp",
-      "neovim/nvim-lspconfig",
-      "L3MON4D3/LuaSnip",
-      "saadparwaiz1/cmp_luasnip",
-      "hrsh7th/cmp-nvim-lsp-signature-help",
-      "onsails/lspkind.nvim",
+      "https://github.com/hrsh7th/cmp-buffer",
+      "https://github.com/FelipeLema/cmp-async-path",
+      "https://github.com/hrsh7th/cmp-nvim-lsp",
+      "https://github.com/neovim/nvim-lspconfig",
+      "https://github.com/L3MON4D3/LuaSnip",
+      "https://github.com/saadparwaiz1/cmp_luasnip",
+      "https://github.com/hrsh7th/cmp-nvim-lsp-signature-help",
+      "https://github.com/onsails/lspkind.nvim",
     },
     config = function()
       local cmp = load("cmp")
@@ -60,7 +60,7 @@ local module = {
   },
 
   {
-    "neovim/nvim-lspconfig",
+    "https://github.com/neovim/nvim-lspconfig",
     config = function()
       local disable_treesitter = function(client)
         if client.server_capabilities.semanticTokensProvider then

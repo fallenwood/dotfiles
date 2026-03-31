@@ -2,11 +2,11 @@ local load = require("load")
 
 local module = {
   {
-    "rcarriga/nvim-dap-ui",
+    "https://github.com/rcarriga/nvim-dap-ui",
     dependencies = {
-      "mfussenegger/nvim-dap",
-      "nvim-neotest/nvim-nio",
-      "nicholasmata/nvim-dap-cs",
+      "https://github.com/mfussenegger/nvim-dap",
+      "https://github.com/nvim-neotest/nvim-nio",
+      "https://github.com/nicholasmata/nvim-dap-cs",
     },
     config = function()
       local dap = load("dap")
