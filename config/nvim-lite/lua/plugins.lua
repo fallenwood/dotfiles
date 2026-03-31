@@ -2,6 +2,8 @@ local load = require
 
 local module = {}
 
+module.enable_vimpack = vim.pack ~= nil
+
 local ensureLazy = function()
   local fn = vim.fn
   local lazypath = fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -20,9 +22,38 @@ local ensureLazy = function()
   return true
 end
 
-function module.startup(callback)
-  local lazyBootstrap = ensureLazy()
+function setupCmp()
+  local cmp = require("cmp")
+  vim.opt.completeopt = { "menu", "menuone", "noselect", }
+  cmp.setup({
+    sources = cmp.config.sources({
+      { name = "buffer", },
+      { name = "async_path", },
+    }),
+    mapping = cmp.mapping.preset.insert({
+      ['<C-e>'] = cmp.mapping.abort(),
+      ['<CR>'] = cmp.mapping.confirm({ select = true }),
+      ['<Tab>'] = cmp.mapping.confirm({ select = true }),
+    }),
+    window = {
+      completion = cmp.config.window.bordered(),
+      documentation = cmp.config.window.bordered(),
+    },
+    event = "InsertEnter",
+  })
+end
 
+function setupVimpack()
+  vim.pack.add({
+    "https://github.com/hrsh7th/nvim-cmp",
+    "https://github.com/hrsh7th/cmp-buffer",
+    "https://github.com/FelipeLema/cmp-async-path",
+  })
+  setupCmp()
+end
+
+function setupLazy()
+  local lazyBootstrap = ensureLazy()
   load("lazy").setup({
     spec = {
       {
@@ -31,29 +62,18 @@ function module.startup(callback)
           "https://github.com/hrsh7th/cmp-buffer",
           "https://github.com/FelipeLema/cmp-async-path",
         },
-        config = function()
-          local cmp = require("cmp")
-          vim.opt.completeopt = { "menu", "menuone", "noselect", }
-          cmp.setup({
-            sources = cmp.config.sources({
-              { name = "buffer", },
-              { name = "async_path", },
-            }),
-            mapping = cmp.mapping.preset.insert({
-              ['<C-e>'] = cmp.mapping.abort(),
-              ['<CR>'] = cmp.mapping.confirm({ select = true }),
-              ['<Tab>'] = cmp.mapping.confirm({ select = true }),
-            }),
-            window = {
-              completion = cmp.config.window.bordered(),
-              documentation = cmp.config.window.bordered(),
-            },
-            event = "InsertEnter",
-          })
-        end
+        config = setupCmp,
       }
     }
   })
+end
+
+function module.startup(callback)
+  if module.enable_vimpack then
+    setupVimpack()
+  else
+    setupLazy()
+  end
 
   callback()
 end
