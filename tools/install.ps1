@@ -24,6 +24,7 @@ $dirs=@(
   "config/wf-shell",
   "config/zed",
   "config/opencode",
+  "config/zellij",
   "copilot")
 
 function Link-Folder {
