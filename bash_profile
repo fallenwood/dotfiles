@@ -22,6 +22,7 @@ export ZEROBREW_DIR=/home/vbox/.zerobrew
 export ZEROBREW_BIN=/home/vbox/.zerobrew/bin
 export ZEROBREW_ROOT=/home/vbox/.local/share/zerobrew
 export ZEROBREW_PREFIX=/home/vbox/.local/share/zerobrew/prefix
+export HOMEBREW_PREFIX=$HOME/.local/share/zerobrew/prefix
 export PKG_CONFIG_PATH="$ZEROBREW_PREFIX/lib/pkgconfig:${PKG_CONFIG_PATH:-}"
 
 # SSL/TLS certificates (only if ca-certificates is installed)

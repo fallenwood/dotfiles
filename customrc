@@ -127,6 +127,10 @@ fi
 alias k=kubectl
 alias e=$EDITOR
 
+alias za="zellij attach"
+alias zl="zellij list-sessions"
+alias zka="zellij kill-all-sessions"
+
 alias gdb="LC_ALL=C.UTF-8 gdb"
 
 
