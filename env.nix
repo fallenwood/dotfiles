@@ -2,7 +2,7 @@ with import <nixpkgs> {};
 let
 
 commonpkgs = [
-  aria
+  #aria
   #bottom
   #cmake
   #sccache
@@ -44,7 +44,7 @@ linuxphypkgs = [
   # clang_18
   # clang-tools_18
   cloud-utils
-  cloc
+  #cloc
   # dub
   # dotnet-sdk_8
   # omnisharp-roslyn
@@ -82,7 +82,7 @@ linuxphypkgs = [
   # mimalloc
   # jemalloc
   podman
-  powershell
+  #powershell
   # postgresql
   # quickjs
   #strace
