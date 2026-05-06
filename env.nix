@@ -8,7 +8,7 @@ commonpkgs = [
   #sccache
   # conda
   #fzf
-  kubectl
+  # kubectl
   #gawk
   # gcc
   # gcc12
@@ -29,7 +29,7 @@ commonpkgs = [
 ];
 
 linuxpkgs = [
-  proxychains-ng
+  #proxychains-ng
 ];
 
 linuxphypkgs = [
@@ -43,7 +43,7 @@ linuxphypkgs = [
   # (hiPrio clang_17)
   # clang_18
   # clang-tools_18
-  cloud-utils
+  # cloud-utils
   #cloc
   # dub
   # dotnet-sdk_8
@@ -62,7 +62,7 @@ linuxphypkgs = [
   # kind
   # kubernetes-helm
   # koka
-  lm_sensors
+  # lm_sensors
   # lldb_17
   # leiningen
   libbpf
@@ -81,7 +81,7 @@ linuxphypkgs = [
   # ninja
   # mimalloc
   # jemalloc
-  podman
+  #podman
   #powershell
   # postgresql
   # quickjs
@@ -133,8 +133,8 @@ linuxlibs = [
 ];
 
 linuxphylibs = [
-  zlib
-  openssl
+  # zlib
+  # openssl
 ];
 
 isWsl = builtins.getEnv "isWsl";

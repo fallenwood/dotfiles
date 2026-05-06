@@ -70,7 +70,7 @@ export PATH=$HOME/.local/opt/bflat:$PATH
 
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$HOME/.local/opt/asdf:$PATH"
 
-export PYTHONPATH=$HOME/.nix-profile/lib/python3.11/site-packages:$PYTHONPATH
+#export PYTHONPATH=$HOME/.nix-profile/lib/python3.11/site-packages:$PYTHONPATH
 
 function setproxy() {
   PROXY=http://192.168.1.11:10801
@@ -192,16 +192,16 @@ export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 alias pwsh="pwsh -nologo"
 
 # Nix
-export NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1
-export NIXPKGS_ALLOW_UNFREE=1
+#export NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1
+#export NIXPKGS_ALLOW_UNFREE=1
 
-if [ "$isMac" = true ]; then
-  export PATH=$HOME/.nix-profile/bin:$PATH
-fi
+#if [ "$isMac" = true ]; then
+#  export PATH=$HOME/.nix-profile/bin:$PATH
+#fi
 
-alias nix-update="nix-channel --update && nix-env -irf $HOME/.env.nix"
-alias nix-upgrade="nix-channel --update && nix-env -uf $HOME/.env.nix"
-alias nix-gc="nix-collect-garbage -d"
+#alias nix-update="nix-channel --update && nix-env -irf $HOME/.env.nix"
+#alias nix-upgrade="nix-channel --update && nix-env -uf $HOME/.env.nix"
+#alias nix-gc="nix-collect-garbage -d"
 
 # Container
 # alias podman="docker"
