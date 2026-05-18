@@ -91,6 +91,10 @@ function unsetproxy() {
 #  alias dnf="sudo dnf5"
 #fi
 
+if command -v dnf > /dev/null; then
+  alias dnfnw="sudo dnf --setopt=install_weak_deps=False"
+fi
+
 # if command -v dotnet > /dev/null; then
 #   export DOTNET_ROOT="$(dotnet --info | grep Base | cut -d ':' -f 2 | xargs dirname | xargs dirname)"
 # fi

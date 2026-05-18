@@ -77,3 +77,6 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# moonbit
+export PATH="$HOME/.moon/bin:$PATH"
