@@ -225,3 +225,18 @@ alias kind="KIND_EXPERIMENTAL_PROVIDER=podman systemd-run --scope --user -p 'Del
 systemctl --user import-environment PATH
 
 [[ -s "/usr/bin/toolbox" ]] && alias devbox="toolbox enter devbox"
+
+# pnpm
+export PNPM_HOME="/home/vbox/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# moonbit
+export PATH="$HOME/.moon/bin:$PATH"
+
+# >>> xmake >>>
+test -f "/home/vbox/.xmake/profile" && source "/home/vbox/.xmake/profile"
+# <<< xmake <<<

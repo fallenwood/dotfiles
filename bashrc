@@ -53,9 +53,6 @@ fi
 
 source $HOME/.dotfiles/customrc
 
-# >>> xmake >>>
-test -f "/home/vbox/.xmake/profile" && source "/home/vbox/.xmake/profile"
-# <<< xmake <<<
 
 if [[ -z "$BASH_INITIALIZED" ]]; then
   export BASH_INITIALIZED=1
@@ -67,16 +64,4 @@ if [[ -n "${EXEC_FISH_ONCE}" ]]; then
   exec fish
 fi
 
-# opencode
-export PATH=/home/vbox/.opencode/bin:$PATH
-
-# pnpm
-export PNPM_HOME="/home/vbox/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
-# moonbit
-export PATH="$HOME/.moon/bin:$PATH"
+eval "$(/home/vbox/.local/bin/mise activate bash)"
