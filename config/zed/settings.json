@@ -7,23 +7,36 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "edit_predictions": {
+    "provider": "zed",
+  },
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "git_panel": {
+    "dock": "left",
+  },
   "colorize_brackets": true,
   "auto_update": false,
   "agent": {
+    "dock": "right",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-opus-41"
+      "model": "claude-opus-41",
     },
-    "enabled": false
-  },
-  "features": {
-    "edit_prediction_provider": "zed"
+    "enabled": false,
   },
   "format_on_save": "on",
   "vim_mode": false,
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "buffer_font_family": "Cascadia Code",
   // "ui_font_family": "Cascadia Code",
@@ -32,15 +45,15 @@
   "theme": {
     "mode": "light",
     "light": "One Dark",
-    "dark": "One Dark"
+    "dark": "One Dark",
   },
-  "proxy": "socks5h://192.168.1.11:10800",
+  // "proxy": "socks5h://192.168.1.11:10800",
   "lsp": {
     "roslyn": {
       "binary": {},
       "settings": {
-        "roslynls_path": "/home/vbox/workspace/zed-roslynls/wrapper/bin/Debug/net10.0/linux-x64/roslynls"
-      }
-    }
-  }
+        "roslynls_path": "/home/vbox/workspace/zed-roslynls/wrapper/publish/roslynls",
+      },
+    },
+  },
 }
