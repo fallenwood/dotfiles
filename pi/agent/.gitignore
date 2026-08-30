@@ -1,0 +1,8 @@
+bin
+git
+npm
+sessions
+auth.json
+trust.json
+models-store.json
+auth.json.lock
