@@ -6,3 +6,5 @@ auth.json
 trust.json
 models-store.json
 auth.json.lock
+models.json
+pi-web-session-index.json
