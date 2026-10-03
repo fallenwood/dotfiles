@@ -17,7 +17,7 @@ local module = {
         -- "cpp",
         -- "c_sharp",
         "elixir",
-        "lua",
+        -- "lua",
         -- "rust",
         -- "python",
         -- "zig",

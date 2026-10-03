@@ -97,7 +97,7 @@ function module.startup(callback)
     load("plugins.decorators"),
     load("plugins.nvim-cmp"),
     -- load("plugins.nvim-dap"),
-    load("plugins.nvim-treesitter"),
+    -- load("plugins.nvim-treesitter"),
     load("plugins.nvim-rooter"),
     load("plugins.themes"),
   })
