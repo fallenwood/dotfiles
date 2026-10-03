@@ -1,8 +1,18 @@
 {
-  "lastChangelogVersion": "0.85.1",
-  "defaultProvider": "Github Copilot API",
-  "defaultModel": "mai-code-1.1-flash",
+  "lastChangelogVersion": "1.0.0",
+  "defaultProvider": "power-copilot",
+  "defaultModel": "gpt-6.1-sol",
   "defaultThinkingLevel": "xhigh",
   "theme": "dark",
-  "packages": []
+  "packages": [
+    "npm:@nqbao/pi-sandbox",
+    "git:github.com/fallenwood/pi-power-copilot"
+  ],
+  "enabledModels": [
+    "power-copilot/gemini-3.8-flash",
+    "power-copilot/gpt-6.1-sol",
+    "power-copilot/gpt-6-astra",
+    "power-copilot/gpt-6-luna",
+    "power-copilot/mai-code-1.1-flash"
+  ]
 }
