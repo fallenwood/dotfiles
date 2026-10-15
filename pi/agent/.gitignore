@@ -8,3 +8,5 @@ models-store.json
 auth.json.lock
 models.json
 pi-web-session-index.json
+pi-web-session-state.json
+pi-web-run

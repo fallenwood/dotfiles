@@ -1,15 +1,13 @@
 {
-  "lastChangelogVersion": "1.0.0",
+  "lastChangelogVersion": "1.2.0",
   "defaultProvider": "power-copilot",
   "defaultModel": "gpt-6.1-sol",
   "defaultThinkingLevel": "xhigh",
   "theme": "dark",
   "packages": [
-    "npm:@nqbao/pi-sandbox",
     "git:github.com/fallenwood/pi-power-copilot"
   ],
   "enabledModels": [
-    "power-copilot/gemini-3.8-flash",
     "power-copilot/gpt-6.1-sol",
     "power-copilot/gpt-6-astra",
     "power-copilot/gpt-6-luna",
